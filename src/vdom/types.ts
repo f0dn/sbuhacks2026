@@ -101,8 +101,22 @@ export type Semantics = {
   decorative?: boolean;
 };
 
+/** what the grouping pass decided about a node that is a group */
+export type GroupInfo = {
+  kind: "section" | "card" | "label_and_field" | "other";
+  /** id of the member that titles this group (heading, card title, label) */
+  labelledBy?: number;
+  /** true if the pass made this node; it has a negative id and no live element */
+  synthetic: boolean;
+};
+
+/** siblings that belong together, as decided by the grouping pass */
+export type GroupData = { group?: GroupInfo };
+
+export type GroupedNode = DomNode<CollapseData & FilterData & GroupData>;
+
 export type EnrichedNode = DomNode<
-  CollapseData & FilterData & { semantics?: Semantics }
+  CollapseData & FilterData & GroupData & { semantics?: Semantics }
 >;
 
 // ---------------------------------------------------------------------------
@@ -248,6 +262,24 @@ export const describe = (n: DomNode) => {
   const aria = attrs.length ? ` [${attrs.join(", ")}]` : "";
   const text = n.text ? ` "${clip(n.text, 80)}"` : "";
   return `<${n.tag.toLowerCase()}>${aria}${text}`;
+};
+
+/** the first text anywhere under `n`, so a wrapper div can be told apart */
+export const firstText = (n: DomNode): string =>
+  n.text || n.children.map(firstText).find((t) => t) || "";
+
+/** `describe`, plus the first text inside for wrappers that have none */
+export const summarize = (n: DomNode) =>
+  n.text ? describe(n) : `${describe(n)} ${clip(firstText(n), 80)}`.trim();
+
+/** the ancestors of `n` (from `parentsOf`), root first, one indented line each */
+export const ancestorOutline = <D>(
+  n: DomNode<D>,
+  parents: Map<DomNode<D>, DomNode<D> | null>,
+) => {
+  const lines: string[] = [];
+  for (let p = parents.get(n); p; p = parents.get(p)) lines.unshift(describe(p));
+  return lines.map((l, i) => `${"  ".repeat(i)}${l}`).join("\n") || "(none)";
 };
 
 /**

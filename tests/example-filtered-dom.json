@@ -24,10 +24,10 @@
           "children": [],
           "jev": {
             "region": "navigation",
-            "regionConfidence": 0.47,
-            "hasContent": 0.64,
-            "isDecorative": 0.09,
-            "importance": 1.26,
+            "regionConfidence": 0.46,
+            "hasContent": 0.55,
+            "isDecorative": 0.08,
+            "importance": 1.32,
             "interesting": true
           }
         },
@@ -154,19 +154,19 @@
                                       "jev": {
                                         "region": "navigation",
                                         "regionConfidence": 0.99,
-                                        "hasContent": 0.78,
-                                        "isDecorative": 0.12,
-                                        "importance": 1.61,
+                                        "hasContent": 0.74,
+                                        "isDecorative": 0.11,
+                                        "importance": 1.59,
                                         "interesting": true
                                       }
                                     }
                                   ],
                                   "jev": {
                                     "region": "navigation",
-                                    "regionConfidence": 0.99,
-                                    "hasContent": 0.73,
+                                    "regionConfidence": 1,
+                                    "hasContent": 0.76,
                                     "isDecorative": 0.09,
-                                    "importance": 1.62,
+                                    "importance": 1.59,
                                     "interesting": true
                                   }
                                 },
@@ -188,10 +188,10 @@
                                       "children": [],
                                       "jev": {
                                         "region": "navigation",
-                                        "regionConfidence": 0.99,
-                                        "hasContent": 0.71,
+                                        "regionConfidence": 1,
+                                        "hasContent": 0.7,
                                         "isDecorative": 0.11,
-                                        "importance": 1.23,
+                                        "importance": 1.32,
                                         "interesting": true
                                       }
                                     }
@@ -199,9 +199,9 @@
                                   "jev": {
                                     "region": "navigation",
                                     "regionConfidence": 1,
-                                    "hasContent": 0.72,
+                                    "hasContent": 0.71,
                                     "isDecorative": 0.08,
-                                    "importance": 1.35,
+                                    "importance": 1.24,
                                     "interesting": true
                                   }
                                 },
@@ -224,9 +224,9 @@
                                       "jev": {
                                         "region": "navigation",
                                         "regionConfidence": 0.99,
-                                        "hasContent": 0.48,
-                                        "isDecorative": 0.1,
-                                        "importance": 1.34,
+                                        "hasContent": 0.49,
+                                        "isDecorative": 0.11,
+                                        "importance": 1.4,
                                         "interesting": false
                                       }
                                     }
@@ -234,10 +234,10 @@
                                   "jev": {
                                     "region": "navigation",
                                     "regionConfidence": 1,
-                                    "hasContent": 0.5,
-                                    "isDecorative": 0.09,
-                                    "importance": 1.36,
-                                    "interesting": false
+                                    "hasContent": 0.53,
+                                    "isDecorative": 0.1,
+                                    "importance": 1.46,
+                                    "interesting": true
                                   }
                                 },
                                 {
@@ -259,9 +259,9 @@
                                       "jev": {
                                         "region": "navigation",
                                         "regionConfidence": 0.99,
-                                        "hasContent": 0.64,
-                                        "isDecorative": 0.1,
-                                        "importance": 1.42,
+                                        "hasContent": 0.68,
+                                        "isDecorative": 0.11,
+                                        "importance": 1.39,
                                         "interesting": true
                                       }
                                     }
@@ -269,9 +269,9 @@
                                   "jev": {
                                     "region": "navigation",
                                     "regionConfidence": 0.99,
-                                    "hasContent": 0.63,
+                                    "hasContent": 0.64,
                                     "isDecorative": 0.11,
-                                    "importance": 1.35,
+                                    "importance": 1.36,
                                     "interesting": true
                                   }
                                 },
@@ -296,7 +296,7 @@
                                         "regionConfidence": 0.99,
                                         "hasContent": 0.59,
                                         "isDecorative": 0.13,
-                                        "importance": 1.33,
+                                        "importance": 1.34,
                                         "interesting": true
                                       }
                                     }
@@ -304,9 +304,9 @@
                                   "jev": {
                                     "region": "navigation",
                                     "regionConfidence": 1,
-                                    "hasContent": 0.61,
-                                    "isDecorative": 0.09,
-                                    "importance": 1.31,
+                                    "hasContent": 0.63,
+                                    "isDecorative": 0.1,
+                                    "importance": 1.33,
                                     "interesting": true
                                   }
                                 },
@@ -329,9 +329,9 @@
                                       "jev": {
                                         "region": "navigation",
                                         "regionConfidence": 0.97,
-                                        "hasContent": 0.59,
+                                        "hasContent": 0.6,
                                         "isDecorative": 0.12,
-                                        "importance": 1.31,
+                                        "importance": 1.32,
                                         "interesting": true
                                       }
                                     }
@@ -339,9 +339,9 @@
                                   "jev": {
                                     "region": "navigation",
                                     "regionConfidence": 0.99,
-                                    "hasContent": 0.61,
+                                    "hasContent": 0.62,
                                     "isDecorative": 0.1,
-                                    "importance": 1.42,
+                                    "importance": 1.32,
                                     "interesting": true
                                   }
                                 },
@@ -373,10 +373,10 @@
                                           "children": [],
                                           "jev": {
                                             "region": "navigation",
-                                            "regionConfidence": 0.66,
-                                            "hasContent": 0.5,
-                                            "isDecorative": 0.37,
-                                            "importance": 1.22,
+                                            "regionConfidence": 0.59,
+                                            "hasContent": 0.49,
+                                            "isDecorative": 0.39,
+                                            "importance": 1.12,
                                             "interesting": false
                                           }
                                         }
@@ -384,9 +384,9 @@
                                       "jev": {
                                         "region": "navigation",
                                         "regionConfidence": 0.94,
-                                        "hasContent": 0.61,
-                                        "isDecorative": 0.17,
-                                        "importance": 1.55,
+                                        "hasContent": 0.66,
+                                        "isDecorative": 0.15,
+                                        "importance": 1.5,
                                         "interesting": true
                                       }
                                     },
@@ -404,10 +404,10 @@
                                       "children": [],
                                       "jev": {
                                         "region": "navigation",
-                                        "regionConfidence": 0.98,
-                                        "hasContent": 0.55,
-                                        "isDecorative": 0.1,
-                                        "importance": 1.37,
+                                        "regionConfidence": 0.99,
+                                        "hasContent": 0.52,
+                                        "isDecorative": 0.09,
+                                        "importance": 1.41,
                                         "interesting": true
                                       }
                                     },
@@ -437,20 +437,20 @@
                                               "children": [],
                                               "jev": {
                                                 "region": "navigation",
-                                                "regionConfidence": 0.97,
-                                                "hasContent": 0.68,
+                                                "regionConfidence": 0.98,
+                                                "hasContent": 0.65,
                                                 "isDecorative": 0.12,
-                                                "importance": 1.12,
+                                                "importance": 1.17,
                                                 "interesting": true
                                               }
                                             }
                                           ],
                                           "jev": {
                                             "region": "navigation",
-                                            "regionConfidence": 0.99,
-                                            "hasContent": 0.59,
-                                            "isDecorative": 0.13,
-                                            "importance": 1.18,
+                                            "regionConfidence": 0.98,
+                                            "hasContent": 0.6,
+                                            "isDecorative": 0.15,
+                                            "importance": 1.1,
                                             "interesting": true
                                           }
                                         },
@@ -472,10 +472,10 @@
                                               "children": [],
                                               "jev": {
                                                 "region": "navigation",
-                                                "regionConfidence": 0.98,
-                                                "hasContent": 0.64,
+                                                "regionConfidence": 0.97,
+                                                "hasContent": 0.65,
                                                 "isDecorative": 0.14,
-                                                "importance": 1.32,
+                                                "importance": 1.3,
                                                 "interesting": true
                                               }
                                             }
@@ -483,9 +483,9 @@
                                           "jev": {
                                             "region": "navigation",
                                             "regionConfidence": 0.99,
-                                            "hasContent": 0.64,
+                                            "hasContent": 0.62,
                                             "isDecorative": 0.14,
-                                            "importance": 1.24,
+                                            "importance": 1.22,
                                             "interesting": true
                                           }
                                         },
@@ -508,9 +508,9 @@
                                               "jev": {
                                                 "region": "navigation",
                                                 "regionConfidence": 0.99,
-                                                "hasContent": 0.63,
+                                                "hasContent": 0.64,
                                                 "isDecorative": 0.12,
-                                                "importance": 1.11,
+                                                "importance": 1.13,
                                                 "interesting": true
                                               }
                                             }
@@ -519,8 +519,8 @@
                                             "region": "navigation",
                                             "regionConfidence": 0.99,
                                             "hasContent": 0.65,
-                                            "isDecorative": 0.13,
-                                            "importance": 1.18,
+                                            "isDecorative": 0.14,
+                                            "importance": 1.2,
                                             "interesting": true
                                           }
                                         },
@@ -543,9 +543,9 @@
                                               "jev": {
                                                 "region": "navigation",
                                                 "regionConfidence": 0.99,
-                                                "hasContent": 0.54,
-                                                "isDecorative": 0.14,
-                                                "importance": 1.1,
+                                                "hasContent": 0.53,
+                                                "isDecorative": 0.15,
+                                                "importance": 1.12,
                                                 "interesting": true
                                               }
                                             }
@@ -554,8 +554,8 @@
                                             "region": "navigation",
                                             "regionConfidence": 0.99,
                                             "hasContent": 0.54,
-                                            "isDecorative": 0.17,
-                                            "importance": 1.07,
+                                            "isDecorative": 0.18,
+                                            "importance": 1.1,
                                             "interesting": true
                                           }
                                         },
@@ -577,10 +577,10 @@
                                               "children": [],
                                               "jev": {
                                                 "region": "navigation",
-                                                "regionConfidence": 0.98,
-                                                "hasContent": 0.62,
+                                                "regionConfidence": 0.99,
+                                                "hasContent": 0.61,
                                                 "isDecorative": 0.13,
-                                                "importance": 0.99,
+                                                "importance": 0.94,
                                                 "interesting": true
                                               }
                                             }
@@ -588,19 +588,19 @@
                                           "jev": {
                                             "region": "navigation",
                                             "regionConfidence": 0.99,
-                                            "hasContent": 0.58,
-                                            "isDecorative": 0.14,
-                                            "importance": 1.01,
+                                            "hasContent": 0.57,
+                                            "isDecorative": 0.13,
+                                            "importance": 1.08,
                                             "interesting": true
                                           }
                                         }
                                       ],
                                       "jev": {
                                         "region": "navigation",
-                                        "regionConfidence": 0.98,
-                                        "hasContent": 0.6,
-                                        "isDecorative": 0.09,
-                                        "importance": 1.65,
+                                        "regionConfidence": 0.99,
+                                        "hasContent": 0.62,
+                                        "isDecorative": 0.1,
+                                        "importance": 1.7,
                                         "interesting": true
                                       }
                                     }
@@ -608,9 +608,9 @@
                                   "jev": {
                                     "region": "navigation",
                                     "regionConfidence": 0.99,
-                                    "hasContent": 0.75,
-                                    "isDecorative": 0.09,
-                                    "importance": 1.55,
+                                    "hasContent": 0.72,
+                                    "isDecorative": 0.1,
+                                    "importance": 1.51,
                                     "interesting": true
                                   }
                                 },
@@ -635,9 +635,9 @@
                                       "jev": {
                                         "region": "navigation",
                                         "regionConfidence": 0.99,
-                                        "hasContent": 0.7,
+                                        "hasContent": 0.72,
                                         "isDecorative": 0.1,
-                                        "importance": 1.45,
+                                        "importance": 1.41,
                                         "interesting": true
                                       }
                                     }
@@ -645,19 +645,19 @@
                                   "jev": {
                                     "region": "navigation",
                                     "regionConfidence": 0.99,
-                                    "hasContent": 0.72,
-                                    "isDecorative": 0.09,
-                                    "importance": 1.44,
+                                    "hasContent": 0.68,
+                                    "isDecorative": 0.08,
+                                    "importance": 1.47,
                                     "interesting": true
                                   }
                                 }
                               ],
                               "jev": {
                                 "region": "navigation",
-                                "regionConfidence": 0.99,
-                                "hasContent": 0.55,
-                                "isDecorative": 0.07,
-                                "importance": 1.75,
+                                "regionConfidence": 1,
+                                "hasContent": 0.54,
+                                "isDecorative": 0.06,
+                                "importance": 1.68,
                                 "interesting": true
                               }
                             }
@@ -665,9 +665,9 @@
                           "jev": {
                             "region": "navigation",
                             "regionConfidence": 1,
-                            "hasContent": 0.66,
+                            "hasContent": 0.57,
                             "isDecorative": 0.18,
-                            "importance": 1.63,
+                            "importance": 1.59,
                             "interesting": true
                           }
                         }
@@ -675,29 +675,29 @@
                       "jev": {
                         "region": "navigation",
                         "regionConfidence": 0.99,
-                        "hasContent": 0.57,
+                        "hasContent": 0.6,
                         "isDecorative": 0.1,
-                        "importance": 1.94,
+                        "importance": 1.95,
                         "interesting": true
                       }
                     }
                   ],
                   "jev": {
                     "region": "navigation",
-                    "regionConfidence": 0.98,
-                    "hasContent": 0.56,
+                    "regionConfidence": 0.97,
+                    "hasContent": 0.55,
                     "isDecorative": 0.23,
-                    "importance": 1.83,
+                    "importance": 1.85,
                     "interesting": true
                   }
                 }
               ],
               "jev": {
                 "region": "navigation",
-                "regionConfidence": 0.71,
-                "hasContent": 0.4,
-                "isDecorative": 0.3,
-                "importance": 0.97,
+                "regionConfidence": 0.75,
+                "hasContent": 0.37,
+                "isDecorative": 0.33,
+                "importance": 0.96,
                 "interesting": false
               }
             },
@@ -786,40 +786,40 @@
                       "children": [],
                       "jev": {
                         "region": "header",
-                        "regionConfidence": 0.65,
-                        "hasContent": 0.44,
-                        "isDecorative": 0.12,
-                        "importance": 1.56,
+                        "regionConfidence": 0.62,
+                        "hasContent": 0.46,
+                        "isDecorative": 0.11,
+                        "importance": 1.59,
                         "interesting": false
                       }
                     }
                   ],
                   "jev": {
                     "region": "header",
-                    "regionConfidence": 0.58,
-                    "hasContent": 0.44,
-                    "isDecorative": 0.19,
-                    "importance": 1.46,
+                    "regionConfidence": 0.65,
+                    "hasContent": 0.42,
+                    "isDecorative": 0.17,
+                    "importance": 1.37,
                     "interesting": false
                   }
                 }
               ],
               "jev": {
                 "region": "header",
-                "regionConfidence": 0.59,
-                "hasContent": 0.45,
-                "isDecorative": 0.23,
-                "importance": 1.06,
-                "interesting": false
+                "regionConfidence": 0.52,
+                "hasContent": 0.51,
+                "isDecorative": 0.24,
+                "importance": 0.93,
+                "interesting": true
               }
             }
           ],
           "jev": {
             "region": "header",
             "regionConfidence": 1,
-            "hasContent": 0.62,
+            "hasContent": 0.64,
             "isDecorative": 0.16,
-            "importance": 1.86,
+            "importance": 1.83,
             "interesting": true
           }
         },
@@ -967,29 +967,29 @@
                                               "jev": {
                                                 "region": "main_content",
                                                 "regionConfidence": 0.78,
-                                                "hasContent": 0.58,
-                                                "isDecorative": 0.31,
-                                                "importance": 1.6,
+                                                "hasContent": 0.62,
+                                                "isDecorative": 0.27,
+                                                "importance": 1.64,
                                                 "interesting": true
                                               }
                                             }
                                           ],
                                           "jev": {
                                             "region": "main_content",
-                                            "regionConfidence": 0.78,
-                                            "hasContent": 0.52,
+                                            "regionConfidence": 0.77,
+                                            "hasContent": 0.51,
                                             "isDecorative": 0.35,
-                                            "importance": 1.48,
+                                            "importance": 1.44,
                                             "interesting": true
                                           }
                                         }
                                       ],
                                       "jev": {
                                         "region": "main_content",
-                                        "regionConfidence": 0.71,
-                                        "hasContent": 0.62,
+                                        "regionConfidence": 0.69,
+                                        "hasContent": 0.64,
                                         "isDecorative": 0.25,
-                                        "importance": 1.69,
+                                        "importance": 1.7,
                                         "interesting": true
                                       }
                                     },
@@ -1005,8 +1005,8 @@
                                         "region": "main_content",
                                         "regionConfidence": 0.95,
                                         "hasContent": 0.69,
-                                        "isDecorative": 0.18,
-                                        "importance": 1.41,
+                                        "isDecorative": 0.19,
+                                        "importance": 1.38,
                                         "interesting": true
                                       }
                                     }
@@ -1014,9 +1014,9 @@
                                   "jev": {
                                     "region": "main_content",
                                     "regionConfidence": 0.97,
-                                    "hasContent": 0.74,
+                                    "hasContent": 0.7,
                                     "isDecorative": 0.24,
-                                    "importance": 1.51,
+                                    "importance": 1.45,
                                     "interesting": true
                                   }
                                 },
@@ -1054,50 +1054,50 @@
                                               "children": [],
                                               "jev": {
                                                 "region": "main_content",
-                                                "regionConfidence": 0.85,
-                                                "hasContent": 0.43,
-                                                "isDecorative": 0.25,
-                                                "importance": 0.89,
+                                                "regionConfidence": 0.84,
+                                                "hasContent": 0.41,
+                                                "isDecorative": 0.26,
+                                                "importance": 0.91,
                                                 "interesting": false
                                               }
                                             }
                                           ],
                                           "jev": {
                                             "region": "main_content",
-                                            "regionConfidence": 0.86,
-                                            "hasContent": 0.51,
-                                            "isDecorative": 0.22,
-                                            "importance": 0.9,
-                                            "interesting": true
+                                            "regionConfidence": 0.85,
+                                            "hasContent": 0.49,
+                                            "isDecorative": 0.26,
+                                            "importance": 0.91,
+                                            "interesting": false
                                           }
                                         }
                                       ],
                                       "jev": {
                                         "region": "main_content",
                                         "regionConfidence": 0.92,
-                                        "hasContent": 0.52,
-                                        "isDecorative": 0.22,
-                                        "importance": 1,
-                                        "interesting": true
+                                        "hasContent": 0.49,
+                                        "isDecorative": 0.23,
+                                        "importance": 0.98,
+                                        "interesting": false
                                       }
                                     }
                                   ],
                                   "jev": {
                                     "region": "main_content",
-                                    "regionConfidence": 0.84,
-                                    "hasContent": 0.52,
-                                    "isDecorative": 0.38,
-                                    "importance": 1.08,
-                                    "interesting": true
+                                    "regionConfidence": 0.89,
+                                    "hasContent": 0.5,
+                                    "isDecorative": 0.37,
+                                    "importance": 1.05,
+                                    "interesting": false
                                   }
                                 }
                               ],
                               "jev": {
                                 "region": "main_content",
-                                "regionConfidence": 0.95,
-                                "hasContent": 0.7,
+                                "regionConfidence": 0.98,
+                                "hasContent": 0.68,
                                 "isDecorative": 0.27,
-                                "importance": 1.53,
+                                "importance": 1.61,
                                 "interesting": true
                               }
                             },
@@ -1126,10 +1126,10 @@
                                   "children": [],
                                   "jev": {
                                     "region": "main_content",
-                                    "regionConfidence": 0.93,
-                                    "hasContent": 0.6,
+                                    "regionConfidence": 0.91,
+                                    "hasContent": 0.58,
                                     "isDecorative": 0.3,
-                                    "importance": 1.47,
+                                    "importance": 1.44,
                                     "interesting": true
                                   }
                                 },
@@ -1215,10 +1215,10 @@
                                                       "children": [],
                                                       "jev": {
                                                         "region": "main_content",
-                                                        "regionConfidence": 0.98,
-                                                        "hasContent": 0.56,
-                                                        "isDecorative": 0.19,
-                                                        "importance": 1.02,
+                                                        "regionConfidence": 0.97,
+                                                        "hasContent": 0.58,
+                                                        "isDecorative": 0.22,
+                                                        "importance": 1.07,
                                                         "interesting": true
                                                       }
                                                     }
@@ -1226,9 +1226,9 @@
                                                   "jev": {
                                                     "region": "main_content",
                                                     "regionConfidence": 0.97,
-                                                    "hasContent": 0.55,
+                                                    "hasContent": 0.58,
                                                     "isDecorative": 0.18,
-                                                    "importance": 1.01,
+                                                    "importance": 0.98,
                                                     "interesting": true
                                                   }
                                                 },
@@ -1250,20 +1250,20 @@
                                                       "children": [],
                                                       "jev": {
                                                         "region": "main_content",
-                                                        "regionConfidence": 0.77,
+                                                        "regionConfidence": 0.78,
                                                         "hasContent": 0.76,
-                                                        "isDecorative": 0.13,
-                                                        "importance": 1.65,
+                                                        "isDecorative": 0.12,
+                                                        "importance": 1.62,
                                                         "interesting": true
                                                       }
                                                     }
                                                   ],
                                                   "jev": {
                                                     "region": "main_content",
-                                                    "regionConfidence": 0.87,
-                                                    "hasContent": 0.8,
-                                                    "isDecorative": 0.15,
-                                                    "importance": 1.78,
+                                                    "regionConfidence": 0.89,
+                                                    "hasContent": 0.81,
+                                                    "isDecorative": 0.14,
+                                                    "importance": 1.76,
                                                     "interesting": true
                                                   }
                                                 }
@@ -1271,19 +1271,19 @@
                                               "jev": {
                                                 "region": "main_content",
                                                 "regionConfidence": 0.92,
-                                                "hasContent": 0.78,
-                                                "isDecorative": 0.13,
-                                                "importance": 1.73,
+                                                "hasContent": 0.8,
+                                                "isDecorative": 0.12,
+                                                "importance": 1.75,
                                                 "interesting": true
                                               }
                                             }
                                           ],
                                           "jev": {
                                             "region": "main_content",
-                                            "regionConfidence": 0.82,
+                                            "regionConfidence": 0.78,
                                             "hasContent": 0.64,
-                                            "isDecorative": 0.22,
-                                            "importance": 1.35,
+                                            "isDecorative": 0.21,
+                                            "importance": 1.31,
                                             "interesting": true
                                           }
                                         },
@@ -1341,19 +1341,19 @@
                                                       "jev": {
                                                         "region": "main_content",
                                                         "regionConfidence": 0.98,
-                                                        "hasContent": 0.55,
+                                                        "hasContent": 0.57,
                                                         "isDecorative": 0.19,
-                                                        "importance": 1.07,
+                                                        "importance": 1.04,
                                                         "interesting": true
                                                       }
                                                     }
                                                   ],
                                                   "jev": {
                                                     "region": "main_content",
-                                                    "regionConfidence": 0.95,
+                                                    "regionConfidence": 0.97,
                                                     "hasContent": 0.55,
-                                                    "isDecorative": 0.2,
-                                                    "importance": 0.99,
+                                                    "isDecorative": 0.19,
+                                                    "importance": 0.98,
                                                     "interesting": true
                                                   }
                                                 },
@@ -1375,10 +1375,10 @@
                                                       "children": [],
                                                       "jev": {
                                                         "region": "main_content",
-                                                        "regionConfidence": 0.91,
+                                                        "regionConfidence": 0.92,
                                                         "hasContent": 0.8,
-                                                        "isDecorative": 0.14,
-                                                        "importance": 1.76,
+                                                        "isDecorative": 0.13,
+                                                        "importance": 1.78,
                                                         "interesting": true
                                                       }
                                                     }
@@ -1386,9 +1386,9 @@
                                                   "jev": {
                                                     "region": "main_content",
                                                     "regionConfidence": 0.95,
-                                                    "hasContent": 0.83,
-                                                    "isDecorative": 0.12,
-                                                    "importance": 1.88,
+                                                    "hasContent": 0.84,
+                                                    "isDecorative": 0.13,
+                                                    "importance": 1.87,
                                                     "interesting": true
                                                   }
                                                 }
@@ -1396,19 +1396,19 @@
                                               "jev": {
                                                 "region": "main_content",
                                                 "regionConfidence": 0.97,
-                                                "hasContent": 0.81,
+                                                "hasContent": 0.8,
                                                 "isDecorative": 0.17,
-                                                "importance": 1.8,
+                                                "importance": 1.79,
                                                 "interesting": true
                                               }
                                             }
                                           ],
                                           "jev": {
                                             "region": "main_content",
-                                            "regionConfidence": 0.83,
-                                            "hasContent": 0.66,
+                                            "regionConfidence": 0.78,
+                                            "hasContent": 0.65,
                                             "isDecorative": 0.22,
-                                            "importance": 1.3,
+                                            "importance": 1.29,
                                             "interesting": true
                                           }
                                         },
@@ -1465,8 +1465,8 @@
                                                       "children": [],
                                                       "jev": {
                                                         "region": "main_content",
-                                                        "regionConfidence": 0.98,
-                                                        "hasContent": 0.58,
+                                                        "regionConfidence": 0.99,
+                                                        "hasContent": 0.56,
                                                         "isDecorative": 0.2,
                                                         "importance": 1.04,
                                                         "interesting": true
@@ -1477,8 +1477,8 @@
                                                     "region": "main_content",
                                                     "regionConfidence": 0.98,
                                                     "hasContent": 0.55,
-                                                    "isDecorative": 0.2,
-                                                    "importance": 0.99,
+                                                    "isDecorative": 0.18,
+                                                    "importance": 0.97,
                                                     "interesting": true
                                                   }
                                                 },
@@ -1500,9 +1500,9 @@
                                                       "children": [],
                                                       "jev": {
                                                         "region": "main_content",
-                                                        "regionConfidence": 0.9,
+                                                        "regionConfidence": 0.92,
                                                         "hasContent": 0.81,
-                                                        "isDecorative": 0.12,
+                                                        "isDecorative": 0.13,
                                                         "importance": 1.72,
                                                         "interesting": true
                                                       }
@@ -1511,9 +1511,9 @@
                                                   "jev": {
                                                     "region": "main_content",
                                                     "regionConfidence": 0.95,
-                                                    "hasContent": 0.84,
-                                                    "isDecorative": 0.16,
-                                                    "importance": 1.82,
+                                                    "hasContent": 0.83,
+                                                    "isDecorative": 0.14,
+                                                    "importance": 1.81,
                                                     "interesting": true
                                                   }
                                                 }
@@ -1521,38 +1521,38 @@
                                               "jev": {
                                                 "region": "main_content",
                                                 "regionConfidence": 0.95,
-                                                "hasContent": 0.82,
+                                                "hasContent": 0.81,
                                                 "isDecorative": 0.18,
-                                                "importance": 1.72,
+                                                "importance": 1.77,
                                                 "interesting": true
                                               }
                                             }
                                           ],
                                           "jev": {
                                             "region": "main_content",
-                                            "regionConfidence": 0.81,
-                                            "hasContent": 0.64,
+                                            "regionConfidence": 0.83,
+                                            "hasContent": 0.65,
                                             "isDecorative": 0.21,
-                                            "importance": 1.26,
+                                            "importance": 1.31,
                                             "interesting": true
                                           }
                                         }
                                       ],
                                       "jev": {
                                         "region": "main_content",
-                                        "regionConfidence": 0.74,
-                                        "hasContent": 0.55,
-                                        "isDecorative": 0.21,
-                                        "importance": 1.15,
+                                        "regionConfidence": 0.75,
+                                        "hasContent": 0.58,
+                                        "isDecorative": 0.19,
+                                        "importance": 1.12,
                                         "interesting": true
                                       }
                                     }
                                   ],
                                   "jev": {
                                     "region": "main_content",
-                                    "regionConfidence": 0.62,
+                                    "regionConfidence": 0.59,
                                     "hasContent": 0.5,
-                                    "isDecorative": 0.3,
+                                    "isDecorative": 0.27,
                                     "importance": 1.1,
                                     "interesting": false
                                   }
@@ -1560,20 +1560,20 @@
                               ],
                               "jev": {
                                 "region": "main_content",
-                                "regionConfidence": 0.89,
-                                "hasContent": 0.73,
+                                "regionConfidence": 0.92,
+                                "hasContent": 0.71,
                                 "isDecorative": 0.25,
-                                "importance": 1.55,
+                                "importance": 1.53,
                                 "interesting": true
                               }
                             }
                           ],
                           "jev": {
                             "region": "main_content",
-                            "regionConfidence": 0.93,
+                            "regionConfidence": 0.92,
                             "hasContent": 0.63,
-                            "isDecorative": 0.4,
-                            "importance": 1.3,
+                            "isDecorative": 0.41,
+                            "importance": 1.27,
                             "interesting": true
                           }
                         },
@@ -1703,20 +1703,20 @@
                                       "children": [],
                                       "jev": {
                                         "region": "main_content",
-                                        "regionConfidence": 0.92,
-                                        "hasContent": 0.56,
-                                        "isDecorative": 0.29,
-                                        "importance": 1.37,
+                                        "regionConfidence": 0.93,
+                                        "hasContent": 0.57,
+                                        "isDecorative": 0.27,
+                                        "importance": 1.41,
                                         "interesting": true
                                       }
                                     }
                                   ],
                                   "jev": {
                                     "region": "main_content",
-                                    "regionConfidence": 0.95,
-                                    "hasContent": 0.56,
+                                    "regionConfidence": 0.94,
+                                    "hasContent": 0.58,
                                     "isDecorative": 0.34,
-                                    "importance": 1.37,
+                                    "importance": 1.35,
                                     "interesting": true
                                   }
                                 },
@@ -1741,17 +1741,17 @@
                                         "regionConfidence": 0.93,
                                         "hasContent": 0.72,
                                         "isDecorative": 0.16,
-                                        "importance": 1.73,
+                                        "importance": 1.79,
                                         "interesting": true
                                       }
                                     }
                                   ],
                                   "jev": {
                                     "region": "main_content",
-                                    "regionConfidence": 0.94,
-                                    "hasContent": 0.68,
-                                    "isDecorative": 0.17,
-                                    "importance": 1.78,
+                                    "regionConfidence": 0.95,
+                                    "hasContent": 0.73,
+                                    "isDecorative": 0.16,
+                                    "importance": 1.82,
                                     "interesting": true
                                   }
                                 },
@@ -1773,20 +1773,20 @@
                                       "children": [],
                                       "jev": {
                                         "region": "main_content",
-                                        "regionConfidence": 0.87,
-                                        "hasContent": 0.61,
-                                        "isDecorative": 0.15,
-                                        "importance": 0.71,
+                                        "regionConfidence": 0.9,
+                                        "hasContent": 0.63,
+                                        "isDecorative": 0.17,
+                                        "importance": 0.69,
                                         "interesting": true
                                       }
                                     }
                                   ],
                                   "jev": {
                                     "region": "main_content",
-                                    "regionConfidence": 0.86,
+                                    "regionConfidence": 0.81,
                                     "hasContent": 0.59,
                                     "isDecorative": 0.2,
-                                    "importance": 0.76,
+                                    "importance": 0.75,
                                     "interesting": true
                                   }
                                 },
@@ -1816,30 +1816,30 @@
                                           "children": [],
                                           "jev": {
                                             "region": "main_content",
-                                            "regionConfidence": 0.91,
-                                            "hasContent": 0.45,
+                                            "regionConfidence": 0.87,
+                                            "hasContent": 0.46,
                                             "isDecorative": 0.19,
-                                            "importance": 1.28,
+                                            "importance": 1.29,
                                             "interesting": false
                                           }
                                         }
                                       ],
                                       "jev": {
                                         "region": "main_content",
-                                        "regionConfidence": 0.97,
-                                        "hasContent": 0.48,
+                                        "regionConfidence": 0.98,
+                                        "hasContent": 0.52,
                                         "isDecorative": 0.13,
-                                        "importance": 1.37,
-                                        "interesting": false
+                                        "importance": 1.34,
+                                        "interesting": true
                                       }
                                     }
                                   ],
                                   "jev": {
                                     "region": "main_content",
-                                    "regionConfidence": 0.94,
-                                    "hasContent": 0.46,
+                                    "regionConfidence": 0.95,
+                                    "hasContent": 0.43,
                                     "isDecorative": 0.16,
-                                    "importance": 1.44,
+                                    "importance": 1.4,
                                     "interesting": false
                                   }
                                 },
@@ -1877,9 +1877,9 @@
                                               "children": [],
                                               "jev": {
                                                 "region": "main_content",
-                                                "regionConfidence": 0.84,
-                                                "hasContent": 0.63,
-                                                "isDecorative": 0.25,
+                                                "regionConfidence": 0.87,
+                                                "hasContent": 0.62,
+                                                "isDecorative": 0.24,
                                                 "importance": 1.37,
                                                 "interesting": true
                                               }
@@ -1887,30 +1887,30 @@
                                           ],
                                           "jev": {
                                             "region": "main_content",
-                                            "regionConfidence": 0.84,
-                                            "hasContent": 0.64,
+                                            "regionConfidence": 0.85,
+                                            "hasContent": 0.59,
                                             "isDecorative": 0.21,
-                                            "importance": 1.38,
+                                            "importance": 1.34,
                                             "interesting": true
                                           }
                                         }
                                       ],
                                       "jev": {
                                         "region": "main_content",
-                                        "regionConfidence": 0.63,
-                                        "hasContent": 0.53,
+                                        "regionConfidence": 0.7,
+                                        "hasContent": 0.52,
                                         "isDecorative": 0.18,
-                                        "importance": 1.33,
+                                        "importance": 1.31,
                                         "interesting": true
                                       }
                                     }
                                   ],
                                   "jev": {
                                     "region": "main_content",
-                                    "regionConfidence": 0.9,
-                                    "hasContent": 0.43,
-                                    "isDecorative": 0.37,
-                                    "importance": 0.85,
+                                    "regionConfidence": 0.89,
+                                    "hasContent": 0.45,
+                                    "isDecorative": 0.3,
+                                    "importance": 0.92,
                                     "interesting": false
                                   }
                                 },
@@ -1933,9 +1933,9 @@
                                       "jev": {
                                         "region": "main_content",
                                         "regionConfidence": 1,
-                                        "hasContent": 0.59,
+                                        "hasContent": 0.56,
                                         "isDecorative": 0.24,
-                                        "importance": 1.52,
+                                        "importance": 1.5,
                                         "interesting": true
                                       }
                                     }
@@ -1943,9 +1943,9 @@
                                   "jev": {
                                     "region": "main_content",
                                     "regionConfidence": 1,
-                                    "hasContent": 0.61,
-                                    "isDecorative": 0.24,
-                                    "importance": 1.53,
+                                    "hasContent": 0.59,
+                                    "isDecorative": 0.23,
+                                    "importance": 1.55,
                                     "interesting": true
                                   }
                                 },
@@ -1983,40 +1983,40 @@
                                               "children": [],
                                               "jev": {
                                                 "region": "main_content",
-                                                "regionConfidence": 0.91,
-                                                "hasContent": 0.56,
-                                                "isDecorative": 0.21,
-                                                "importance": 1.05,
+                                                "regionConfidence": 0.89,
+                                                "hasContent": 0.51,
+                                                "isDecorative": 0.2,
+                                                "importance": 1.04,
                                                 "interesting": true
                                               }
                                             }
                                           ],
                                           "jev": {
                                             "region": "main_content",
-                                            "regionConfidence": 0.98,
-                                            "hasContent": 0.5,
-                                            "isDecorative": 0.19,
-                                            "importance": 1.16,
-                                            "interesting": false
+                                            "regionConfidence": 0.99,
+                                            "hasContent": 0.54,
+                                            "isDecorative": 0.2,
+                                            "importance": 1.14,
+                                            "interesting": true
                                           }
                                         }
                                       ],
                                       "jev": {
                                         "region": "main_content",
                                         "regionConfidence": 0.98,
-                                        "hasContent": 0.51,
+                                        "hasContent": 0.54,
                                         "isDecorative": 0.21,
-                                        "importance": 1.11,
+                                        "importance": 1.14,
                                         "interesting": true
                                       }
                                     }
                                   ],
                                   "jev": {
                                     "region": "main_content",
-                                    "regionConfidence": 0.91,
+                                    "regionConfidence": 0.92,
                                     "hasContent": 0.42,
-                                    "isDecorative": 0.38,
-                                    "importance": 0.89,
+                                    "isDecorative": 0.35,
+                                    "importance": 0.91,
                                     "interesting": false
                                   }
                                 },
@@ -2038,30 +2038,30 @@
                                       "children": [],
                                       "jev": {
                                         "region": "main_content",
-                                        "regionConfidence": 0.94,
-                                        "hasContent": 0.53,
-                                        "isDecorative": 0.28,
-                                        "importance": 1.55,
+                                        "regionConfidence": 0.97,
+                                        "hasContent": 0.55,
+                                        "isDecorative": 0.26,
+                                        "importance": 1.58,
                                         "interesting": true
                                       }
                                     }
                                   ],
                                   "jev": {
                                     "region": "main_content",
-                                    "regionConfidence": 0.97,
-                                    "hasContent": 0.52,
-                                    "isDecorative": 0.25,
-                                    "importance": 1.55,
-                                    "interesting": true
+                                    "regionConfidence": 0.94,
+                                    "hasContent": 0.5,
+                                    "isDecorative": 0.26,
+                                    "importance": 1.56,
+                                    "interesting": false
                                   }
                                 }
                               ],
                               "jev": {
                                 "region": "main_content",
-                                "regionConfidence": 0.9,
+                                "regionConfidence": 0.94,
                                 "hasContent": 0.7,
-                                "isDecorative": 0.33,
-                                "importance": 1.66,
+                                "isDecorative": 0.37,
+                                "importance": 1.61,
                                 "interesting": true
                               }
                             },
@@ -2110,10 +2110,10 @@
                                       "children": [],
                                       "jev": {
                                         "region": "main_content",
-                                        "regionConfidence": 0.85,
-                                        "hasContent": 0.56,
-                                        "isDecorative": 0.33,
-                                        "importance": 1.16,
+                                        "regionConfidence": 0.86,
+                                        "hasContent": 0.53,
+                                        "isDecorative": 0.3,
+                                        "importance": 1.21,
                                         "interesting": true
                                       }
                                     }
@@ -2121,7 +2121,7 @@
                                   "jev": {
                                     "region": "main_content",
                                     "regionConfidence": 0.86,
-                                    "hasContent": 0.54,
+                                    "hasContent": 0.55,
                                     "isDecorative": 0.34,
                                     "importance": 1.2,
                                     "interesting": true
@@ -2146,19 +2146,19 @@
                                       "jev": {
                                         "region": "main_content",
                                         "regionConfidence": 0.83,
-                                        "hasContent": 0.72,
-                                        "isDecorative": 0.14,
-                                        "importance": 1.79,
+                                        "hasContent": 0.73,
+                                        "isDecorative": 0.16,
+                                        "importance": 1.82,
                                         "interesting": true
                                       }
                                     }
                                   ],
                                   "jev": {
                                     "region": "main_content",
-                                    "regionConfidence": 0.82,
-                                    "hasContent": 0.7,
-                                    "isDecorative": 0.17,
-                                    "importance": 1.83,
+                                    "regionConfidence": 0.86,
+                                    "hasContent": 0.71,
+                                    "isDecorative": 0.16,
+                                    "importance": 1.82,
                                     "interesting": true
                                   }
                                 },
@@ -2180,20 +2180,20 @@
                                       "children": [],
                                       "jev": {
                                         "region": "main_content",
-                                        "regionConfidence": 0.84,
-                                        "hasContent": 0.63,
-                                        "isDecorative": 0.17,
-                                        "importance": 0.72,
+                                        "regionConfidence": 0.89,
+                                        "hasContent": 0.62,
+                                        "isDecorative": 0.18,
+                                        "importance": 0.69,
                                         "interesting": true
                                       }
                                     }
                                   ],
                                   "jev": {
                                     "region": "main_content",
-                                    "regionConfidence": 0.84,
-                                    "hasContent": 0.57,
-                                    "isDecorative": 0.19,
-                                    "importance": 0.76,
+                                    "regionConfidence": 0.83,
+                                    "hasContent": 0.62,
+                                    "isDecorative": 0.21,
+                                    "importance": 0.81,
                                     "interesting": true
                                   }
                                 },
@@ -2216,9 +2216,9 @@
                                       "jev": {
                                         "region": "main_content",
                                         "regionConfidence": 1,
-                                        "hasContent": 0.53,
+                                        "hasContent": 0.56,
                                         "isDecorative": 0.22,
-                                        "importance": 1.48,
+                                        "importance": 1.53,
                                         "interesting": true
                                       }
                                     }
@@ -2226,9 +2226,9 @@
                                   "jev": {
                                     "region": "main_content",
                                     "regionConfidence": 1,
-                                    "hasContent": 0.56,
-                                    "isDecorative": 0.21,
-                                    "importance": 1.49,
+                                    "hasContent": 0.57,
+                                    "isDecorative": 0.22,
+                                    "importance": 1.52,
                                     "interesting": true
                                   }
                                 },
@@ -2266,10 +2266,10 @@
                                               "children": [],
                                               "jev": {
                                                 "region": "main_content",
-                                                "regionConfidence": 0.91,
-                                                "hasContent": 0.53,
-                                                "isDecorative": 0.21,
-                                                "importance": 0.99,
+                                                "regionConfidence": 0.93,
+                                                "hasContent": 0.52,
+                                                "isDecorative": 0.22,
+                                                "importance": 0.96,
                                                 "interesting": true
                                               }
                                             }
@@ -2277,7 +2277,7 @@
                                           "jev": {
                                             "region": "main_content",
                                             "regionConfidence": 0.98,
-                                            "hasContent": 0.53,
+                                            "hasContent": 0.58,
                                             "isDecorative": 0.21,
                                             "importance": 1.15,
                                             "interesting": true
@@ -2287,10 +2287,10 @@
                                       "jev": {
                                         "region": "main_content",
                                         "regionConfidence": 0.98,
-                                        "hasContent": 0.53,
-                                        "isDecorative": 0.18,
-                                        "importance": 1.11,
-                                        "interesting": true
+                                        "hasContent": 0.5,
+                                        "isDecorative": 0.21,
+                                        "importance": 1.1,
+                                        "interesting": false
                                       }
                                     }
                                   ],
@@ -2298,8 +2298,8 @@
                                     "region": "main_content",
                                     "regionConfidence": 0.9,
                                     "hasContent": 0.42,
-                                    "isDecorative": 0.37,
-                                    "importance": 0.88,
+                                    "isDecorative": 0.35,
+                                    "importance": 0.93,
                                     "interesting": false
                                   }
                                 },
@@ -2322,29 +2322,29 @@
                                       "jev": {
                                         "region": "main_content",
                                         "regionConfidence": 0.98,
-                                        "hasContent": 0.61,
-                                        "isDecorative": 0.25,
-                                        "importance": 1.48,
+                                        "hasContent": 0.62,
+                                        "isDecorative": 0.27,
+                                        "importance": 1.55,
                                         "interesting": true
                                       }
                                     }
                                   ],
                                   "jev": {
                                     "region": "main_content",
-                                    "regionConfidence": 0.99,
-                                    "hasContent": 0.59,
-                                    "isDecorative": 0.27,
-                                    "importance": 1.53,
+                                    "regionConfidence": 0.98,
+                                    "hasContent": 0.58,
+                                    "isDecorative": 0.25,
+                                    "importance": 1.54,
                                     "interesting": true
                                   }
                                 }
                               ],
                               "jev": {
                                 "region": "main_content",
-                                "regionConfidence": 0.94,
-                                "hasContent": 0.7,
-                                "isDecorative": 0.38,
-                                "importance": 1.61,
+                                "regionConfidence": 0.97,
+                                "hasContent": 0.69,
+                                "isDecorative": 0.35,
+                                "importance": 1.63,
                                 "interesting": true
                               }
                             },
@@ -2394,19 +2394,19 @@
                                       "jev": {
                                         "region": "main_content",
                                         "regionConfidence": 0.92,
-                                        "hasContent": 0.54,
-                                        "isDecorative": 0.3,
-                                        "importance": 1.21,
+                                        "hasContent": 0.57,
+                                        "isDecorative": 0.29,
+                                        "importance": 1.25,
                                         "interesting": true
                                       }
                                     }
                                   ],
                                   "jev": {
                                     "region": "main_content",
-                                    "regionConfidence": 0.91,
-                                    "hasContent": 0.56,
-                                    "isDecorative": 0.3,
-                                    "importance": 1.19,
+                                    "regionConfidence": 0.92,
+                                    "hasContent": 0.53,
+                                    "isDecorative": 0.33,
+                                    "importance": 1.24,
                                     "interesting": true
                                   }
                                 },
@@ -2428,20 +2428,20 @@
                                       "children": [],
                                       "jev": {
                                         "region": "main_content",
-                                        "regionConfidence": 0.91,
-                                        "hasContent": 0.73,
-                                        "isDecorative": 0.14,
-                                        "importance": 1.86,
+                                        "regionConfidence": 0.92,
+                                        "hasContent": 0.77,
+                                        "isDecorative": 0.13,
+                                        "importance": 1.84,
                                         "interesting": true
                                       }
                                     }
                                   ],
                                   "jev": {
                                     "region": "main_content",
-                                    "regionConfidence": 0.94,
+                                    "regionConfidence": 0.93,
                                     "hasContent": 0.73,
                                     "isDecorative": 0.15,
-                                    "importance": 1.84,
+                                    "importance": 1.82,
                                     "interesting": true
                                   }
                                 },
@@ -2463,20 +2463,20 @@
                                       "children": [],
                                       "jev": {
                                         "region": "main_content",
-                                        "regionConfidence": 0.89,
-                                        "hasContent": 0.62,
+                                        "regionConfidence": 0.86,
+                                        "hasContent": 0.61,
                                         "isDecorative": 0.17,
-                                        "importance": 0.72,
+                                        "importance": 0.65,
                                         "interesting": true
                                       }
                                     }
                                   ],
                                   "jev": {
                                     "region": "main_content",
-                                    "regionConfidence": 0.92,
-                                    "hasContent": 0.62,
+                                    "regionConfidence": 0.86,
+                                    "hasContent": 0.61,
                                     "isDecorative": 0.19,
-                                    "importance": 0.84,
+                                    "importance": 0.74,
                                     "interesting": true
                                   }
                                 },
@@ -2501,7 +2501,7 @@
                                         "regionConfidence": 1,
                                         "hasContent": 0.53,
                                         "isDecorative": 0.24,
-                                        "importance": 1.41,
+                                        "importance": 1.44,
                                         "interesting": true
                                       }
                                     }
@@ -2509,8 +2509,8 @@
                                   "jev": {
                                     "region": "main_content",
                                     "regionConfidence": 1,
-                                    "hasContent": 0.51,
-                                    "isDecorative": 0.23,
+                                    "hasContent": 0.57,
+                                    "isDecorative": 0.21,
                                     "importance": 1.44,
                                     "interesting": true
                                   }
@@ -2550,9 +2550,9 @@
                                               "jev": {
                                                 "region": "main_content",
                                                 "regionConfidence": 0.92,
-                                                "hasContent": 0.5,
+                                                "hasContent": 0.49,
                                                 "isDecorative": 0.21,
-                                                "importance": 1.02,
+                                                "importance": 1.01,
                                                 "interesting": false
                                               }
                                             }
@@ -2561,8 +2561,8 @@
                                             "region": "main_content",
                                             "regionConfidence": 0.98,
                                             "hasContent": 0.53,
-                                            "isDecorative": 0.2,
-                                            "importance": 1.19,
+                                            "isDecorative": 0.21,
+                                            "importance": 1.15,
                                             "interesting": true
                                           }
                                         }
@@ -2570,19 +2570,19 @@
                                       "jev": {
                                         "region": "main_content",
                                         "regionConfidence": 0.99,
-                                        "hasContent": 0.53,
-                                        "isDecorative": 0.2,
-                                        "importance": 1.1,
+                                        "hasContent": 0.54,
+                                        "isDecorative": 0.21,
+                                        "importance": 1.14,
                                         "interesting": true
                                       }
                                     }
                                   ],
                                   "jev": {
                                     "region": "main_content",
-                                    "regionConfidence": 0.92,
+                                    "regionConfidence": 0.91,
                                     "hasContent": 0.43,
-                                    "isDecorative": 0.33,
-                                    "importance": 0.92,
+                                    "isDecorative": 0.38,
+                                    "importance": 0.91,
                                     "interesting": false
                                   }
                                 },
@@ -2605,9 +2605,9 @@
                                       "jev": {
                                         "region": "main_content",
                                         "regionConfidence": 0.98,
-                                        "hasContent": 0.61,
-                                        "isDecorative": 0.24,
-                                        "importance": 1.49,
+                                        "hasContent": 0.63,
+                                        "isDecorative": 0.25,
+                                        "importance": 1.55,
                                         "interesting": true
                                       }
                                     }
@@ -2615,9 +2615,9 @@
                                   "jev": {
                                     "region": "main_content",
                                     "regionConfidence": 0.98,
-                                    "hasContent": 0.61,
-                                    "isDecorative": 0.27,
-                                    "importance": 1.54,
+                                    "hasContent": 0.59,
+                                    "isDecorative": 0.25,
+                                    "importance": 1.57,
                                     "interesting": true
                                   }
                                 }
@@ -2626,18 +2626,18 @@
                                 "region": "main_content",
                                 "regionConfidence": 0.97,
                                 "hasContent": 0.72,
-                                "isDecorative": 0.32,
-                                "importance": 1.65,
+                                "isDecorative": 0.29,
+                                "importance": 1.64,
                                 "interesting": true
                               }
                             }
                           ],
                           "jev": {
                             "region": "main_content",
-                            "regionConfidence": 0.79,
-                            "hasContent": 0.53,
-                            "isDecorative": 0.7,
-                            "importance": 1.24,
+                            "regionConfidence": 0.81,
+                            "hasContent": 0.55,
+                            "isDecorative": 0.67,
+                            "importance": 1.35,
                             "interesting": false
                           }
                         },
@@ -2702,9 +2702,9 @@
                                       "jev": {
                                         "region": "main_content",
                                         "regionConfidence": 0.97,
-                                        "hasContent": 0.42,
-                                        "isDecorative": 0.3,
-                                        "importance": 0.99,
+                                        "hasContent": 0.46,
+                                        "isDecorative": 0.31,
+                                        "importance": 1.23,
                                         "interesting": false
                                       }
                                     }
@@ -2712,9 +2712,9 @@
                                   "jev": {
                                     "region": "main_content",
                                     "regionConfidence": 0.99,
-                                    "hasContent": 0.49,
-                                    "isDecorative": 0.33,
-                                    "importance": 1.24,
+                                    "hasContent": 0.5,
+                                    "isDecorative": 0.31,
+                                    "importance": 1.23,
                                     "interesting": false
                                   }
                                 },
@@ -2737,9 +2737,9 @@
                                       "jev": {
                                         "region": "main_content",
                                         "regionConfidence": 0.99,
-                                        "hasContent": 0.46,
-                                        "isDecorative": 0.18,
-                                        "importance": 0.94,
+                                        "hasContent": 0.47,
+                                        "isDecorative": 0.16,
+                                        "importance": 0.78,
                                         "interesting": false
                                       }
                                     }
@@ -2747,9 +2747,9 @@
                                   "jev": {
                                     "region": "main_content",
                                     "regionConfidence": 1,
-                                    "hasContent": 0.54,
-                                    "isDecorative": 0.24,
-                                    "importance": 1.35,
+                                    "hasContent": 0.56,
+                                    "isDecorative": 0.23,
+                                    "importance": 1.41,
                                     "interesting": true
                                   }
                                 }
@@ -2757,9 +2757,9 @@
                               "jev": {
                                 "region": "main_content",
                                 "regionConfidence": 1,
-                                "hasContent": 0.59,
+                                "hasContent": 0.56,
                                 "isDecorative": 0.27,
-                                "importance": 1.34,
+                                "importance": 1.26,
                                 "interesting": true
                               }
                             },
@@ -2796,10 +2796,10 @@
                                       "children": [],
                                       "jev": {
                                         "region": "main_content",
-                                        "regionConfidence": 0.97,
+                                        "regionConfidence": 0.95,
                                         "hasContent": 0.51,
-                                        "isDecorative": 0.29,
-                                        "importance": 1.04,
+                                        "isDecorative": 0.31,
+                                        "importance": 0.95,
                                         "interesting": true
                                       }
                                     }
@@ -2807,8 +2807,8 @@
                                   "jev": {
                                     "region": "main_content",
                                     "regionConfidence": 0.97,
-                                    "hasContent": 0.47,
-                                    "isDecorative": 0.39,
+                                    "hasContent": 0.48,
+                                    "isDecorative": 0.41,
                                     "importance": 0.94,
                                     "interesting": false
                                   }
@@ -2831,20 +2831,20 @@
                                       "children": [],
                                       "jev": {
                                         "region": "main_content",
-                                        "regionConfidence": 1,
+                                        "regionConfidence": 0.99,
                                         "hasContent": 0.61,
-                                        "isDecorative": 0.23,
-                                        "importance": 1.17,
+                                        "isDecorative": 0.22,
+                                        "importance": 1.16,
                                         "interesting": true
                                       }
                                     }
                                   ],
                                   "jev": {
                                     "region": "main_content",
-                                    "regionConfidence": 0.99,
+                                    "regionConfidence": 1,
                                     "hasContent": 0.68,
                                     "isDecorative": 0.26,
-                                    "importance": 1.36,
+                                    "importance": 1.41,
                                     "interesting": true
                                   }
                                 }
@@ -2852,9 +2852,9 @@
                               "jev": {
                                 "region": "main_content",
                                 "regionConfidence": 1,
-                                "hasContent": 0.69,
-                                "isDecorative": 0.26,
-                                "importance": 1.43,
+                                "hasContent": 0.71,
+                                "isDecorative": 0.24,
+                                "importance": 1.48,
                                 "interesting": true
                               }
                             },
@@ -2892,19 +2892,19 @@
                                       "jev": {
                                         "region": "main_content",
                                         "regionConfidence": 0.94,
-                                        "hasContent": 0.47,
-                                        "isDecorative": 0.32,
-                                        "importance": 0.92,
+                                        "hasContent": 0.46,
+                                        "isDecorative": 0.33,
+                                        "importance": 0.96,
                                         "interesting": false
                                       }
                                     }
                                   ],
                                   "jev": {
                                     "region": "main_content",
-                                    "regionConfidence": 0.95,
-                                    "hasContent": 0.52,
+                                    "regionConfidence": 0.97,
+                                    "hasContent": 0.51,
                                     "isDecorative": 0.37,
-                                    "importance": 1.19,
+                                    "importance": 1.12,
                                     "interesting": true
                                   }
                                 },
@@ -2926,20 +2926,20 @@
                                       "children": [],
                                       "jev": {
                                         "region": "main_content",
-                                        "regionConfidence": 0.99,
+                                        "regionConfidence": 0.98,
                                         "hasContent": 0.47,
-                                        "isDecorative": 0.19,
-                                        "importance": 0.83,
+                                        "isDecorative": 0.17,
+                                        "importance": 0.81,
                                         "interesting": false
                                       }
                                     }
                                   ],
                                   "jev": {
                                     "region": "main_content",
-                                    "regionConfidence": 0.99,
-                                    "hasContent": 0.6,
+                                    "regionConfidence": 1,
+                                    "hasContent": 0.61,
                                     "isDecorative": 0.22,
-                                    "importance": 1.27,
+                                    "importance": 1.3,
                                     "interesting": true
                                   }
                                 }
@@ -2947,9 +2947,9 @@
                               "jev": {
                                 "region": "main_content",
                                 "regionConfidence": 1,
-                                "hasContent": 0.66,
-                                "isDecorative": 0.26,
-                                "importance": 1.31,
+                                "hasContent": 0.68,
+                                "isDecorative": 0.28,
+                                "importance": 1.33,
                                 "interesting": true
                               }
                             },
@@ -2986,10 +2986,10 @@
                                       "children": [],
                                       "jev": {
                                         "region": "main_content",
-                                        "regionConfidence": 0.97,
-                                        "hasContent": 0.46,
+                                        "regionConfidence": 0.98,
+                                        "hasContent": 0.48,
                                         "isDecorative": 0.33,
-                                        "importance": 1.12,
+                                        "importance": 1.04,
                                         "interesting": false
                                       }
                                     }
@@ -2997,9 +2997,9 @@
                                   "jev": {
                                     "region": "main_content",
                                     "regionConfidence": 0.97,
-                                    "hasContent": 0.52,
-                                    "isDecorative": 0.39,
-                                    "importance": 1.08,
+                                    "hasContent": 0.54,
+                                    "isDecorative": 0.36,
+                                    "importance": 1.18,
                                     "interesting": true
                                   }
                                 },
@@ -3022,19 +3022,19 @@
                                       "jev": {
                                         "region": "main_content",
                                         "regionConfidence": 0.99,
-                                        "hasContent": 0.47,
-                                        "isDecorative": 0.2,
-                                        "importance": 0.98,
-                                        "interesting": false
+                                        "hasContent": 0.51,
+                                        "isDecorative": 0.19,
+                                        "importance": 1.08,
+                                        "interesting": true
                                       }
                                     }
                                   ],
                                   "jev": {
                                     "region": "main_content",
                                     "regionConfidence": 1,
-                                    "hasContent": 0.59,
-                                    "isDecorative": 0.26,
-                                    "importance": 1.27,
+                                    "hasContent": 0.54,
+                                    "isDecorative": 0.27,
+                                    "importance": 1.32,
                                     "interesting": true
                                   }
                                 }
@@ -3042,9 +3042,9 @@
                               "jev": {
                                 "region": "main_content",
                                 "regionConfidence": 1,
-                                "hasContent": 0.68,
+                                "hasContent": 0.7,
                                 "isDecorative": 0.24,
-                                "importance": 1.3,
+                                "importance": 1.33,
                                 "interesting": true
                               }
                             }
@@ -3052,8 +3052,8 @@
                           "jev": {
                             "region": "main_content",
                             "regionConfidence": 0.9,
-                            "hasContent": 0.51,
-                            "isDecorative": 0.5,
+                            "hasContent": 0.5,
+                            "isDecorative": 0.56,
                             "importance": 1.4,
                             "interesting": false
                           }
@@ -3107,17 +3107,17 @@
                                       "jev": {
                                         "region": "main_content",
                                         "regionConfidence": 0.78,
-                                        "hasContent": 0.61,
-                                        "isDecorative": 0.26,
-                                        "importance": 1.69,
+                                        "hasContent": 0.63,
+                                        "isDecorative": 0.25,
+                                        "importance": 1.66,
                                         "interesting": true
                                       }
                                     }
                                   ],
                                   "jev": {
                                     "region": "main_content",
-                                    "regionConfidence": 0.87,
-                                    "hasContent": 0.73,
+                                    "regionConfidence": 0.81,
+                                    "hasContent": 0.7,
                                     "isDecorative": 0.21,
                                     "importance": 1.83,
                                     "interesting": true
@@ -3126,10 +3126,10 @@
                               ],
                               "jev": {
                                 "region": "main_content",
-                                "regionConfidence": 0.91,
-                                "hasContent": 0.69,
+                                "regionConfidence": 0.86,
+                                "hasContent": 0.7,
                                 "isDecorative": 0.19,
-                                "importance": 1.83,
+                                "importance": 1.81,
                                 "interesting": true
                               }
                             },
@@ -3190,8 +3190,8 @@
                                             "region": "main_content",
                                             "regionConfidence": 1,
                                             "hasContent": 0.82,
-                                            "isDecorative": 0.11,
-                                            "importance": 1.74,
+                                            "isDecorative": 0.1,
+                                            "importance": 1.72,
                                             "interesting": true
                                           }
                                         }
@@ -3199,9 +3199,9 @@
                                       "jev": {
                                         "region": "main_content",
                                         "regionConfidence": 1,
-                                        "hasContent": 0.82,
-                                        "isDecorative": 0.17,
-                                        "importance": 1.72,
+                                        "hasContent": 0.79,
+                                        "isDecorative": 0.14,
+                                        "importance": 1.74,
                                         "interesting": true
                                       }
                                     },
@@ -3232,8 +3232,8 @@
                                             "region": "main_content",
                                             "regionConfidence": 1,
                                             "hasContent": 0.8,
-                                            "isDecorative": 0.1,
-                                            "importance": 1.56,
+                                            "isDecorative": 0.12,
+                                            "importance": 1.59,
                                             "interesting": true
                                           }
                                         }
@@ -3241,9 +3241,9 @@
                                       "jev": {
                                         "region": "main_content",
                                         "regionConfidence": 1,
-                                        "hasContent": 0.79,
+                                        "hasContent": 0.77,
                                         "isDecorative": 0.14,
-                                        "importance": 1.57,
+                                        "importance": 1.59,
                                         "interesting": true
                                       }
                                     }
@@ -3251,9 +3251,9 @@
                                   "jev": {
                                     "region": "main_content",
                                     "regionConfidence": 1,
-                                    "hasContent": 0.77,
-                                    "isDecorative": 0.23,
-                                    "importance": 1.7,
+                                    "hasContent": 0.78,
+                                    "isDecorative": 0.2,
+                                    "importance": 1.66,
                                     "interesting": true
                                   }
                                 },
@@ -3298,9 +3298,9 @@
                                           "jev": {
                                             "region": "main_content",
                                             "regionConfidence": 1,
-                                            "hasContent": 0.78,
+                                            "hasContent": 0.8,
                                             "isDecorative": 0.1,
-                                            "importance": 1.73,
+                                            "importance": 1.72,
                                             "interesting": true
                                           }
                                         }
@@ -3308,9 +3308,9 @@
                                       "jev": {
                                         "region": "main_content",
                                         "regionConfidence": 1,
-                                        "hasContent": 0.8,
-                                        "isDecorative": 0.13,
-                                        "importance": 1.76,
+                                        "hasContent": 0.76,
+                                        "isDecorative": 0.15,
+                                        "importance": 1.71,
                                         "interesting": true
                                       }
                                     },
@@ -3341,8 +3341,8 @@
                                             "region": "main_content",
                                             "regionConfidence": 1,
                                             "hasContent": 0.79,
-                                            "isDecorative": 0.07,
-                                            "importance": 1.52,
+                                            "isDecorative": 0.08,
+                                            "importance": 1.49,
                                             "interesting": true
                                           }
                                         }
@@ -3350,9 +3350,9 @@
                                       "jev": {
                                         "region": "main_content",
                                         "regionConfidence": 1,
-                                        "hasContent": 0.77,
-                                        "isDecorative": 0.11,
-                                        "importance": 1.54,
+                                        "hasContent": 0.78,
+                                        "isDecorative": 0.1,
+                                        "importance": 1.52,
                                         "interesting": true
                                       }
                                     }
@@ -3360,19 +3360,19 @@
                                   "jev": {
                                     "region": "main_content",
                                     "regionConfidence": 1,
-                                    "hasContent": 0.79,
-                                    "isDecorative": 0.17,
-                                    "importance": 1.74,
+                                    "hasContent": 0.78,
+                                    "isDecorative": 0.15,
+                                    "importance": 1.77,
                                     "interesting": true
                                   }
                                 }
                               ],
                               "jev": {
                                 "region": "main_content",
-                                "regionConfidence": 0.85,
-                                "hasContent": 0.55,
-                                "isDecorative": 0.63,
-                                "importance": 1.32,
+                                "regionConfidence": 0.87,
+                                "hasContent": 0.53,
+                                "isDecorative": 0.61,
+                                "importance": 1.35,
                                 "interesting": false
                               }
                             }
@@ -3380,9 +3380,9 @@
                           "jev": {
                             "region": "main_content",
                             "regionConfidence": 0.92,
-                            "hasContent": 0.56,
-                            "isDecorative": 0.47,
-                            "importance": 1.43,
+                            "hasContent": 0.54,
+                            "isDecorative": 0.4,
+                            "importance": 1.42,
                             "interesting": true
                           }
                         },
@@ -3449,20 +3449,20 @@
                                           "children": [],
                                           "jev": {
                                             "region": "main_content",
-                                            "regionConfidence": 0.49,
-                                            "hasContent": 0.46,
-                                            "isDecorative": 0.34,
-                                            "importance": 1.21,
+                                            "regionConfidence": 0.55,
+                                            "hasContent": 0.48,
+                                            "isDecorative": 0.36,
+                                            "importance": 1.17,
                                             "interesting": false
                                           }
                                         }
                                       ],
                                       "jev": {
                                         "region": "main_content",
-                                        "regionConfidence": 0.77,
-                                        "hasContent": 0.55,
-                                        "isDecorative": 0.29,
-                                        "importance": 1.67,
+                                        "regionConfidence": 0.7,
+                                        "hasContent": 0.53,
+                                        "isDecorative": 0.28,
+                                        "importance": 1.63,
                                         "interesting": true
                                       }
                                     },
@@ -3477,9 +3477,9 @@
                                       "jev": {
                                         "region": "main_content",
                                         "regionConfidence": 0.89,
-                                        "hasContent": 0.38,
-                                        "isDecorative": 0.52,
-                                        "importance": 0.71,
+                                        "hasContent": 0.36,
+                                        "isDecorative": 0.5,
+                                        "importance": 0.74,
                                         "interesting": false
                                       }
                                     }
@@ -3488,8 +3488,8 @@
                                     "region": "main_content",
                                     "regionConfidence": 0.77,
                                     "hasContent": 0.49,
-                                    "isDecorative": 0.42,
-                                    "importance": 1.47,
+                                    "isDecorative": 0.43,
+                                    "importance": 1.5,
                                     "interesting": false
                                   }
                                 },
@@ -3518,30 +3518,30 @@
                                       "children": [],
                                       "jev": {
                                         "region": "main_content",
-                                        "regionConfidence": 0.79,
-                                        "hasContent": 0.69,
-                                        "isDecorative": 0.15,
-                                        "importance": 0.94,
+                                        "regionConfidence": 0.83,
+                                        "hasContent": 0.71,
+                                        "isDecorative": 0.14,
+                                        "importance": 0.93,
                                         "interesting": true
                                       }
                                     }
                                   ],
                                   "jev": {
                                     "region": "main_content",
-                                    "regionConfidence": 0.85,
-                                    "hasContent": 0.7,
-                                    "isDecorative": 0.19,
-                                    "importance": 0.95,
+                                    "regionConfidence": 0.82,
+                                    "hasContent": 0.72,
+                                    "isDecorative": 0.18,
+                                    "importance": 0.99,
                                     "interesting": true
                                   }
                                 }
                               ],
                               "jev": {
                                 "region": "main_content",
-                                "regionConfidence": 0.92,
-                                "hasContent": 0.65,
-                                "isDecorative": 0.33,
-                                "importance": 1.1,
+                                "regionConfidence": 0.91,
+                                "hasContent": 0.68,
+                                "isDecorative": 0.29,
+                                "importance": 1.14,
                                 "interesting": true
                               }
                             },
@@ -3648,37 +3648,18 @@
                                                   "jev": {
                                                     "region": "form",
                                                     "regionConfidence": 0.99,
-                                                    "hasContent": 0.72,
-                                                    "isDecorative": 0.12,
-                                                    "importance": 1.58,
+                                                    "hasContent": 0.71,
+                                                    "isDecorative": 0.13,
+                                                    "importance": 1.63,
                                                     "interesting": true
-                                                  }
-                                                },
-                                                {
-                                                  "merged": [],
-                                                  "status": "kept",
-                                                  "id": 518,
-                                                  "tag": "INPUT",
-                                                  "aria": {
-                                                    "aria-required": "true"
-                                                  },
-                                                  "text": "",
-                                                  "children": [],
-                                                  "jev": {
-                                                    "region": "form",
-                                                    "regionConfidence": 0.99,
-                                                    "hasContent": 0.2,
-                                                    "isDecorative": 0.08,
-                                                    "importance": 1.81,
-                                                    "interesting": false
                                                   }
                                                 }
                                               ],
                                               "jev": {
                                                 "region": "form",
-                                                "regionConfidence": 0.98,
-                                                "hasContent": 0.73,
-                                                "isDecorative": 0.07,
+                                                "regionConfidence": 0.99,
+                                                "hasContent": 0.7,
+                                                "isDecorative": 0.08,
                                                 "importance": 1.79,
                                                 "interesting": true
                                               }
@@ -3722,10 +3703,10 @@
                                                       "children": [],
                                                       "jev": {
                                                         "region": "form",
-                                                        "regionConfidence": 0.92,
-                                                        "hasContent": 0.21,
-                                                        "isDecorative": 0.31,
-                                                        "importance": 0.93,
+                                                        "regionConfidence": 0.9,
+                                                        "hasContent": 0.22,
+                                                        "isDecorative": 0.3,
+                                                        "importance": 1.01,
                                                         "interesting": false
                                                       }
                                                     }
@@ -3733,36 +3714,17 @@
                                                   "jev": {
                                                     "region": "form",
                                                     "regionConfidence": 0.99,
-                                                    "hasContent": 0.72,
-                                                    "isDecorative": 0.13,
-                                                    "importance": 1.63,
+                                                    "hasContent": 0.64,
+                                                    "isDecorative": 0.12,
+                                                    "importance": 1.62,
                                                     "interesting": true
-                                                  }
-                                                },
-                                                {
-                                                  "merged": [],
-                                                  "status": "kept",
-                                                  "id": 524,
-                                                  "tag": "INPUT",
-                                                  "aria": {
-                                                    "aria-required": "true"
-                                                  },
-                                                  "text": "",
-                                                  "children": [],
-                                                  "jev": {
-                                                    "region": "form",
-                                                    "regionConfidence": 0.99,
-                                                    "hasContent": 0.2,
-                                                    "isDecorative": 0.08,
-                                                    "importance": 1.77,
-                                                    "interesting": false
                                                   }
                                                 }
                                               ],
                                               "jev": {
                                                 "region": "form",
                                                 "regionConfidence": 0.99,
-                                                "hasContent": 0.71,
+                                                "hasContent": 0.77,
                                                 "isDecorative": 0.08,
                                                 "importance": 1.83,
                                                 "interesting": true
@@ -3772,9 +3734,9 @@
                                           "jev": {
                                             "region": "form",
                                             "regionConfidence": 0.99,
-                                            "hasContent": 0.66,
-                                            "isDecorative": 0.19,
-                                            "importance": 1.81,
+                                            "hasContent": 0.67,
+                                            "isDecorative": 0.21,
+                                            "importance": 1.82,
                                             "interesting": true
                                           }
                                         },
@@ -3833,9 +3795,9 @@
                                                       "jev": {
                                                         "region": "form",
                                                         "regionConfidence": 0.92,
-                                                        "hasContent": 0.2,
-                                                        "isDecorative": 0.24,
-                                                        "importance": 1.13,
+                                                        "hasContent": 0.23,
+                                                        "isDecorative": 0.26,
+                                                        "importance": 1.02,
                                                         "interesting": false
                                                       }
                                                     }
@@ -3843,19 +3805,38 @@
                                                   "jev": {
                                                     "region": "form",
                                                     "regionConfidence": 0.99,
-                                                    "hasContent": 0.68,
-                                                    "isDecorative": 0.19,
+                                                    "hasContent": 0.65,
+                                                    "isDecorative": 0.18,
                                                     "importance": 1.62,
                                                     "interesting": true
+                                                  }
+                                                },
+                                                {
+                                                  "merged": [],
+                                                  "status": "kept",
+                                                  "id": 532,
+                                                  "tag": "INPUT",
+                                                  "aria": {
+                                                    "aria-required": "true"
+                                                  },
+                                                  "text": "",
+                                                  "children": [],
+                                                  "jev": {
+                                                    "region": "form",
+                                                    "regionConfidence": 0.99,
+                                                    "hasContent": 0.23,
+                                                    "isDecorative": 0.08,
+                                                    "importance": 1.81,
+                                                    "interesting": false
                                                   }
                                                 }
                                               ],
                                               "jev": {
                                                 "region": "form",
                                                 "regionConfidence": 0.99,
-                                                "hasContent": 0.7,
+                                                "hasContent": 0.68,
                                                 "isDecorative": 0.07,
-                                                "importance": 1.81,
+                                                "importance": 1.8,
                                                 "interesting": true
                                               }
                                             },
@@ -3898,10 +3879,10 @@
                                                       "children": [],
                                                       "jev": {
                                                         "region": "form",
-                                                        "regionConfidence": 0.87,
-                                                        "hasContent": 0.23,
-                                                        "isDecorative": 0.26,
-                                                        "importance": 1.01,
+                                                        "regionConfidence": 0.9,
+                                                        "hasContent": 0.22,
+                                                        "isDecorative": 0.27,
+                                                        "importance": 0.99,
                                                         "interesting": false
                                                       }
                                                     }
@@ -3909,9 +3890,9 @@
                                                   "jev": {
                                                     "region": "form",
                                                     "regionConfidence": 0.99,
-                                                    "hasContent": 0.63,
-                                                    "isDecorative": 0.16,
-                                                    "importance": 1.52,
+                                                    "hasContent": 0.68,
+                                                    "isDecorative": 0.18,
+                                                    "importance": 1.54,
                                                     "interesting": true
                                                   }
                                                 },
@@ -3928,9 +3909,9 @@
                                                   "jev": {
                                                     "region": "form",
                                                     "regionConfidence": 0.99,
-                                                    "hasContent": 0.2,
+                                                    "hasContent": 0.21,
                                                     "isDecorative": 0.08,
-                                                    "importance": 1.81,
+                                                    "importance": 1.77,
                                                     "interesting": false
                                                   }
                                                 }
@@ -3938,9 +3919,9 @@
                                               "jev": {
                                                 "region": "form",
                                                 "regionConfidence": 0.99,
-                                                "hasContent": 0.72,
+                                                "hasContent": 0.76,
                                                 "isDecorative": 0.07,
-                                                "importance": 1.78,
+                                                "importance": 1.79,
                                                 "interesting": true
                                               }
                                             }
@@ -3948,9 +3929,9 @@
                                           "jev": {
                                             "region": "form",
                                             "regionConfidence": 0.99,
-                                            "hasContent": 0.6,
-                                            "isDecorative": 0.18,
-                                            "importance": 1.77,
+                                            "hasContent": 0.63,
+                                            "isDecorative": 0.2,
+                                            "importance": 1.73,
                                             "interesting": true
                                           }
                                         },
@@ -3980,10 +3961,10 @@
                                                   "children": [],
                                                   "jev": {
                                                     "region": "form",
-                                                    "regionConfidence": 0.91,
-                                                    "hasContent": 0.22,
-                                                    "isDecorative": 0.23,
-                                                    "importance": 0.82,
+                                                    "regionConfidence": 0.92,
+                                                    "hasContent": 0.2,
+                                                    "isDecorative": 0.29,
+                                                    "importance": 0.73,
                                                     "interesting": false
                                                   }
                                                 }
@@ -3991,19 +3972,19 @@
                                               "jev": {
                                                 "region": "form",
                                                 "regionConfidence": 0.99,
-                                                "hasContent": 0.57,
-                                                "isDecorative": 0.17,
-                                                "importance": 1.56,
-                                                "interesting": true
+                                                "hasContent": 0.49,
+                                                "isDecorative": 0.15,
+                                                "importance": 1.58,
+                                                "interesting": false
                                               }
                                             }
                                           ],
                                           "jev": {
                                             "region": "form",
                                             "regionConfidence": 0.98,
-                                            "hasContent": 0.46,
-                                            "isDecorative": 0.12,
-                                            "importance": 1.69,
+                                            "hasContent": 0.47,
+                                            "isDecorative": 0.11,
+                                            "importance": 1.64,
                                             "interesting": false
                                           }
                                         },
@@ -4042,9 +4023,9 @@
                                                       "jev": {
                                                         "region": "form",
                                                         "regionConfidence": 0.98,
-                                                        "hasContent": 0.4,
-                                                        "isDecorative": 0.19,
-                                                        "importance": 1.62,
+                                                        "hasContent": 0.44,
+                                                        "isDecorative": 0.17,
+                                                        "importance": 1.53,
                                                         "interesting": false
                                                       }
                                                     }
@@ -4052,8 +4033,8 @@
                                                   "jev": {
                                                     "region": "form",
                                                     "regionConfidence": 0.97,
-                                                    "hasContent": 0.45,
-                                                    "isDecorative": 0.21,
+                                                    "hasContent": 0.46,
+                                                    "isDecorative": 0.19,
                                                     "importance": 1.64,
                                                     "interesting": false
                                                   }
@@ -4061,20 +4042,20 @@
                                               ],
                                               "jev": {
                                                 "region": "form",
-                                                "regionConfidence": 0.98,
-                                                "hasContent": 0.56,
+                                                "regionConfidence": 0.99,
+                                                "hasContent": 0.52,
                                                 "isDecorative": 0.08,
-                                                "importance": 1.78,
+                                                "importance": 1.82,
                                                 "interesting": true
                                               }
                                             }
                                           ],
                                           "jev": {
                                             "region": "form",
-                                            "regionConfidence": 0.89,
-                                            "hasContent": 0.42,
-                                            "isDecorative": 0.33,
-                                            "importance": 1.06,
+                                            "regionConfidence": 0.86,
+                                            "hasContent": 0.4,
+                                            "isDecorative": 0.36,
+                                            "importance": 0.97,
                                             "interesting": false
                                           }
                                         },
@@ -4089,9 +4070,26 @@
                                           "jev": {
                                             "region": "form",
                                             "regionConfidence": 0.99,
-                                            "hasContent": 0.23,
+                                            "hasContent": 0.22,
                                             "isDecorative": 0.14,
-                                            "importance": 1.31,
+                                            "importance": 1.24,
+                                            "interesting": false
+                                          }
+                                        },
+                                        {
+                                          "merged": [],
+                                          "status": "kept",
+                                          "id": 548,
+                                          "tag": "INPUT",
+                                          "aria": {},
+                                          "text": "",
+                                          "children": [],
+                                          "jev": {
+                                            "region": "form",
+                                            "regionConfidence": 0.99,
+                                            "hasContent": 0.21,
+                                            "isDecorative": 0.13,
+                                            "importance": 1.33,
                                             "interesting": false
                                           }
                                         },
@@ -4106,8 +4104,8 @@
                                           "jev": {
                                             "region": "form",
                                             "regionConfidence": 0.98,
-                                            "hasContent": 0.23,
-                                            "isDecorative": 0.13,
+                                            "hasContent": 0.22,
+                                            "isDecorative": 0.14,
                                             "importance": 1.3,
                                             "interesting": false
                                           }
@@ -4115,21 +4113,21 @@
                                       ],
                                       "jev": {
                                         "region": "form",
-                                        "regionConfidence": 0.95,
-                                        "hasContent": 0.51,
-                                        "isDecorative": 0.08,
-                                        "importance": 1.45,
-                                        "interesting": true
+                                        "regionConfidence": 0.97,
+                                        "hasContent": 0.46,
+                                        "isDecorative": 0.07,
+                                        "importance": 1.41,
+                                        "interesting": false
                                       }
                                     }
                                   ],
                                   "jev": {
                                     "region": "form",
                                     "regionConfidence": 0.86,
-                                    "hasContent": 0.49,
+                                    "hasContent": 0.51,
                                     "isDecorative": 0.29,
-                                    "importance": 1.27,
-                                    "interesting": false
+                                    "importance": 1.29,
+                                    "interesting": true
                                   }
                                 },
                                 {
@@ -4195,20 +4193,20 @@
                                                   "children": [],
                                                   "jev": {
                                                     "region": "main_content",
-                                                    "regionConfidence": 0.67,
+                                                    "regionConfidence": 0.7,
                                                     "hasContent": 0.46,
-                                                    "isDecorative": 0.25,
-                                                    "importance": 0.65,
+                                                    "isDecorative": 0.26,
+                                                    "importance": 0.69,
                                                     "interesting": false
                                                   }
                                                 }
                                               ],
                                               "jev": {
                                                 "region": "main_content",
-                                                "regionConfidence": 0.69,
-                                                "hasContent": 0.55,
-                                                "isDecorative": 0.27,
-                                                "importance": 0.84,
+                                                "regionConfidence": 0.73,
+                                                "hasContent": 0.54,
+                                                "isDecorative": 0.26,
+                                                "importance": 0.87,
                                                 "interesting": true
                                               }
                                             },
@@ -4222,20 +4220,20 @@
                                               "children": [],
                                               "jev": {
                                                 "region": "main_content",
-                                                "regionConfidence": 0.71,
+                                                "regionConfidence": 0.73,
                                                 "hasContent": 0.71,
-                                                "isDecorative": 0.24,
-                                                "importance": 0.91,
+                                                "isDecorative": 0.22,
+                                                "importance": 0.96,
                                                 "interesting": true
                                               }
                                             }
                                           ],
                                           "jev": {
                                             "region": "main_content",
-                                            "regionConfidence": 0.86,
-                                            "hasContent": 0.7,
+                                            "regionConfidence": 0.84,
+                                            "hasContent": 0.71,
                                             "isDecorative": 0.25,
-                                            "importance": 1.06,
+                                            "importance": 0.97,
                                             "interesting": true
                                           }
                                         },
@@ -4287,30 +4285,30 @@
                                                       "children": [],
                                                       "jev": {
                                                         "region": "main_content",
-                                                        "regionConfidence": 0.98,
-                                                        "hasContent": 0.5,
-                                                        "isDecorative": 0.18,
-                                                        "importance": 0.78,
-                                                        "interesting": false
+                                                        "regionConfidence": 0.94,
+                                                        "hasContent": 0.57,
+                                                        "isDecorative": 0.17,
+                                                        "importance": 0.72,
+                                                        "interesting": true
                                                       }
                                                     }
                                                   ],
                                                   "jev": {
                                                     "region": "main_content",
                                                     "regionConfidence": 0.95,
-                                                    "hasContent": 0.43,
-                                                    "isDecorative": 0.3,
-                                                    "importance": 0.57,
+                                                    "hasContent": 0.38,
+                                                    "isDecorative": 0.27,
+                                                    "importance": 0.53,
                                                     "interesting": false
                                                   }
                                                 }
                                               ],
                                               "jev": {
                                                 "region": "main_content",
-                                                "regionConfidence": 0.95,
-                                                "hasContent": 0.43,
-                                                "isDecorative": 0.27,
-                                                "importance": 0.6,
+                                                "regionConfidence": 0.97,
+                                                "hasContent": 0.45,
+                                                "isDecorative": 0.25,
+                                                "importance": 0.73,
                                                 "interesting": false
                                               }
                                             },
@@ -4348,29 +4346,29 @@
                                                       "jev": {
                                                         "region": "main_content",
                                                         "regionConfidence": 0.95,
-                                                        "hasContent": 0.52,
-                                                        "isDecorative": 0.22,
-                                                        "importance": 0.6,
-                                                        "interesting": true
+                                                        "hasContent": 0.48,
+                                                        "isDecorative": 0.18,
+                                                        "importance": 0.66,
+                                                        "interesting": false
                                                       }
                                                     }
                                                   ],
                                                   "jev": {
                                                     "region": "main_content",
                                                     "regionConfidence": 0.94,
-                                                    "hasContent": 0.44,
-                                                    "isDecorative": 0.31,
-                                                    "importance": 0.5,
+                                                    "hasContent": 0.45,
+                                                    "isDecorative": 0.32,
+                                                    "importance": 0.49,
                                                     "interesting": false
                                                   }
                                                 }
                                               ],
                                               "jev": {
                                                 "region": "main_content",
-                                                "regionConfidence": 0.95,
-                                                "hasContent": 0.46,
+                                                "regionConfidence": 0.94,
+                                                "hasContent": 0.47,
                                                 "isDecorative": 0.28,
-                                                "importance": 0.66,
+                                                "importance": 0.63,
                                                 "interesting": false
                                               }
                                             },
@@ -4407,19 +4405,19 @@
                                                       "children": [],
                                                       "jev": {
                                                         "region": "main_content",
-                                                        "regionConfidence": 0.95,
-                                                        "hasContent": 0.47,
+                                                        "regionConfidence": 0.97,
+                                                        "hasContent": 0.48,
                                                         "isDecorative": 0.17,
-                                                        "importance": 0.76,
+                                                        "importance": 0.77,
                                                         "interesting": false
                                                       }
                                                     }
                                                   ],
                                                   "jev": {
                                                     "region": "main_content",
-                                                    "regionConfidence": 0.95,
-                                                    "hasContent": 0.46,
-                                                    "isDecorative": 0.25,
+                                                    "regionConfidence": 0.97,
+                                                    "hasContent": 0.47,
+                                                    "isDecorative": 0.24,
                                                     "importance": 0.74,
                                                     "interesting": false
                                                   }
@@ -4428,9 +4426,9 @@
                                               "jev": {
                                                 "region": "main_content",
                                                 "regionConfidence": 0.95,
-                                                "hasContent": 0.47,
+                                                "hasContent": 0.49,
                                                 "isDecorative": 0.21,
-                                                "importance": 0.77,
+                                                "importance": 0.75,
                                                 "interesting": false
                                               }
                                             },
@@ -4468,49 +4466,49 @@
                                                       "jev": {
                                                         "region": "main_content",
                                                         "regionConfidence": 0.97,
-                                                        "hasContent": 0.49,
+                                                        "hasContent": 0.54,
                                                         "isDecorative": 0.18,
                                                         "importance": 0.68,
-                                                        "interesting": false
+                                                        "interesting": true
                                                       }
                                                     }
                                                   ],
                                                   "jev": {
                                                     "region": "main_content",
                                                     "regionConfidence": 0.94,
-                                                    "hasContent": 0.44,
-                                                    "isDecorative": 0.25,
-                                                    "importance": 0.62,
+                                                    "hasContent": 0.46,
+                                                    "isDecorative": 0.26,
+                                                    "importance": 0.6,
                                                     "interesting": false
                                                   }
                                                 }
                                               ],
                                               "jev": {
                                                 "region": "main_content",
-                                                "regionConfidence": 0.97,
-                                                "hasContent": 0.46,
-                                                "isDecorative": 0.24,
-                                                "importance": 0.75,
+                                                "regionConfidence": 0.95,
+                                                "hasContent": 0.47,
+                                                "isDecorative": 0.26,
+                                                "importance": 0.7,
                                                 "interesting": false
                                               }
                                             }
                                           ],
                                           "jev": {
                                             "region": "main_content",
-                                            "regionConfidence": 0.87,
-                                            "hasContent": 0.42,
-                                            "isDecorative": 0.48,
-                                            "importance": 1.1,
+                                            "regionConfidence": 0.89,
+                                            "hasContent": 0.44,
+                                            "isDecorative": 0.54,
+                                            "importance": 1.06,
                                             "interesting": false
                                           }
                                         }
                                       ],
                                       "jev": {
                                         "region": "main_content",
-                                        "regionConfidence": 0.51,
-                                        "hasContent": 0.72,
-                                        "isDecorative": 0.26,
-                                        "importance": 1.13,
+                                        "regionConfidence": 0.57,
+                                        "hasContent": 0.7,
+                                        "isDecorative": 0.28,
+                                        "importance": 1.11,
                                         "interesting": true
                                       }
                                     },
@@ -4562,8 +4560,8 @@
                                                   "children": [],
                                                   "jev": {
                                                     "region": "main_content",
-                                                    "regionConfidence": 0.55,
-                                                    "hasContent": 0.47,
+                                                    "regionConfidence": 0.59,
+                                                    "hasContent": 0.49,
                                                     "isDecorative": 0.29,
                                                     "importance": 0.79,
                                                     "interesting": false
@@ -4572,10 +4570,10 @@
                                               ],
                                               "jev": {
                                                 "region": "main_content",
-                                                "regionConfidence": 0.7,
-                                                "hasContent": 0.61,
-                                                "isDecorative": 0.28,
-                                                "importance": 1.08,
+                                                "regionConfidence": 0.67,
+                                                "hasContent": 0.58,
+                                                "isDecorative": 0.29,
+                                                "importance": 1.17,
                                                 "interesting": true
                                               }
                                             },
@@ -4589,10 +4587,10 @@
                                               "children": [],
                                               "jev": {
                                                 "region": "main_content",
-                                                "regionConfidence": 0.98,
-                                                "hasContent": 0.57,
-                                                "isDecorative": 0.2,
-                                                "importance": 1.09,
+                                                "regionConfidence": 0.95,
+                                                "hasContent": 0.56,
+                                                "isDecorative": 0.21,
+                                                "importance": 1.04,
                                                 "interesting": true
                                               }
                                             }
@@ -4600,8 +4598,8 @@
                                           "jev": {
                                             "region": "main_content",
                                             "regionConfidence": 0.92,
-                                            "hasContent": 0.67,
-                                            "isDecorative": 0.25,
+                                            "hasContent": 0.65,
+                                            "isDecorative": 0.26,
                                             "importance": 1.09,
                                             "interesting": true
                                           }
@@ -4640,29 +4638,29 @@
                                                   "jev": {
                                                     "region": "main_content",
                                                     "regionConfidence": 0.94,
-                                                    "hasContent": 0.54,
-                                                    "isDecorative": 0.23,
-                                                    "importance": 1.08,
+                                                    "hasContent": 0.51,
+                                                    "isDecorative": 0.25,
+                                                    "importance": 1.05,
                                                     "interesting": true
                                                   }
                                                 }
                                               ],
                                               "jev": {
                                                 "region": "main_content",
-                                                "regionConfidence": 0.95,
-                                                "hasContent": 0.55,
-                                                "isDecorative": 0.24,
-                                                "importance": 1.52,
+                                                "regionConfidence": 0.92,
+                                                "hasContent": 0.57,
+                                                "isDecorative": 0.25,
+                                                "importance": 1.46,
                                                 "interesting": true
                                               }
                                             }
                                           ],
                                           "jev": {
                                             "region": "main_content",
-                                            "regionConfidence": 0.97,
-                                            "hasContent": 0.55,
+                                            "regionConfidence": 0.95,
+                                            "hasContent": 0.57,
                                             "isDecorative": 0.26,
-                                            "importance": 1.47,
+                                            "importance": 1.45,
                                             "interesting": true
                                           }
                                         }
@@ -4670,18 +4668,18 @@
                                       "jev": {
                                         "region": "main_content",
                                         "regionConfidence": 0.94,
-                                        "hasContent": 0.62,
-                                        "isDecorative": 0.44,
-                                        "importance": 1.12,
+                                        "hasContent": 0.63,
+                                        "isDecorative": 0.46,
+                                        "importance": 1.14,
                                         "interesting": true
                                       }
                                     }
                                   ],
                                   "jev": {
                                     "region": "main_content",
-                                    "regionConfidence": 0.86,
-                                    "hasContent": 0.58,
-                                    "isDecorative": 0.57,
+                                    "regionConfidence": 0.89,
+                                    "hasContent": 0.57,
+                                    "isDecorative": 0.56,
                                     "importance": 1.36,
                                     "interesting": false
                                   }
@@ -4689,20 +4687,20 @@
                               ],
                               "jev": {
                                 "region": "form",
-                                "regionConfidence": 0.59,
-                                "hasContent": 0.52,
+                                "regionConfidence": 0.57,
+                                "hasContent": 0.49,
                                 "isDecorative": 0.44,
-                                "importance": 1.18,
-                                "interesting": true
+                                "importance": 1.15,
+                                "interesting": false
                               }
                             }
                           ],
                           "jev": {
                             "region": "main_content",
-                            "regionConfidence": 0.9,
-                            "hasContent": 0.57,
-                            "isDecorative": 0.53,
-                            "importance": 1.33,
+                            "regionConfidence": 0.91,
+                            "hasContent": 0.6,
+                            "isDecorative": 0.57,
+                            "importance": 1.42,
                             "interesting": false
                           }
                         }
@@ -4711,16 +4709,16 @@
                         "region": "main_content",
                         "regionConfidence": 0.93,
                         "hasContent": 0.6,
-                        "isDecorative": 0.49,
-                        "importance": 1.41,
-                        "interesting": true
+                        "isDecorative": 0.5,
+                        "importance": 1.38,
+                        "interesting": false
                       }
                     }
                   ],
                   "jev": {
                     "region": "main_content",
                     "regionConfidence": 1,
-                    "hasContent": 0.74,
+                    "hasContent": 0.72,
                     "isDecorative": 0.16,
                     "importance": 1.9,
                     "interesting": true
@@ -4730,7 +4728,7 @@
               "jev": {
                 "region": "main_content",
                 "regionConfidence": 1,
-                "hasContent": 0.68,
+                "hasContent": 0.69,
                 "isDecorative": 0.3,
                 "importance": 1.8,
                 "interesting": true
@@ -4740,8 +4738,8 @@
           "jev": {
             "region": "main_content",
             "regionConfidence": 1,
-            "hasContent": 0.73,
-            "isDecorative": 0.08,
+            "hasContent": 0.75,
+            "isDecorative": 0.09,
             "importance": 1.98,
             "interesting": true
           }
@@ -4820,31 +4818,13 @@
                   "tag": "DIV",
                   "aria": {},
                   "text": "",
-                  "children": [
-                    {
-                      "merged": [],
-                      "status": "kept",
-                      "id": 638,
-                      "tag": "P",
-                      "aria": {},
-                      "text": "© 2026 WDAC",
-                      "children": [],
-                      "jev": {
-                        "region": "footer",
-                        "regionConfidence": 1,
-                        "hasContent": 0.35,
-                        "isDecorative": 0.12,
-                        "importance": 0.25,
-                        "interesting": false
-                      }
-                    }
-                  ],
+                  "children": [],
                   "jev": {
                     "region": "footer",
                     "regionConfidence": 1,
-                    "hasContent": 0.45,
-                    "isDecorative": 0.11,
-                    "importance": 0.19,
+                    "hasContent": 0.39,
+                    "isDecorative": 0.13,
+                    "importance": 0.23,
                     "interesting": false
                   }
                 }
@@ -4852,9 +4832,9 @@
               "jev": {
                 "region": "footer",
                 "regionConfidence": 0.99,
-                "hasContent": 0.49,
+                "hasContent": 0.45,
                 "isDecorative": 0.26,
-                "importance": 0.51,
+                "importance": 0.49,
                 "interesting": false
               }
             }
@@ -4862,8 +4842,8 @@
           "jev": {
             "region": "footer",
             "regionConfidence": 1,
-            "hasContent": 0.58,
-            "isDecorative": 0.13,
+            "hasContent": 0.59,
+            "isDecorative": 0.15,
             "importance": 0.8,
             "interesting": true
           }
@@ -4871,10 +4851,10 @@
       ],
       "jev": {
         "region": "navigation",
-        "regionConfidence": 0.5,
-        "hasContent": 0.48,
-        "isDecorative": 0.23,
-        "importance": 0.8,
+        "regionConfidence": 0.29,
+        "hasContent": 0.49,
+        "isDecorative": 0.2,
+        "importance": 0.86,
         "interesting": false
       }
     },
@@ -4891,10 +4871,10 @@
       "children": [],
       "jev": {
         "region": "navigation",
-        "regionConfidence": 0.34,
+        "regionConfidence": 0.33,
         "hasContent": 0.38,
-        "isDecorative": 0.31,
-        "importance": 0.38,
+        "isDecorative": 0.24,
+        "importance": 0.36,
         "interesting": false
       }
     },
@@ -4910,10 +4890,10 @@
       "children": [],
       "jev": {
         "region": "navigation",
-        "regionConfidence": 0.45,
-        "hasContent": 0.45,
+        "regionConfidence": 0.46,
+        "hasContent": 0.46,
         "isDecorative": 0.1,
-        "importance": 0.65,
+        "importance": 0.72,
         "interesting": false
       }
     },
@@ -4993,8 +4973,8 @@
                             "region": "navigation",
                             "regionConfidence": 1,
                             "hasContent": 0.8,
-                            "isDecorative": 0.11,
-                            "importance": 1.75,
+                            "isDecorative": 0.12,
+                            "importance": 1.68,
                             "interesting": true
                           }
                         }
@@ -5002,9 +4982,9 @@
                       "jev": {
                         "region": "navigation",
                         "regionConfidence": 1,
-                        "hasContent": 0.77,
+                        "hasContent": 0.73,
                         "isDecorative": 0.12,
-                        "importance": 1.69,
+                        "importance": 1.68,
                         "interesting": true
                       }
                     },
@@ -5027,9 +5007,9 @@
                           "jev": {
                             "region": "navigation",
                             "regionConfidence": 1,
-                            "hasContent": 0.69,
-                            "isDecorative": 0.12,
-                            "importance": 1.28,
+                            "hasContent": 0.67,
+                            "isDecorative": 0.11,
+                            "importance": 1.23,
                             "interesting": true
                           }
                         }
@@ -5037,9 +5017,9 @@
                       "jev": {
                         "region": "navigation",
                         "regionConfidence": 1,
-                        "hasContent": 0.7,
-                        "isDecorative": 0.09,
-                        "importance": 1.2,
+                        "hasContent": 0.69,
+                        "isDecorative": 0.1,
+                        "importance": 1.19,
                         "interesting": true
                       }
                     },
@@ -5062,9 +5042,9 @@
                           "jev": {
                             "region": "navigation",
                             "regionConfidence": 1,
-                            "hasContent": 0.52,
-                            "isDecorative": 0.12,
-                            "importance": 1.35,
+                            "hasContent": 0.53,
+                            "isDecorative": 0.13,
+                            "importance": 1.41,
                             "interesting": true
                           }
                         }
@@ -5072,10 +5052,10 @@
                       "jev": {
                         "region": "navigation",
                         "regionConfidence": 1,
-                        "hasContent": 0.51,
-                        "isDecorative": 0.11,
-                        "importance": 1.42,
-                        "interesting": true
+                        "hasContent": 0.5,
+                        "isDecorative": 0.1,
+                        "importance": 1.43,
+                        "interesting": false
                       }
                     },
                     {
@@ -5097,9 +5077,9 @@
                           "jev": {
                             "region": "navigation",
                             "regionConfidence": 1,
-                            "hasContent": 0.58,
+                            "hasContent": 0.6,
                             "isDecorative": 0.1,
-                            "importance": 1.31,
+                            "importance": 1.35,
                             "interesting": true
                           }
                         }
@@ -5107,9 +5087,9 @@
                       "jev": {
                         "region": "navigation",
                         "regionConfidence": 1,
-                        "hasContent": 0.61,
+                        "hasContent": 0.62,
                         "isDecorative": 0.11,
-                        "importance": 1.36,
+                        "importance": 1.28,
                         "interesting": true
                       }
                     },
@@ -5132,9 +5112,9 @@
                           "jev": {
                             "region": "navigation",
                             "regionConfidence": 1,
-                            "hasContent": 0.56,
-                            "isDecorative": 0.15,
-                            "importance": 1.13,
+                            "hasContent": 0.55,
+                            "isDecorative": 0.13,
+                            "importance": 1.18,
                             "interesting": true
                           }
                         }
@@ -5142,9 +5122,9 @@
                       "jev": {
                         "region": "navigation",
                         "regionConfidence": 1,
-                        "hasContent": 0.61,
+                        "hasContent": 0.56,
                         "isDecorative": 0.1,
-                        "importance": 1.16,
+                        "importance": 1.15,
                         "interesting": true
                       }
                     },
@@ -5168,8 +5148,8 @@
                             "region": "navigation",
                             "regionConfidence": 1,
                             "hasContent": 0.59,
-                            "isDecorative": 0.12,
-                            "importance": 1.27,
+                            "isDecorative": 0.1,
+                            "importance": 1.33,
                             "interesting": true
                           }
                         }
@@ -5177,9 +5157,9 @@
                       "jev": {
                         "region": "navigation",
                         "regionConfidence": 1,
-                        "hasContent": 0.62,
-                        "isDecorative": 0.09,
-                        "importance": 1.21,
+                        "hasContent": 0.61,
+                        "isDecorative": 0.1,
+                        "importance": 1.19,
                         "interesting": true
                       }
                     },
@@ -5211,10 +5191,10 @@
                               "children": [],
                               "jev": {
                                 "region": "navigation",
-                                "regionConfidence": 0.99,
-                                "hasContent": 0.52,
-                                "isDecorative": 0.15,
-                                "importance": 1.34,
+                                "regionConfidence": 1,
+                                "hasContent": 0.51,
+                                "isDecorative": 0.16,
+                                "importance": 1.37,
                                 "interesting": true
                               }
                             },
@@ -5240,8 +5220,8 @@
                                     "region": "navigation",
                                     "regionConfidence": 0.99,
                                     "hasContent": 0.69,
-                                    "isDecorative": 0.35,
-                                    "importance": 1.27,
+                                    "isDecorative": 0.32,
+                                    "importance": 1.28,
                                     "interesting": true
                                   }
                                 }
@@ -5249,9 +5229,9 @@
                               "jev": {
                                 "region": "navigation",
                                 "regionConfidence": 1,
-                                "hasContent": 0.83,
+                                "hasContent": 0.85,
                                 "isDecorative": 0.12,
-                                "importance": 1.5,
+                                "importance": 1.46,
                                 "interesting": true
                               }
                             }
@@ -5259,9 +5239,9 @@
                           "jev": {
                             "region": "navigation",
                             "regionConfidence": 1,
-                            "hasContent": 0.64,
-                            "isDecorative": 0.19,
-                            "importance": 1.34,
+                            "hasContent": 0.66,
+                            "isDecorative": 0.16,
+                            "importance": 1.39,
                             "interesting": true
                           }
                         },
@@ -5292,9 +5272,9 @@
                                   "jev": {
                                     "region": "navigation",
                                     "regionConfidence": 1,
-                                    "hasContent": 0.7,
+                                    "hasContent": 0.67,
                                     "isDecorative": 0.11,
-                                    "importance": 1.07,
+                                    "importance": 1.1,
                                     "interesting": true
                                   }
                                 }
@@ -5302,9 +5282,9 @@
                               "jev": {
                                 "region": "navigation",
                                 "regionConfidence": 1,
-                                "hasContent": 0.64,
-                                "isDecorative": 0.13,
-                                "importance": 0.79,
+                                "hasContent": 0.66,
+                                "isDecorative": 0.14,
+                                "importance": 1,
                                 "interesting": true
                               }
                             },
@@ -5327,9 +5307,9 @@
                                   "jev": {
                                     "region": "navigation",
                                     "regionConfidence": 1,
-                                    "hasContent": 0.63,
-                                    "isDecorative": 0.14,
-                                    "importance": 1.2,
+                                    "hasContent": 0.65,
+                                    "isDecorative": 0.13,
+                                    "importance": 1.22,
                                     "interesting": true
                                   }
                                 }
@@ -5339,7 +5319,7 @@
                                 "regionConfidence": 1,
                                 "hasContent": 0.63,
                                 "isDecorative": 0.15,
-                                "importance": 1.08,
+                                "importance": 1.13,
                                 "interesting": true
                               }
                             },
@@ -5363,8 +5343,8 @@
                                     "region": "navigation",
                                     "regionConfidence": 1,
                                     "hasContent": 0.63,
-                                    "isDecorative": 0.11,
-                                    "importance": 0.99,
+                                    "isDecorative": 0.12,
+                                    "importance": 1.02,
                                     "interesting": true
                                   }
                                 }
@@ -5373,8 +5353,8 @@
                                 "region": "navigation",
                                 "regionConfidence": 1,
                                 "hasContent": 0.6,
-                                "isDecorative": 0.14,
-                                "importance": 1.02,
+                                "isDecorative": 0.13,
+                                "importance": 1.09,
                                 "interesting": true
                               }
                             },
@@ -5398,8 +5378,8 @@
                                     "region": "navigation",
                                     "regionConfidence": 1,
                                     "hasContent": 0.57,
-                                    "isDecorative": 0.13,
-                                    "importance": 0.96,
+                                    "isDecorative": 0.14,
+                                    "importance": 0.92,
                                     "interesting": true
                                   }
                                 }
@@ -5407,9 +5387,9 @@
                               "jev": {
                                 "region": "navigation",
                                 "regionConfidence": 1,
-                                "hasContent": 0.54,
-                                "isDecorative": 0.18,
-                                "importance": 0.9,
+                                "hasContent": 0.52,
+                                "isDecorative": 0.16,
+                                "importance": 0.91,
                                 "interesting": true
                               }
                             },
@@ -5432,8 +5412,8 @@
                                   "jev": {
                                     "region": "navigation",
                                     "regionConfidence": 1,
-                                    "hasContent": 0.61,
-                                    "isDecorative": 0.11,
+                                    "hasContent": 0.63,
+                                    "isDecorative": 0.12,
                                     "importance": 0.93,
                                     "interesting": true
                                   }
@@ -5442,19 +5422,19 @@
                               "jev": {
                                 "region": "navigation",
                                 "regionConfidence": 1,
-                                "hasContent": 0.56,
-                                "isDecorative": 0.14,
-                                "importance": 0.89,
+                                "hasContent": 0.55,
+                                "isDecorative": 0.15,
+                                "importance": 0.81,
                                 "interesting": true
                               }
                             }
                           ],
                           "jev": {
                             "region": "navigation",
-                            "regionConfidence": 1,
-                            "hasContent": 0.66,
-                            "isDecorative": 0.12,
-                            "importance": 1.66,
+                            "regionConfidence": 0.99,
+                            "hasContent": 0.64,
+                            "isDecorative": 0.11,
+                            "importance": 1.69,
                             "interesting": true
                           }
                         }
@@ -5462,9 +5442,9 @@
                       "jev": {
                         "region": "navigation",
                         "regionConfidence": 1,
-                        "hasContent": 0.58,
+                        "hasContent": 0.57,
                         "isDecorative": 0.12,
-                        "importance": 1.48,
+                        "importance": 1.49,
                         "interesting": true
                       }
                     },
@@ -5489,9 +5469,9 @@
                           "jev": {
                             "region": "navigation",
                             "regionConfidence": 1,
-                            "hasContent": 0.66,
-                            "isDecorative": 0.1,
-                            "importance": 1.52,
+                            "hasContent": 0.71,
+                            "isDecorative": 0.12,
+                            "importance": 1.47,
                             "interesting": true
                           }
                         }
@@ -5499,9 +5479,9 @@
                       "jev": {
                         "region": "navigation",
                         "regionConfidence": 1,
-                        "hasContent": 0.69,
+                        "hasContent": 0.65,
                         "isDecorative": 0.09,
-                        "importance": 1.47,
+                        "importance": 1.46,
                         "interesting": true
                       }
                     }
@@ -5509,9 +5489,9 @@
                   "jev": {
                     "region": "navigation",
                     "regionConfidence": 1,
-                    "hasContent": 0.52,
+                    "hasContent": 0.54,
                     "isDecorative": 0.07,
-                    "importance": 1.71,
+                    "importance": 1.75,
                     "interesting": true
                   }
                 }
@@ -5519,9 +5499,9 @@
               "jev": {
                 "region": "navigation",
                 "regionConfidence": 1,
-                "hasContent": 0.55,
-                "isDecorative": 0.23,
-                "importance": 1.52,
+                "hasContent": 0.53,
+                "isDecorative": 0.21,
+                "importance": 1.55,
                 "interesting": true
               }
             }
@@ -5529,9 +5509,9 @@
           "jev": {
             "region": "navigation",
             "regionConfidence": 1,
-            "hasContent": 0.64,
+            "hasContent": 0.58,
             "isDecorative": 0.12,
-            "importance": 1.84,
+            "importance": 1.81,
             "interesting": true
           }
         }
@@ -5539,9 +5519,9 @@
       "jev": {
         "region": "navigation",
         "regionConfidence": 0.98,
-        "hasContent": 0.45,
-        "isDecorative": 0.27,
-        "importance": 1.53,
+        "hasContent": 0.39,
+        "isDecorative": 0.26,
+        "importance": 1.56,
         "interesting": false
       }
     }
@@ -5549,9 +5529,9 @@
   "jev": {
     "region": "main_content",
     "regionConfidence": 0.49,
-    "hasContent": 0.78,
-    "isDecorative": 0.14,
-    "importance": 1.61,
+    "hasContent": 0.74,
+    "isDecorative": 0.17,
+    "importance": 1.53,
     "interesting": true
   }
 }
