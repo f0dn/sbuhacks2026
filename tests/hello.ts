@@ -1,5 +1,5 @@
-import { choice, score, TypeSafeClient } from "@typesafe-ai/sdk";
-import "dotenv/config";
+import { choice, score, TypeSafeClient } from '@typesafe-ai/sdk';
+import 'dotenv/config';
 
 const run = async () => {
   const elementOfInterest = `
@@ -68,23 +68,23 @@ ANALYSIS&nbsp;CENTER</span
 
 Element of interest:\n${elementOfInterest}`;
 
-  const client = new TypeSafeClient({ defaultModel: "jev-latest" });
+  const client = new TypeSafeClient({ defaultModel: 'jev-latest' });
   const response = await client.systemOne({
     state,
     questions: {
-      element: choice("What type of element is the element of interest?", {
+      element: choice('What type of element is the element of interest?', {
         paragraph:
-          "A paragraph of text. Used to description or explaining something.",
-        heading: "A heading or title. Used to introduce a section.",
-        list: "A list of items. Used to present information in a structured way.",
-        link: "A hyperlink. Used to navigate to another page or resource.",
-        image: "An image. Used to visually represent something.",
-        button: "A button. Used to trigger an action or event.",
-        container: "A container. Used to group other elements together.",
+          'A paragraph of text. Used to description or explaining something.',
+        heading: 'A heading or title. Used to introduce a section.',
+        list: 'A list of items. Used to present information in a structured way.',
+        link: 'A hyperlink. Used to navigate to another page or resource.',
+        image: 'An image. Used to visually represent something.',
+        button: 'A button. Used to trigger an action or event.',
+        container: 'A container. Used to group other elements together.',
       }),
       is_important: score(
-        "How important is this element to the overall content of the page?",
-        ["Not important at all", "Somewhat important", "Very important"],
+        'How important is this element to the overall content of the page?',
+        ['Not important at all', 'Somewhat important', 'Very important'],
       ),
     },
   });

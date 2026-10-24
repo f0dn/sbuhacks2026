@@ -1,6 +1,6 @@
-import type { ParsedNode } from "./types.js";
+import type { ParsedNode } from './types.js';
 
-const squash = (s: string) => s.replace(/\s+/g, " ").trim();
+const squash = (s: string) => s.replace(/\s+/g, ' ').trim();
 
 /**
  * turn the DOM under `root` into a `ParsedNode` tree. every element is also
@@ -19,14 +19,14 @@ export const parse = (
     aria: Object.fromEntries(
       root
         .getAttributeNames()
-        .filter((name) => name.startsWith("aria-") || name === "role")
-        .map((name) => [name, root.getAttribute(name) ?? ""]),
+        .filter((name) => name.startsWith('aria-') || name === 'role')
+        .map((name) => [name, root.getAttribute(name) ?? '']),
     ),
     text: squash(
       [...root.childNodes]
         .filter((n) => n.nodeType === Node.TEXT_NODE)
         .map((n) => n.textContent)
-        .join(" "),
+        .join(' '),
     ),
     children: [...root.children].map((el) => parse(el, elements)),
   };
