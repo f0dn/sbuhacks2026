@@ -134,6 +134,21 @@ export const walkTree = <D>(
 };
 
 /**
+ * visit every node bottom-up (postorder DFS): a node is visited after all its
+ * children, and gets their results in order. returns the root's result.
+ */
+export const walkTreePost = <D, R = void>(
+  node: DomNode<D>,
+  visit: (n: DomNode<D>, childResults: R[], depth: number) => R,
+  depth = 0,
+): R =>
+  visit(
+    node,
+    node.children.map((c) => walkTreePost(c, visit, depth + 1)),
+    depth,
+  );
+
+/**
  * visit nodes top-down (breadth first), up to `concurrency` at a time. a
  * node's children are only visited if `visit` resolves to true. no new visits
  * start once `limit` is reached. returns how many nodes were visited.
@@ -172,6 +187,38 @@ export const walkTreeAsync = async <D>(
     pump();
   });
   return started;
+};
+
+/**
+ * visit nodes bottom-up (postorder), up to `concurrency` visits at a time. a
+ * node is visited once all its children have resolved, and gets their results
+ * in order. sibling subtrees run in parallel. resolves to the root's result.
+ */
+export const walkTreePostAsync = async <D, R = void>(
+  root: DomNode<D>,
+  visit: (n: DomNode<D>, childResults: R[], depth: number) => Promise<R>,
+  { concurrency = 8 }: { concurrency?: number } = {},
+): Promise<R> => {
+  let active = 0;
+  const waiting: (() => void)[] = [];
+
+  const run = async (n: DomNode<D>, depth: number): Promise<R> => {
+    const results = await Promise.all(
+      n.children.map((c) => run(c, depth + 1)),
+    );
+    // a slot is only held during `visit`, never while waiting on children,
+    // so deep trees can't deadlock
+    while (active >= concurrency)
+      await new Promise<void>((wake) => waiting.push(wake));
+    active++;
+    try {
+      return await visit(n, results, depth);
+    } finally {
+      active--;
+      waiting.shift()?.();
+    }
+  };
+  return run(root, 0);
 };
 
 export const clip = (s: string, n: number) =>
