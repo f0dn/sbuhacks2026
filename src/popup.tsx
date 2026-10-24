@@ -1,5 +1,5 @@
-import { useState } from "react";
-import { createRoot } from "react-dom/client";
+import { useState } from 'react';
+import { createRoot } from 'react-dom/client';
 
 const Popup = () => {
   const [count, setCount] = useState(0);
@@ -21,6 +21,6 @@ const Popup = () => {
   );
 };
 
-const container = document.getElementById("root");
+const container = document.getElementById('root');
 const root = createRoot(container!);
 root.render(<Popup />);
