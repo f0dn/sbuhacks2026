@@ -1,6 +1,8 @@
 // loads the built extension (dist/, from `pnpm build`) into Chromium, opens a
-// real page, opens the navigator with Alt+Shift+N, and drives it with keys,
-// printing what it says after each one. saves screenshots to test-results/.
+// real page and jumps through its sections with Alt+Shift+Down, printing for
+// each what is read out loud, the element that receives focus (read by a
+// screen reader itself) and what the live region announces. saves a
+// screenshot to test-results/.
 //
 // usage: pnpm build && pnpm tsx tests/extension-e2e.ts [url]
 // (needs Playwright's Chromium: `npx playwright install chromium`)
@@ -34,75 +36,90 @@ const worker =
 console.log("extension loaded:", worker.url());
 
 const page = await context.newPage();
-const said: string[] = [];
+const announced: string[] = [];
+const spoken: string[] = [];
 let ready: () => void;
 const isReady = new Promise<void>((r) => (ready = r));
 page.on("console", (m) => {
   const text = m.text();
-  if (text.startsWith("[esr] say:")) said.push(text.slice("[esr] say: ".length));
-  else if (text.startsWith("[esr]")) console.log(text);
-  if (text.startsWith("[esr] navigator ready")) ready();
-  if (text.startsWith("[esr] analysis failed")) ready();
+  if (text.startsWith("[esr] announce:")) announced.push(text.slice("[esr] announce: ".length));
+  if (text.startsWith("[esr] speak:")) spoken.push(text.slice("[esr] speak: ".length));
+  if (text.startsWith("[esr] sections ready") || text.startsWith("[esr] analysis failed")) {
+    console.log(text);
+    ready();
+  }
 });
+
+/** the focused element, roughly as a screen reader would read it */
+const focused = (p: Page) =>
+  p.evaluate(() => {
+    const el = document.activeElement;
+    if (!el || el === document.body) return "(nothing)";
+    const text = (el.textContent ?? "").replace(/\s+/g, " ").trim();
+    return `<${el.tagName.toLowerCase()}> "${text.slice(0, 70)}${text.length > 70 ? "…" : ""}"`;
+  });
+
+/** press `key`, then print what got focus and what was announced */
+const press = async (key: string) => {
+  const before = announced.length;
+  const spokenBefore = spoken.length;
+  await page.keyboard.press(key);
+  await page.waitForTimeout(250);
+  await page.waitForTimeout(500); // the retry for content that scrolls in
+  const said = announced.slice(before).filter((a) => a !== "Finding sections");
+  const out = spoken.slice(spokenBefore).join(" / ") || "-";
+  console.log(`  ${key.padEnd(16)} speaks "${out}"  |  focus ${await focused(page)}  |  live: ${said.join(" / ") || "-"}`);
+};
+
+/** elements with tabindex=-1, or any attribute of ours */
+const marked = (p: Page) =>
+  p.$$eval("[data-esr], [id^='esr-'], [tabindex='-1']", (els) =>
+    els.map((el) => `<${el.tagName.toLowerCase()}> ${(el.textContent ?? "").trim().slice(0, 30)}`),
+  );
 
 await page.goto(URL, { waitUntil: "domcontentloaded" });
 await page.waitForTimeout(500);
-await page.keyboard.press("Alt+Shift+N");
+const markedBefore = await marked(page);
+
+// the first Alt+Shift+Down analyzes the page, then goes to the first section
+await page.keyboard.press("Alt+Shift+ArrowDown");
 await Promise.race([
   isReady,
   page.waitForTimeout(TIMEOUT_MS).then(() => {
-    throw new Error("navigator never became ready");
+    throw new Error("sections never became ready");
   }),
 ]);
-console.log(`opened: "${said.at(-1)}"`);
+await page.waitForTimeout(300);
+console.log(`\n  ${"Alt+Shift+Down".padEnd(16)} speaks "${spoken.at(-1)}"  |  focus ${await focused(page)}  |  live: ${announced.at(-1)}`);
 
-const outline = await page
-  .locator("esr-navigator li")
-  .evaluateAll((lis) =>
-    lis.map((li) => `${" ".repeat((parseInt((li as HTMLElement).style.paddingLeft) - 14) / 7)}${li.textContent}`),
-  );
-console.log(`\noutline (${outline.length} rows):\n${outline.join("\n")}`);
+for (let i = 0; i < 40; i++) {
+  const before = announced.length;
+  await press("Alt+Shift+ArrowDown");
+  if (announced.slice(before).includes("last section")) break;
+  if (i === 6) {
+    await page.waitForTimeout(800); // let smooth scrolling finish
+    mkdirSync(SHOTS, { recursive: true });
+    await page.screenshot({ path: `${SHOTS}/sections-card.png` });
+  }
+}
+await press("Alt+Shift+ArrowUp");
 
-mkdirSync(SHOTS, { recursive: true });
-const shot = (name: string) => page.screenshot({ path: `${SHOTS}/navigator-${name}.png` });
+// section mode: plain arrows work too, Escape leaves it with focus kept
+console.log("\nsection mode (plain keys):");
+await press("Home");
+await press("ArrowDown");
+await press("Escape");
+await press("ArrowDown"); // section mode is off: the page gets this key again
 
-/** press `key`, then print what the navigator said */
-const press = async (p: Page, key: string) => {
-  const before = said.length;
-  await p.keyboard.press(key);
-  await p.waitForTimeout(450);
-  console.log(`  ${key.padEnd(12)} -> ${said.slice(before).join(" | ") || "(nothing)"}`);
-};
-
-console.log("\nkeys:");
-for (const key of ["ArrowDown", "ArrowDown", "ArrowRight", "ArrowDown", "ArrowLeft"])
-  await press(page, key);
-await press(page, "d");
-await press(page, "d");
-await press(page, "g");
-await shot("group");
-await press(page, "g");
-await press(page, "ArrowRight");
-await press(page, "h");
-await press(page, "h");
-await press(page, "Shift+H");
-await press(page, "f");
-await shot("field");
-await press(page, "k");
-await press(page, "1");
-
-// the page itself must be untouched: no attributes we added, nothing hidden
-const touched = await page.$$eval(
-  "[data-esr], [id^='esr-']",
-  (els) => els.length,
-);
-console.log(`\npage elements with our attributes: ${touched}`);
-
-await press(page, "Escape");
+// nothing we did may stay on the page: our temporary tabindex goes on blur
+await page.evaluate(() => (document.activeElement as HTMLElement | null)?.blur());
+const markedAfter = await marked(page);
+const added = markedAfter.filter((m) => !markedBefore.includes(m));
 console.log(
-  `navigator open after Escape: ${await page.locator("esr-navigator").isVisible()}`,
+  `\ntabindex=-1 before: ${markedBefore.length}, after: ${markedAfter.length}; left behind by us: ${added.length}`,
+  added,
 );
 
 await context.close();
 rmSync(profile, { recursive: true, force: true });
-console.log(`screenshots in ${SHOTS}/`);
+console.log(`screenshot in ${SHOTS}/`);

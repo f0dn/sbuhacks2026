@@ -2,19 +2,20 @@
 // page we are trying to scrape. it has access to the DOM and can read the HTML
 // of the page.
 //
-// it does nothing until the navigator is opened (Alt+Shift+N, or the popup's
-// button). then it parses the page, sends the tree to the service worker
-// (which runs the passes with Jev), and shows the result in the navigator.
+// it does nothing until section mode is used (Alt+Shift+N, Alt+Shift+Down/Up,
+// or the popup's button). then it parses the page, sends the tree to the service
+// worker (which runs the passes with Jev), and lets you move between the
+// sections it found.
 
 import type {
   AnalyzeRequest,
   AnalyzeResponse,
-  ToggleNavigator,
+  ToggleSections,
 } from './messages.js';
-import { createNavigator } from './navigator.js';
+import { createSectionNav } from './section-nav.js';
 import { parse } from './vdom/parse.js';
 
-/** node id -> live element, so the navigator can find what it's reading */
+/** node id -> live element, so section mode can find what it highlights */
 const elements = new Map<number, Element>();
 
 const analyze = async () => {
@@ -28,21 +29,29 @@ const analyze = async () => {
   return { tree: response.tree, ...response.stats };
 };
 
-const navigator = createNavigator({ elements, analyze });
+const sections = createSectionNav({ elements, analyze });
 
 window.addEventListener(
   'keydown',
   (e) => {
+    if (!e.altKey || !e.shiftKey || e.ctrlKey || e.metaKey) return;
     // e.code, not e.key: on a Mac, Alt+Shift+N types a character instead
-    if (e.altKey && e.shiftKey && e.code === 'KeyN') {
-      e.preventDefault();
-      e.stopPropagation();
-      navigator.toggle();
-    }
+    const action =
+      e.code === 'KeyN'
+        ? sections.toggle
+        : e.code === 'ArrowDown'
+          ? sections.next
+          : e.code === 'ArrowUp'
+            ? sections.previous
+            : undefined;
+    if (!action) return;
+    e.preventDefault();
+    e.stopPropagation();
+    void action();
   },
   true,
 );
 
-chrome.runtime.onMessage.addListener((message: ToggleNavigator) => {
-  if (message?.type === 'toggle-navigator') navigator.toggle();
+chrome.runtime.onMessage.addListener((message: ToggleSections) => {
+  if (message?.type === 'toggle-sections') void sections.toggle();
 });

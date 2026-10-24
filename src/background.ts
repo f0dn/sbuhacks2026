@@ -2,7 +2,7 @@
 //
 // you can only make HTTP requests from here!!! the content script sends us the
 // parsed page, we run every pass (with Jev) and send back the grouped tree for
-// the navigator.
+// section mode.
 //
 // NOTE: Parcel inlines TYPESAFE_API_KEY from .env into this bundle. fine for a
 // hackathon demo, but anyone with the extension can read the key; a shipped

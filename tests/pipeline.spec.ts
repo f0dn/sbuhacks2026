@@ -1,7 +1,7 @@
 // runs every pass end to end on a parsed DOM, the same way the service worker
 // does (src/vdom/pipeline.ts):
 //   prefilter -> collapse -> filter (Jev) -> group (Jev)
-// then builds the navigator outline (src/vdom/nav.ts) and prints it. writes
+// then lists the sections section mode moves between (src/vdom/nav.ts). writes
 // each stage's output, so render-dom.ts can show any of them.
 //
 // usage: pnpm tsx tests/pipeline.spec.ts [input.json] [--max-calls N]
@@ -12,7 +12,7 @@ import "dotenv/config";
 import { readFileSync, writeFileSync } from "node:fs";
 import { formatGroups } from "../src/vdom/group.js";
 import { runPipeline } from "../src/vdom/pipeline.js";
-import { buildNav, speakable, type NavItem } from "../src/vdom/nav.js";
+import { buildNav, sectionName, sectionsOf } from "../src/vdom/nav.js";
 import type { ParsedNode } from "../src/vdom/types.js";
 
 const args = process.argv.slice(2);
@@ -42,19 +42,18 @@ console.log(formatGroups(grouping.tree, grouping.groups).join("\n"));
 const nav = buildNav(grouping.tree, "example page");
 writeFileSync(NAV_OUTPUT, JSON.stringify(nav, null, 2));
 
-const outline = (it: NavItem, depth = 0): string[] => [
-  `${"  ".repeat(depth)}${speakable(it).slice(0, 100)}`,
-  ...it.children.flatMap((c) => outline(c, depth + 1)),
-];
-const lines = outline(nav);
-console.log(`\nnavigator outline (${lines.length} items, first 80):`);
-console.log(lines.slice(0, 80).join("\n"));
+const sections = sectionsOf(nav);
+console.log(`\nsections (${sections.length}):`);
+for (const { item, depth } of sections)
+  console.log(
+    `${"  ".repeat(depth + 1)}${sectionName(item).slice(0, 80)}${item.label ? ` · ${item.role}` : ""}`,
+  );
 
 console.log("\nstages:");
 console.table(stages);
 console.log("summary", {
   groups: grouping.groups.length,
-  navItems: lines.length,
+  sections: sections.length,
   jevCalls: stages.reduce((n, s) => n + s.jevCalls, 0),
   seconds: (Date.now() - start) / 1000,
   outputs: [FILTERED_OUTPUT, GROUPED_OUTPUT, NAV_OUTPUT],

@@ -55,16 +55,18 @@ Many real pages give them little to work with:
 A sighted user picks all of this up from the visual layout. A screen reader
 user hears a flat list of generic elements. **The goal is to use Jev to infer
 the semantics the author left out (role, label relationships, importance,
-decorative or not) and present the page through our own screen-reader-style
-navigator.** We don't write ARIA onto the page: in practice the attributes
-didn't help.
+decorative or not) and let the user jump between the page's sections,
+including the ones the author never marked up.** We don't write ARIA onto the
+page (in practice the attributes didn't help), and we don't build our own
+screen reader: section mode only moves between sections and shows where you
+are.
 
 ## 3. Methodology
 
 The pipeline runs in four stages. Stages 1, 2 and 4 are built; stage 3 is
 planned. `src/vdom/pipeline.ts` runs stage 2 end to end (prefilter, collapse,
 Jev filter, Jev grouping), for both the service worker and
-`tests/pipeline.ts`.
+`tests/pipeline.spec.ts`.
 
 ### The shared tree: `src/vdom/types.ts`
 
@@ -117,26 +119,35 @@ comment on `Semantics` in `src/vdom/types.ts` describes the target: a tree of
 proper semantics (`<h1>`, `<label for>`, `<button type="submit">`, main
 content) that can answer questions like "what is the label for this input?".
 
-### Stage 4: The navigator (built)
+### Stage 4: Section mode (built)
 
 The service worker sends the grouped tree back to the content script.
-`buildNav` in `src/vdom/nav.ts` turns it into an outline, the way a screen
-reader presents a page: landmarks, groups with their titles, headings, lists,
-links, buttons, fields, images and text, with layout wrappers hoisted away.
-`src/navigator.ts` shows that outline in a panel in its own shadow root. It
-reads each item aloud with `speechSynthesis` and draws a highlight box over the
-matching part of the page.
+`buildNav` in `src/vdom/nav.ts` turns it into an outline of the page, and
+`sectionsOf` picks out its sections in reading order: landmarks (header,
+navigation, main, footer, forms) and the groups Jev found (sections and
+cards), named by their title. `src/section-nav.ts` moves between them.
 
-- Open it with Alt+Shift+N or the popup's button. Nothing is analyzed (and no
-  Jev calls are made) until it's opened.
-- Keys: arrows to move and to go in or out of groups, H/G/D/K/B/F/L to jump
-  to the next heading/group/landmark/link/button/field/list (Shift to go back),
-  Enter to activate, Space to read all, S for speech on/off, Esc to close.
+- Alt+Shift+↓/↑ jump to the next or previous section at any time. They
+  work with a screen reader running, because screen readers in browse mode
+  keep plain arrow keys for themselves. The first jump analyzes the page;
+  nothing is analyzed (and no Jev calls are made) before that.
+- Each jump moves keyboard focus to the section's title element (`titleId`
+  in `nav.ts`: its heading, or what it starts with). The screen reader then
+  reads the page's own text, and its reading cursor carries on from there. A
+  visually hidden live region adds only what the screen reader can't know,
+  e.g. "card, 7 of 25 sections". The section's title is also read out loud
+  with `speechSynthesis`, for when no screen reader is running. Sighted users
+  get a highlight box around the section; no text is drawn over the page.
+- Alt+Shift+N (or the popup's button) turns section mode on, so plain
+  ↓/↑/Home/End also move between sections; Enter or Esc turns it off and
+  leaves focus where it is.
 
 Rules for this stage:
 
-- **Don't change the page.** Add no attributes and edit no elements; the
-  navigator only reads the page and draws over it.
+- **Don't change the page.** Add no attributes and edit no elements; section
+  mode only reads the page and draws over it from its own shadow root. The
+  one exception: to focus a title that can't take focus, it gets
+  `tabindex="-1"` while it has focus, removed again on blur.
 - Skip what a screen reader would skip: `aria-hidden` subtrees and
   `display: none` elements. Keep `visibility: hidden` content, because pages
   use it for scroll-in animations.
@@ -148,12 +159,12 @@ Rules for this stage:
 | `src/manifest.json`     | Extension manifest; also the Parcel entry point |
 | `src/content-script.ts` | Runs in the page, reads the DOM, sends the tree |
 | `src/background.ts`     | Service worker; this is where Jev is called     |
-| `src/navigator.ts`      | The navigator panel, speech and highlight       |
+| `src/section-nav.ts`    | Section mode: keys, highlight box and label     |
 | `src/messages.ts`       | Message types between the extension's parts     |
 | `src/vdom/types.ts`     | The `DomNode` tree type shared by every stage   |
 | `src/vdom/parse.ts`     | Turns the DOM into a `ParsedNode` tree          |
 | `src/vdom/pipeline.ts`  | Runs every stage 2 pass in order                |
-| `src/vdom/nav.ts`       | Turns the grouped tree into the navigator outline |
+| `src/vdom/nav.ts`       | Page outline, and the sections in it            |
 | `src/popup.tsx`         | Popup UI (React + Tailwind)                     |
 | `tests/*.ts`            | Scripts that try out Jev, run with `tsx`        |
 | `tests/wastedata.html`  | Sample page with poor semantics                 |
@@ -163,11 +174,11 @@ Rules for this stage:
 - `pnpm build`: production build.
 - `pnpm tsx tests/hello.ts`: runs a Jev experiment. It needs
   `TYPESAFE_API_KEY` in `.env`.
-- `pnpm tsx tests/pipeline.ts`: runs every pass on
-  `tests/example-real-dom.json` and prints the navigator outline.
+- `pnpm tsx tests/pipeline.spec.ts`: runs every pass on
+  `tests/example-real-dom.json` and prints the sections.
 - `pnpm build && pnpm tsx tests/extension-e2e.ts [url]`: loads `dist/` into
-  Playwright's Chromium, opens the navigator on a real page and drives it
-  with keys. It needs `npx playwright install chromium` once.
+  Playwright's Chromium, jumps through every section of a real page with
+  Alt+Shift+↓, and prints what gets focus and what is announced for each. It needs `npx playwright install chromium` once.
 
 ## Known gaps
 

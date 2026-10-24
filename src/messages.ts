@@ -10,5 +10,5 @@ export type AnalyzeResponse =
   | { ok: true; tree: GroupedNode; stats: { jevCalls: number; ms: number } }
   | { ok: false; error: string };
 
-/** popup -> content script: open or close the navigator */
-export type ToggleNavigator = { type: 'toggle-navigator' };
+/** popup -> content script: turn section mode on or off */
+export type ToggleSections = { type: 'toggle-sections' };

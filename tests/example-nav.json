@@ -409,7 +409,7 @@
           ]
         },
         {
-          "id": -6,
+          "id": -5,
           "kind": "group",
           "role": "card",
           "label": "New York State Solid Waste Characterization Project",
@@ -485,7 +485,7 @@
           ]
         },
         {
-          "id": -5,
+          "id": -4,
           "kind": "group",
           "role": "card",
           "label": "CURRENT PROJECT",
@@ -659,47 +659,45 @@
           ]
         },
         {
-          "id": 427,
-          "kind": "group",
-          "role": "section",
-          "label": "22+",
-          "elementIds": [
-            427
-          ],
-          "children": [
-            {
-              "id": 429,
-              "kind": "heading",
-              "role": "heading level 2",
-              "label": "22+",
-              "elementIds": [
-                429
-              ],
-              "children": []
-            },
-            {
-              "id": 431,
-              "kind": "heading",
-              "role": "heading level 2",
-              "label": "different sites sampled",
-              "elementIds": [
-                431
-              ],
-              "children": []
-            }
-          ]
-        },
-        {
-          "id": -4,
+          "id": 423,
           "kind": "group",
           "role": "card",
-          "label": "157+",
+          "label": "22+",
           "elementIds": [
-            433,
-            439,
-            445
+            423
           ],
           "children": [
+            {
+              "id": 427,
+              "kind": "group",
+              "role": "section",
+              "label": "22+",
+              "elementIds": [
+                427
+              ],
+              "children": [
+                {
+                  "id": 429,
+                  "kind": "heading",
+                  "role": "heading level 2",
+                  "label": "22+",
+                  "elementIds": [
+                    429
+                  ],
+                  "children": []
+                },
+                {
+                  "id": 431,
+                  "kind": "heading",
+                  "role": "heading level 2",
+                  "label": "different sites sampled",
+                  "elementIds": [
+                    431
+                  ],
+                  "children": []
+                }
+              ]
+            },
             {
               "id": 433,
               "kind": "group",
@@ -765,7 +763,7 @@
             {
               "id": 445,
               "kind": "group",
-              "role": "card",
+              "role": "section",
               "label": "52+",
               "elementIds": [
                 445
@@ -897,25 +895,14 @@
               ],
               "children": [
                 {
-                  "id": 494,
-                  "kind": "group",
-                  "role": "section",
+                  "id": 496,
+                  "kind": "heading",
+                  "role": "heading level 1",
                   "label": "CONTACT US",
                   "elementIds": [
-                    494
+                    496
                   ],
-                  "children": [
-                    {
-                      "id": 496,
-                      "kind": "heading",
-                      "role": "heading level 1",
-                      "label": "CONTACT US",
-                      "elementIds": [
-                        496
-                      ],
-                      "children": []
-                    }
-                  ]
+                  "children": []
                 },
                 {
                   "id": 502,
@@ -960,7 +947,7 @@
                           "id": 516,
                           "kind": "text",
                           "role": "text",
-                          "label": "First Name",
+                          "label": "First Name *",
                           "elementIds": [
                             516
                           ],
@@ -1075,7 +1062,7 @@
                               "id": 536,
                               "kind": "text",
                               "role": "text",
-                              "label": "Phone Number",
+                              "label": "Phone Number *",
                               "elementIds": [
                                 536
                               ],
@@ -1324,28 +1311,7 @@
       ]
     },
     {
-      "id": 601,
-      "kind": "landmark",
-      "role": "footer",
-      "label": "",
-      "elementIds": [
-        601
-      ],
-      "children": [
-        {
-          "id": 638,
-          "kind": "text",
-          "role": "text",
-          "label": "© 2026 WDAC",
-          "elementIds": [
-            638
-          ],
-          "children": []
-        }
-      ]
-    },
-    {
-      "id": -7,
+      "id": -6,
       "kind": "group",
       "role": "group",
       "label": "Scroll to top",

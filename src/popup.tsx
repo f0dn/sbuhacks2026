@@ -1,14 +1,14 @@
 import { useState } from 'react';
 import { createRoot } from 'react-dom/client';
-import type { ToggleNavigator } from './messages.js';
+import type { ToggleSections } from './messages.js';
 
 const Popup = () => {
   const [error, setError] = useState('');
 
-  const openNavigator = async () => {
+  const toggleSections = async () => {
     const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
     if (tab?.id === undefined) return;
-    const message: ToggleNavigator = { type: 'toggle-navigator' };
+    const message: ToggleSections = { type: 'toggle-sections' };
     try {
       await chrome.tabs.sendMessage(tab.id, message);
       window.close();
@@ -20,25 +20,27 @@ const Popup = () => {
 
   return (
     <div className="flex flex-col gap-4 h-full p-6">
-      <h1 className="text-xl font-bold text-gray-900">Page navigator</h1>
+      <h1 className="text-xl font-bold text-gray-900">Section navigation</h1>
       <p className="text-gray-600 text-sm">
-        Moves through the page the way a screen reader would, using Jev to work
-        out headings, groups and labels the page doesn’t mark up.
+        Jumps between the sections of the page, including the ones Jev finds
+        that the page doesn’t mark up.
       </p>
 
       <button
-        onClick={openNavigator}
+        onClick={toggleSections}
         className="px-4 py-2 bg-indigo-600 hover:bg-indigo-700 text-white font-medium rounded-lg shadow transition-colors"
       >
-        Open navigator
+        Navigate sections
       </button>
       {error && <p className="text-red-600 text-sm">{error}</p>}
 
       <p className="text-gray-500 text-xs">
-        Shortcut: <kbd className="px-1 rounded bg-gray-100">Alt</kbd>+
+        On any page: <kbd className="px-1 rounded bg-gray-100">Alt</kbd>+
         <kbd className="px-1 rounded bg-gray-100">Shift</kbd>+
-        <kbd className="px-1 rounded bg-gray-100">N</kbd> on any page. Speech
-        starts after your first key press in the navigator.
+        <kbd className="px-1 rounded bg-gray-100">↓</kbd> /{' '}
+        <kbd className="px-1 rounded bg-gray-100">↑</kbd> for the next or
+        previous section. Focus moves to the section’s title, so your screen
+        reader reads it and carries on from there.
       </p>
     </div>
   );

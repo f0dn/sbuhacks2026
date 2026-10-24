@@ -1,5 +1,5 @@
-// every pass in order, from a parsed DOM to the grouped tree the navigator
-// shows:
+// every pass in order, from a parsed DOM to the grouped tree section mode
+// moves through:
 //   prefilter -> collapse -> filter (Jev) -> group (Jev)
 // used by the service worker and by tests/pipeline.ts.
 
