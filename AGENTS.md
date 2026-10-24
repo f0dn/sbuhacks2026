@@ -55,12 +55,16 @@ Many real pages give them little to work with:
 A sighted user picks all of this up from the visual layout. A screen reader
 user hears a flat list of generic elements. **The goal is to use Jev to infer
 the semantics the author left out (role, label relationships, importance,
-decorative or not) and give them to the screen reader.**
+decorative or not) and present the page through our own screen-reader-style
+navigator.** We don't write ARIA onto the page: in practice the attributes
+didn't help.
 
 ## 3. Methodology
 
-The pipeline runs in four stages. Stages 1–2 are partly built; stages 3–4 are
-planned.
+The pipeline runs in four stages. Stages 1, 2 and 4 are built; stage 3 is
+planned. `src/vdom/pipeline.ts` runs stage 2 end to end (prefilter, collapse,
+Jev filter, Jev grouping), for both the service worker and
+`tests/pipeline.ts`.
 
 ### The shared tree: `src/vdom/types.ts`
 
@@ -80,8 +84,9 @@ a new tree type.
 
 ### Stage 1: Read the DOM into a `ParsedNode` tree (built)
 
-`src/content-script.ts` runs on every `https://*/*` page and calls
-`parse(document.documentElement, elements)` in `src/vdom/parse.ts`. That
+`src/content-script.ts` runs on every `https://*/*` page. When the navigator
+is opened, it calls `parse(document.documentElement, elements)` in
+`src/vdom/parse.ts`. That
 function walks the DOM, builds a `ParsedNode` tree, and records every element
 in `elements` (a `Map<id, Element>` the content script keeps for Stage 4).
 The tree goes to the service worker with `chrome.runtime.sendMessage`.
@@ -112,20 +117,29 @@ comment on `Semantics` in `src/vdom/types.ts` describes the target: a tree of
 proper semantics (`<h1>`, `<label for>`, `<button type="submit">`, main
 content) that can answer questions like "what is the label for this input?".
 
-### Stage 4: Give the semantics to the screen reader (planned)
+### Stage 4: The navigator (built)
 
-Send the virtual tree back to the content script, which adds ARIA to the live
-page: `role`, `aria-level`, `aria-labelledby` and `aria-label`, plus
-`aria-hidden` on decorative or duplicate elements. Screen readers then pick up
-the changes with no extra steps from the user. The popup (`src/popup.tsx`,
-still a placeholder) could show a summary or offer navigation.
+The service worker sends the grouped tree back to the content script.
+`buildNav` in `src/vdom/nav.ts` turns it into an outline, the way a screen
+reader presents a page: landmarks, groups with their titles, headings, lists,
+links, buttons, fields, images and text, with layout wrappers hoisted away.
+`src/navigator.ts` shows that outline in a panel in its own shadow root. It
+reads each item aloud with `speechSynthesis` and draws a highlight box over the
+matching part of the page.
+
+- Open it with Alt+Shift+N or the popup's button. Nothing is analyzed (and no
+  Jev calls are made) until it's opened.
+- Keys: arrows to move and to go in or out of groups, H/G/D/K/B/F/L to jump
+  to the next heading/group/landmark/link/button/field/list (Shift to go back),
+  Enter to activate, Space to read all, S for speech on/off, Esc to close.
 
 Rules for this stage:
 
-- **Add attributes; don't override the author.** Leave correct existing
-  semantics alone, and only fill in what's missing.
-- Keep page content and layout exactly as they are; change only the
-  accessibility tree.
+- **Don't change the page.** Add no attributes and edit no elements; the
+  navigator only reads the page and draws over it.
+- Skip what a screen reader would skip: `aria-hidden` subtrees and
+  `display: none` elements. Keep `visibility: hidden` content, because pages
+  use it for scroll-in animations.
 
 ## Project layout and commands
 
@@ -134,8 +148,12 @@ Rules for this stage:
 | `src/manifest.json`     | Extension manifest; also the Parcel entry point |
 | `src/content-script.ts` | Runs in the page, reads the DOM, sends the tree |
 | `src/background.ts`     | Service worker; this is where Jev is called     |
+| `src/navigator.ts`      | The navigator panel, speech and highlight       |
+| `src/messages.ts`       | Message types between the extension's parts     |
 | `src/vdom/types.ts`     | The `DomNode` tree type shared by every stage   |
 | `src/vdom/parse.ts`     | Turns the DOM into a `ParsedNode` tree          |
+| `src/vdom/pipeline.ts`  | Runs every stage 2 pass in order                |
+| `src/vdom/nav.ts`       | Turns the grouped tree into the navigator outline |
 | `src/popup.tsx`         | Popup UI (React + Tailwind)                     |
 | `tests/*.ts`            | Scripts that try out Jev, run with `tsx`        |
 | `tests/wastedata.html`  | Sample page with poor semantics                 |
@@ -145,13 +163,19 @@ Rules for this stage:
 - `pnpm build`: production build.
 - `pnpm tsx tests/hello.ts`: runs a Jev experiment. It needs
   `TYPESAFE_API_KEY` in `.env`.
+- `pnpm tsx tests/pipeline.ts`: runs every pass on
+  `tests/example-real-dom.json` and prints the navigator outline.
+- `pnpm build && pnpm tsx tests/extension-e2e.ts [url]`: loads `dist/` into
+  Playwright's Chromium, opens the navigator on a real page and drives it
+  with keys. It needs `npx playwright install chromium` once.
 
 ## Known gaps
 
 - `tests/example-real-dom.json` was converted from the old parse format, so
   its `aria` objects are empty and its `text` was recovered approximately.
   Re-capture it from Chrome for exact data.
-- `background.ts` only logs the incoming message. No Jev calls are wired
-  into the extension yet.
+- One analysis costs about 400 Jev calls on the sample page (2–3s).
+- Text that an animation is still typing in when the page is parsed (the
+  sample page's main heading) can come out cut short.
 - The API key must not be bundled into a shipped extension. That's fine for
   a hackathon demo, but call it out.

@@ -6,8 +6,10 @@
     "default_popup": "popup.html"
   },
   "permissions": [],
+  "host_permissions": ["https://api.typesafe.ai/*"],
   "background": {
-    "service_worker": "background.ts"
+    "service_worker": "background.ts",
+    "type": "module"
   },
   "content_scripts": [
     {

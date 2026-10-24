@@ -71,6 +71,9 @@ const judge = async (
   };
 };
 
+/** things a user can act on are never pruned, whatever Jev thinks of them */
+const INTERACTIVE_TAGS = new Set(["A", "BUTTON", "INPUT", "SELECT", "TEXTAREA"]);
+
 /** only prune when Jev is confident; otherwise leave the node and look deeper */
 const confidentlyBoring = (v: FilterVerdict) =>
   v.isDecorative > 0.8 ||
@@ -98,7 +101,10 @@ export const filter = async (
     judged,
     async (n) => {
       n.jev = await judge(client, stateFor(n, parents));
-      n.status = confidentlyBoring(n.jev) ? "pruned" : "kept";
+      n.status =
+        confidentlyBoring(n.jev) && !INTERACTIVE_TAGS.has(n.tag)
+          ? "pruned"
+          : "kept";
       return n.status === "kept";
     },
     { concurrency, limit: maxCalls },

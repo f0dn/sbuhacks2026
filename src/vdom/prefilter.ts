@@ -15,7 +15,14 @@ const DROP_TAGS = new Set([
   "TEMPLATE",
 ]);
 /** worth keeping even with no text anywhere inside */
-const KEEP_WITHOUT_TEXT = new Set(["IMG", "INPUT", "BUTTON", "svg"]);
+const KEEP_WITHOUT_TEXT = new Set([
+  "IMG",
+  "INPUT",
+  "TEXTAREA",
+  "SELECT",
+  "BUTTON",
+  "svg",
+]);
 
 export const prefilter = <D>(root: DomNode<D>) =>
   filterTree(

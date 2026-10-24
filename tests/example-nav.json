@@ -1,0 +1,1565 @@
+{
+  "id": 86,
+  "kind": "page",
+  "role": "page",
+  "label": "example page",
+  "elementIds": [
+    86
+  ],
+  "children": [
+    {
+      "id": 88,
+      "kind": "link",
+      "role": "link",
+      "label": "Skip to content",
+      "elementIds": [
+        88
+      ],
+      "children": []
+    },
+    {
+      "id": 89,
+      "kind": "landmark",
+      "role": "header",
+      "label": "",
+      "elementIds": [
+        89
+      ],
+      "children": [
+        {
+          "id": 110,
+          "kind": "landmark",
+          "role": "navigation",
+          "label": "Primary",
+          "elementIds": [
+            110
+          ],
+          "children": [
+            {
+              "id": 112,
+              "kind": "list",
+              "role": "list",
+              "label": "",
+              "elementIds": [
+                112
+              ],
+              "children": [
+                {
+                  "id": 114,
+                  "kind": "link",
+                  "role": "link",
+                  "label": "Home",
+                  "elementIds": [
+                    114
+                  ],
+                  "children": []
+                },
+                {
+                  "id": 116,
+                  "kind": "link",
+                  "role": "link",
+                  "label": "About Us",
+                  "elementIds": [
+                    116
+                  ],
+                  "children": []
+                },
+                {
+                  "id": 118,
+                  "kind": "link",
+                  "role": "link",
+                  "label": "News",
+                  "elementIds": [
+                    118
+                  ],
+                  "children": []
+                },
+                {
+                  "id": 120,
+                  "kind": "link",
+                  "role": "link",
+                  "label": "Reports / Publications",
+                  "elementIds": [
+                    120
+                  ],
+                  "children": []
+                },
+                {
+                  "id": 122,
+                  "kind": "link",
+                  "role": "link",
+                  "label": "Data",
+                  "elementIds": [
+                    122
+                  ],
+                  "children": []
+                },
+                {
+                  "id": 124,
+                  "kind": "link",
+                  "role": "link",
+                  "label": "Recyc. Cost Tool",
+                  "elementIds": [
+                    124
+                  ],
+                  "children": []
+                },
+                {
+                  "id": 125,
+                  "kind": "item",
+                  "role": "list item",
+                  "label": "",
+                  "elementIds": [
+                    125
+                  ],
+                  "children": [
+                    {
+                      "id": 126,
+                      "kind": "link",
+                      "role": "link",
+                      "label": "RHRF",
+                      "elementIds": [
+                        126
+                      ],
+                      "children": []
+                    },
+                    {
+                      "id": 133,
+                      "kind": "button",
+                      "role": "button",
+                      "label": "Child menu of RHRF",
+                      "elementIds": [
+                        133
+                      ],
+                      "children": []
+                    },
+                    {
+                      "id": 134,
+                      "kind": "list",
+                      "role": "list",
+                      "label": "",
+                      "elementIds": [
+                        134
+                      ],
+                      "children": [
+                        {
+                          "id": 136,
+                          "kind": "link",
+                          "role": "link",
+                          "label": "What Are RHRFs?",
+                          "elementIds": [
+                            136
+                          ],
+                          "children": []
+                        },
+                        {
+                          "id": 138,
+                          "kind": "link",
+                          "role": "link",
+                          "label": "Types of RHRFs",
+                          "elementIds": [
+                            138
+                          ],
+                          "children": []
+                        },
+                        {
+                          "id": 140,
+                          "kind": "link",
+                          "role": "link",
+                          "label": "Glossary",
+                          "elementIds": [
+                            140
+                          ],
+                          "children": []
+                        },
+                        {
+                          "id": 142,
+                          "kind": "link",
+                          "role": "link",
+                          "label": "Visited Facilities",
+                          "elementIds": [
+                            142
+                          ],
+                          "children": []
+                        },
+                        {
+                          "id": 144,
+                          "kind": "link",
+                          "role": "link",
+                          "label": "Visited Facilities Map",
+                          "elementIds": [
+                            144
+                          ],
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 146,
+                  "kind": "link",
+                  "role": "link",
+                  "label": "Contact Us",
+                  "elementIds": [
+                    146
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 195,
+          "kind": "button",
+          "role": "button",
+          "label": "Open menu",
+          "elementIds": [
+            195
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 201,
+      "kind": "landmark",
+      "role": "main content",
+      "label": "",
+      "elementIds": [
+        201
+      ],
+      "children": [
+        {
+          "id": 213,
+          "kind": "group",
+          "role": "card",
+          "label": "WASTE DATA & ANALYSIS CENTER",
+          "elementIds": [
+            213
+          ],
+          "children": [
+            {
+              "id": 217,
+              "kind": "group",
+              "role": "section",
+              "label": "WASTE DATA & ANALYSIS CENTER",
+              "elementIds": [
+                217
+              ],
+              "children": [
+                {
+                  "id": 219,
+                  "kind": "heading",
+                  "role": "heading level 2",
+                  "label": "WASTE DATA & ANALYSIS CENTER",
+                  "elementIds": [
+                    219
+                  ],
+                  "children": []
+                },
+                {
+                  "id": 222,
+                  "kind": "text",
+                  "role": "text",
+                  "label": "A Stony Brook University research center dedicated to advancing sustainable waste management practices in New York State through data-driven insights",
+                  "elementIds": [
+                    222
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": 224,
+              "kind": "link",
+              "role": "link",
+              "label": "LEARN MORE",
+              "elementIds": [
+                224
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 227,
+          "kind": "group",
+          "role": "section",
+          "label": "Featured News",
+          "elementIds": [
+            227
+          ],
+          "children": [
+            {
+              "id": 229,
+              "kind": "heading",
+              "role": "heading level 2",
+              "label": "Featured News",
+              "elementIds": [
+                229
+              ],
+              "children": []
+            },
+            {
+              "id": 233,
+              "kind": "list",
+              "role": "list",
+              "label": "",
+              "elementIds": [
+                233
+              ],
+              "children": [
+                {
+                  "id": 235,
+                  "kind": "group",
+                  "role": "card",
+                  "label": "WDAC Research Highlights Differences in NYS Waste Streams",
+                  "elementIds": [
+                    235
+                  ],
+                  "children": [
+                    {
+                      "id": 240,
+                      "kind": "text",
+                      "role": "text",
+                      "label": "Oct 22, 2026",
+                      "elementIds": [
+                        240
+                      ],
+                      "children": []
+                    },
+                    {
+                      "id": 241,
+                      "kind": "heading",
+                      "role": "heading level 2",
+                      "label": "WDAC Research Highlights Differences in NYS Waste Streams",
+                      "elementIds": [
+                        241
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": 249,
+                  "kind": "group",
+                  "role": "card",
+                  "label": "Maeen Md Khairul Akter Receives 2026 EREF Scholarship Award",
+                  "elementIds": [
+                    249
+                  ],
+                  "children": [
+                    {
+                      "id": 254,
+                      "kind": "text",
+                      "role": "text",
+                      "label": "Sep 11, 2026",
+                      "elementIds": [
+                        254
+                      ],
+                      "children": []
+                    },
+                    {
+                      "id": 255,
+                      "kind": "heading",
+                      "role": "heading level 2",
+                      "label": "Maeen Md Khairul Akter Receives 2026 EREF Scholarship Award",
+                      "elementIds": [
+                        255
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": 263,
+                  "kind": "group",
+                  "role": "card",
+                  "label": "Dr. Firmansyah Awarded National Educational Data Science Fellowship",
+                  "elementIds": [
+                    263
+                  ],
+                  "children": [
+                    {
+                      "id": 268,
+                      "kind": "text",
+                      "role": "text",
+                      "label": "Aug 6, 2026",
+                      "elementIds": [
+                        268
+                      ],
+                      "children": []
+                    },
+                    {
+                      "id": 269,
+                      "kind": "heading",
+                      "role": "heading level 2",
+                      "label": "Dr. Firmansyah Awarded National Educational Data Science Fellowship",
+                      "elementIds": [
+                        269
+                      ],
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": -6,
+          "kind": "group",
+          "role": "card",
+          "label": "New York State Solid Waste Characterization Project",
+          "elementIds": [
+            319,
+            321,
+            323,
+            325,
+            328,
+            332
+          ],
+          "children": [
+            {
+              "id": 320,
+              "kind": "heading",
+              "role": "heading level 2",
+              "label": "2019 - 2029",
+              "elementIds": [
+                320
+              ],
+              "children": []
+            },
+            {
+              "id": 322,
+              "kind": "heading",
+              "role": "heading level 2",
+              "label": "New York State Solid Waste Characterization Project",
+              "elementIds": [
+                322
+              ],
+              "children": []
+            },
+            {
+              "id": 324,
+              "kind": "heading",
+              "role": "heading level 2",
+              "label": "Funded by the New York State Department of Environmental Conservation (NYSDEC) through the Environmental Protection Fund, this project explores current solid waste and recycling practices in New York State.",
+              "elementIds": [
+                324
+              ],
+              "children": []
+            },
+            {
+              "id": 326,
+              "kind": "button",
+              "role": "button",
+              "label": "VIEW SCHEDULE",
+              "elementIds": [
+                326
+              ],
+              "children": []
+            },
+            {
+              "id": 329,
+              "kind": "link",
+              "role": "link",
+              "label": "HOW TO PARTICIPATE",
+              "elementIds": [
+                329
+              ],
+              "children": []
+            },
+            {
+              "id": 333,
+              "kind": "heading",
+              "role": "heading level 2",
+              "label": "- TASK 1",
+              "elementIds": [
+                333
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": -5,
+          "kind": "group",
+          "role": "card",
+          "label": "CURRENT PROJECT",
+          "elementIds": [
+            334,
+            338
+          ],
+          "children": [
+            {
+              "id": 335,
+              "kind": "link",
+              "role": "link",
+              "label": "LEARN MORE",
+              "elementIds": [
+                335
+              ],
+              "children": []
+            },
+            {
+              "id": 339,
+              "kind": "heading",
+              "role": "heading level 2",
+              "label": "CURRENT PROJECT",
+              "elementIds": [
+                339
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 340,
+          "kind": "group",
+          "role": "card",
+          "label": "Recycling Program Cost Estimation Tool",
+          "elementIds": [
+            340
+          ],
+          "children": [
+            {
+              "id": 353,
+              "kind": "heading",
+              "role": "heading level 2",
+              "label": "2019 - 2025",
+              "elementIds": [
+                353
+              ],
+              "children": []
+            },
+            {
+              "id": 355,
+              "kind": "heading",
+              "role": "heading level 2",
+              "label": "Recycling Program Cost Estimation Tool",
+              "elementIds": [
+                355
+              ],
+              "children": []
+            },
+            {
+              "id": 357,
+              "kind": "heading",
+              "role": "heading level 2",
+              "label": "Funded by the New York State Department of Environmental Conservation (NYSDEC) through the Environmental Protection Fund, this project aims to provide municipalities with a modular, user-friendly tool for use in calculating costs associated with waste collection systems.\"",
+              "elementIds": [
+                357
+              ],
+              "children": []
+            },
+            {
+              "id": 359,
+              "kind": "heading",
+              "role": "heading level 2",
+              "label": "- TASK 2",
+              "elementIds": [
+                359
+              ],
+              "children": []
+            },
+            {
+              "id": 361,
+              "kind": "link",
+              "role": "link",
+              "label": "LEARN MORE",
+              "elementIds": [
+                361
+              ],
+              "children": []
+            },
+            {
+              "id": 365,
+              "kind": "heading",
+              "role": "heading level 2",
+              "label": "COMPLETED PROJECT",
+              "elementIds": [
+                365
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 372,
+          "kind": "group",
+          "role": "card",
+          "label": "Recyclables Handling and Recovery Facilities (RHRF) Technology Assessment",
+          "elementIds": [
+            372
+          ],
+          "children": [
+            {
+              "id": 385,
+              "kind": "heading",
+              "role": "heading level 2",
+              "label": "2022 - 2025",
+              "elementIds": [
+                385
+              ],
+              "children": []
+            },
+            {
+              "id": 387,
+              "kind": "heading",
+              "role": "heading level 2",
+              "label": "Recyclables Handling and Recovery Facilities (RHRF) Technology Assessment",
+              "elementIds": [
+                387
+              ],
+              "children": []
+            },
+            {
+              "id": 389,
+              "kind": "heading",
+              "role": "heading level 2",
+              "label": "Funded by the New York State Department of Environmental Conservation (NYSDEC) through the Environmental Protection Fund, this project aims to provide a comprehensive assessment of current and potential Recyclables Handling and Recovery Facility (RHRF) technologies in New York State.",
+              "elementIds": [
+                389
+              ],
+              "children": []
+            },
+            {
+              "id": 397,
+              "kind": "heading",
+              "role": "heading level 2",
+              "label": "- TASK 5",
+              "elementIds": [
+                397
+              ],
+              "children": []
+            },
+            {
+              "id": 399,
+              "kind": "link",
+              "role": "link",
+              "label": "LEARN MORE",
+              "elementIds": [
+                399
+              ],
+              "children": []
+            },
+            {
+              "id": 403,
+              "kind": "heading",
+              "role": "heading level 2",
+              "label": "COMPLETED PROJECT",
+              "elementIds": [
+                403
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 427,
+          "kind": "group",
+          "role": "section",
+          "label": "22+",
+          "elementIds": [
+            427
+          ],
+          "children": [
+            {
+              "id": 429,
+              "kind": "heading",
+              "role": "heading level 2",
+              "label": "22+",
+              "elementIds": [
+                429
+              ],
+              "children": []
+            },
+            {
+              "id": 431,
+              "kind": "heading",
+              "role": "heading level 2",
+              "label": "different sites sampled",
+              "elementIds": [
+                431
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": -4,
+          "kind": "group",
+          "role": "card",
+          "label": "157+",
+          "elementIds": [
+            433,
+            439,
+            445
+          ],
+          "children": [
+            {
+              "id": 433,
+              "kind": "group",
+              "role": "card",
+              "label": "157+",
+              "elementIds": [
+                433
+              ],
+              "children": [
+                {
+                  "id": 435,
+                  "kind": "heading",
+                  "role": "heading level 2",
+                  "label": "157+",
+                  "elementIds": [
+                    435
+                  ],
+                  "children": []
+                },
+                {
+                  "id": 437,
+                  "kind": "heading",
+                  "role": "heading level 2",
+                  "label": "tons of waste sorted",
+                  "elementIds": [
+                    437
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": 439,
+              "kind": "group",
+              "role": "section",
+              "label": "73+",
+              "elementIds": [
+                439
+              ],
+              "children": [
+                {
+                  "id": 441,
+                  "kind": "heading",
+                  "role": "heading level 2",
+                  "label": "73+",
+                  "elementIds": [
+                    441
+                  ],
+                  "children": []
+                },
+                {
+                  "id": 443,
+                  "kind": "heading",
+                  "role": "heading level 2",
+                  "label": "reports and publications produced",
+                  "elementIds": [
+                    443
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": 445,
+              "kind": "group",
+              "role": "card",
+              "label": "52+",
+              "elementIds": [
+                445
+              ],
+              "children": [
+                {
+                  "id": 447,
+                  "kind": "heading",
+                  "role": "heading level 2",
+                  "label": "52+",
+                  "elementIds": [
+                    447
+                  ],
+                  "children": []
+                },
+                {
+                  "id": 449,
+                  "kind": "heading",
+                  "role": "heading level 2",
+                  "label": "conference presentations delivered",
+                  "elementIds": [
+                    449
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 455,
+          "kind": "group",
+          "role": "section",
+          "label": "WHY WASTE ?",
+          "elementIds": [
+            455
+          ],
+          "children": [
+            {
+              "id": 469,
+              "kind": "heading",
+              "role": "heading level 1",
+              "label": "WHY WASTE ?",
+              "elementIds": [
+                469
+              ],
+              "children": []
+            },
+            {
+              "id": 473,
+              "kind": "group",
+              "role": "group",
+              "label": "Waste is more than just trash. It’s a…",
+              "elementIds": [
+                473
+              ],
+              "children": [
+                {
+                  "id": 477,
+                  "kind": "text",
+                  "role": "text",
+                  "label": "Waste is more than just trash. It’s a complex global issue with far-reaching consequences. According to The World Bank, the world generates over 2.1 billion tons of municipal solid waste annually. By 2050, waste generation is projected to increase to 3.4 billion tons. This waste, if not properly managed, can lead to resource depletion, environmental pollution, and negative health impacts. Our center’s goal is to implement sustainable waste management practices to mitigate the impacts this waste creates.",
+                  "elementIds": [
+                    477
+                  ],
+                  "children": []
+                },
+                {
+                  "id": 480,
+                  "kind": "text",
+                  "role": "text",
+                  "label": "Understanding waste composition and generation patterns is crucial for developing effective solutions. For example, the United States Environmental Protection Agency (EPA) estimates that food waste accounts for 24 percent of landfill waste, contributing to large amounts of methane emissions. By analyzing waste data, we can identify opportunities for waste reduction, recycling, and composting, leading to a more sustainable and eco-friendly economy.",
+                  "elementIds": [
+                    480
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": 482,
+              "kind": "group",
+              "role": "group",
+              "label": "Waste mismanagement in New York presents a significant…",
+              "elementIds": [
+                482
+              ],
+              "children": [
+                {
+                  "id": 486,
+                  "kind": "text",
+                  "role": "text",
+                  "label": "Waste mismanagement in New York presents a significant challenge. According to the New York State Department of Environmental Conservation (NYSDEC), the state generates over 42.2 million tons of waste annually. New York still faces challenges such as illegal dumping, insufficient recycling rates, and over-reliance on out-of-state landfills. Its aging infrastructure struggles to handle the immense volume of waste, leading to frequent overflows and sanitation issues. Addressing these issues requires a comprehensive approach.",
+                  "elementIds": [
+                    486
+                  ],
+                  "children": []
+                },
+                {
+                  "id": 489,
+                  "kind": "text",
+                  "role": "text",
+                  "label": "Waste management also intersects with social justice issues. The United Nations Environment Program (UNEP) found that marginalized communities often bear a disproportionate burden from waste disposal and pollution. These communities are frequently located near landfills and plastic production sites, and other waste management facilities, leading to higher exposure to toxins and health risks. By studying waste, we can identify and address these inequities, working towards a more just and equitable society.",
+                  "elementIds": [
+                    489
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 490,
+          "kind": "group",
+          "role": "section",
+          "label": "CONTACT US",
+          "elementIds": [
+            490
+          ],
+          "children": [
+            {
+              "id": 492,
+              "kind": "group",
+              "role": "section",
+              "label": "CONTACT US",
+              "elementIds": [
+                492
+              ],
+              "children": [
+                {
+                  "id": 494,
+                  "kind": "group",
+                  "role": "section",
+                  "label": "CONTACT US",
+                  "elementIds": [
+                    494
+                  ],
+                  "children": [
+                    {
+                      "id": 496,
+                      "kind": "heading",
+                      "role": "heading level 1",
+                      "label": "CONTACT US",
+                      "elementIds": [
+                        496
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": 502,
+                  "kind": "heading",
+                  "role": "heading level 2",
+                  "label": "For further involvement with our organization, we’re here to help. If you’re interested in joining our cause, please don’t hesitate to reach out!",
+                  "elementIds": [
+                    502
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": 510,
+              "kind": "landmark",
+              "role": "form",
+              "label": "",
+              "elementIds": [
+                510
+              ],
+              "children": [
+                {
+                  "id": 511,
+                  "kind": "group",
+                  "role": "form field",
+                  "label": "First Name",
+                  "elementIds": [
+                    511
+                  ],
+                  "children": [
+                    {
+                      "id": 513,
+                      "kind": "group",
+                      "role": "form field",
+                      "label": "First Name",
+                      "elementIds": [
+                        513
+                      ],
+                      "children": [
+                        {
+                          "id": 516,
+                          "kind": "text",
+                          "role": "text",
+                          "label": "First Name",
+                          "elementIds": [
+                            516
+                          ],
+                          "children": []
+                        },
+                        {
+                          "id": 518,
+                          "kind": "field",
+                          "role": "edit field",
+                          "label": "",
+                          "elementIds": [
+                            518
+                          ],
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 519,
+                      "kind": "group",
+                      "role": "form field",
+                      "label": "Last Name",
+                      "elementIds": [
+                        519
+                      ],
+                      "children": [
+                        {
+                          "id": 522,
+                          "kind": "text",
+                          "role": "text",
+                          "label": "Last Name *",
+                          "elementIds": [
+                            522
+                          ],
+                          "children": []
+                        },
+                        {
+                          "id": 524,
+                          "kind": "field",
+                          "role": "edit field",
+                          "label": "",
+                          "elementIds": [
+                            524
+                          ],
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": -3,
+                  "kind": "group",
+                  "role": "form field",
+                  "label": "Email",
+                  "elementIds": [
+                    525,
+                    539,
+                    543
+                  ],
+                  "children": [
+                    {
+                      "id": 525,
+                      "kind": "group",
+                      "role": "form field",
+                      "label": "Email",
+                      "elementIds": [
+                        525
+                      ],
+                      "children": [
+                        {
+                          "id": 527,
+                          "kind": "group",
+                          "role": "form field",
+                          "label": "Email",
+                          "elementIds": [
+                            527
+                          ],
+                          "children": [
+                            {
+                              "id": 530,
+                              "kind": "text",
+                              "role": "text",
+                              "label": "Email *",
+                              "elementIds": [
+                                530
+                              ],
+                              "children": []
+                            },
+                            {
+                              "id": 532,
+                              "kind": "field",
+                              "role": "edit field",
+                              "label": "",
+                              "elementIds": [
+                                532
+                              ],
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 533,
+                          "kind": "group",
+                          "role": "form field",
+                          "label": "Phone Number",
+                          "elementIds": [
+                            533
+                          ],
+                          "children": [
+                            {
+                              "id": 536,
+                              "kind": "text",
+                              "role": "text",
+                              "label": "Phone Number",
+                              "elementIds": [
+                                536
+                              ],
+                              "children": []
+                            },
+                            {
+                              "id": 538,
+                              "kind": "field",
+                              "role": "edit field",
+                              "label": "",
+                              "elementIds": [
+                                538
+                              ],
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 539,
+                      "kind": "group",
+                      "role": "form field",
+                      "label": "Message",
+                      "elementIds": [
+                        539
+                      ],
+                      "children": [
+                        {
+                          "id": 540,
+                          "kind": "text",
+                          "role": "text",
+                          "label": "Message",
+                          "elementIds": [
+                            540
+                          ],
+                          "children": []
+                        },
+                        {
+                          "id": 542,
+                          "kind": "field",
+                          "role": "edit field",
+                          "label": "",
+                          "elementIds": [
+                            542
+                          ],
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": 544,
+                      "kind": "button",
+                      "role": "button",
+                      "label": "Send Message",
+                      "elementIds": [
+                        544
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": -2,
+                  "kind": "group",
+                  "role": "group",
+                  "label": "",
+                  "elementIds": [
+                    547,
+                    548,
+                    549
+                  ],
+                  "children": [
+                    {
+                      "id": 547,
+                      "kind": "field",
+                      "role": "edit field",
+                      "label": "",
+                      "elementIds": [
+                        547
+                      ],
+                      "children": []
+                    },
+                    {
+                      "id": 548,
+                      "kind": "field",
+                      "role": "edit field",
+                      "label": "",
+                      "elementIds": [
+                        548
+                      ],
+                      "children": []
+                    },
+                    {
+                      "id": 549,
+                      "kind": "field",
+                      "role": "edit field",
+                      "label": "",
+                      "elementIds": [
+                        549
+                      ],
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 554,
+              "kind": "group",
+              "role": "section",
+              "label": "Chat With Us",
+              "elementIds": [
+                554
+              ],
+              "children": [
+                {
+                  "id": 556,
+                  "kind": "heading",
+                  "role": "heading level 2",
+                  "label": "Chat With Us",
+                  "elementIds": [
+                    556
+                  ],
+                  "children": []
+                },
+                {
+                  "id": 558,
+                  "kind": "heading",
+                  "role": "heading level 2",
+                  "label": "Message our friendly team anytime.",
+                  "elementIds": [
+                    558
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": 565,
+              "kind": "heading",
+              "role": "heading level 2",
+              "label": "Elizabeth.Hewitt@stonybrook.edu",
+              "elementIds": [
+                565
+              ],
+              "children": []
+            },
+            {
+              "id": -1,
+              "kind": "group",
+              "role": "group",
+              "label": "Krista.Thyberg@stonybrook.edu",
+              "elementIds": [
+                567,
+                573,
+                579
+              ],
+              "children": [
+                {
+                  "id": 571,
+                  "kind": "heading",
+                  "role": "heading level 2",
+                  "label": "Krista.Thyberg@stonybrook.edu",
+                  "elementIds": [
+                    571
+                  ],
+                  "children": []
+                },
+                {
+                  "id": 577,
+                  "kind": "heading",
+                  "role": "heading level 2",
+                  "label": "Firman.Firmansyah@stonybrook.edu",
+                  "elementIds": [
+                    577
+                  ],
+                  "children": []
+                },
+                {
+                  "id": 583,
+                  "kind": "heading",
+                  "role": "heading level 2",
+                  "label": "Yiyi.Wang@stonybrook.edu",
+                  "elementIds": [
+                    583
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": 587,
+              "kind": "group",
+              "role": "section",
+              "label": "Visit Us",
+              "elementIds": [
+                587
+              ],
+              "children": [
+                {
+                  "id": 589,
+                  "kind": "group",
+                  "role": "section",
+                  "label": "Visit Us",
+                  "elementIds": [
+                    589
+                  ],
+                  "children": [
+                    {
+                      "id": 591,
+                      "kind": "heading",
+                      "role": "heading level 2",
+                      "label": "Visit Us",
+                      "elementIds": [
+                        591
+                      ],
+                      "children": []
+                    },
+                    {
+                      "id": 593,
+                      "kind": "heading",
+                      "role": "heading level 2",
+                      "label": "Chat with us in person.",
+                      "elementIds": [
+                        593
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": 598,
+                  "kind": "heading",
+                  "role": "heading level 2",
+                  "label": "Old Computer Science Building, Nicolls Rd, Stony Brook, New York 11794, United States",
+                  "elementIds": [
+                    598
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 601,
+      "kind": "landmark",
+      "role": "footer",
+      "label": "",
+      "elementIds": [
+        601
+      ],
+      "children": [
+        {
+          "id": 638,
+          "kind": "text",
+          "role": "text",
+          "label": "© 2026 WDAC",
+          "elementIds": [
+            638
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": -7,
+      "kind": "group",
+      "role": "group",
+      "label": "Scroll to top",
+      "elementIds": [
+        641,
+        646
+      ],
+      "children": [
+        {
+          "id": 646,
+          "kind": "button",
+          "role": "button",
+          "label": "Scroll to top",
+          "elementIds": [
+            646
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 660,
+      "kind": "landmark",
+      "role": "navigation",
+      "label": "Primary Mobile",
+      "elementIds": [
+        660
+      ],
+      "children": [
+        {
+          "id": 662,
+          "kind": "list",
+          "role": "list",
+          "label": "",
+          "elementIds": [
+            662
+          ],
+          "children": [
+            {
+              "id": 664,
+              "kind": "link",
+              "role": "link",
+              "label": "Home",
+              "elementIds": [
+                664
+              ],
+              "children": []
+            },
+            {
+              "id": 666,
+              "kind": "link",
+              "role": "link",
+              "label": "About Us",
+              "elementIds": [
+                666
+              ],
+              "children": []
+            },
+            {
+              "id": 668,
+              "kind": "link",
+              "role": "link",
+              "label": "News",
+              "elementIds": [
+                668
+              ],
+              "children": []
+            },
+            {
+              "id": 670,
+              "kind": "link",
+              "role": "link",
+              "label": "Reports / Publications",
+              "elementIds": [
+                670
+              ],
+              "children": []
+            },
+            {
+              "id": 672,
+              "kind": "link",
+              "role": "link",
+              "label": "Data",
+              "elementIds": [
+                672
+              ],
+              "children": []
+            },
+            {
+              "id": 674,
+              "kind": "link",
+              "role": "link",
+              "label": "Recyc. Cost Tool",
+              "elementIds": [
+                674
+              ],
+              "children": []
+            },
+            {
+              "id": 675,
+              "kind": "item",
+              "role": "list item",
+              "label": "",
+              "elementIds": [
+                675
+              ],
+              "children": [
+                {
+                  "id": 676,
+                  "kind": "group",
+                  "role": "group",
+                  "label": "RHRF",
+                  "elementIds": [
+                    676
+                  ],
+                  "children": [
+                    {
+                      "id": 677,
+                      "kind": "link",
+                      "role": "link",
+                      "label": "RHRF",
+                      "elementIds": [
+                        677
+                      ],
+                      "children": []
+                    },
+                    {
+                      "id": 678,
+                      "kind": "button",
+                      "role": "button",
+                      "label": "Toggle child menu",
+                      "elementIds": [
+                        678
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": 684,
+                  "kind": "list",
+                  "role": "list",
+                  "label": "",
+                  "elementIds": [
+                    684
+                  ],
+                  "children": [
+                    {
+                      "id": 686,
+                      "kind": "link",
+                      "role": "link",
+                      "label": "What Are RHRFs?",
+                      "elementIds": [
+                        686
+                      ],
+                      "children": []
+                    },
+                    {
+                      "id": 688,
+                      "kind": "link",
+                      "role": "link",
+                      "label": "Types of RHRFs",
+                      "elementIds": [
+                        688
+                      ],
+                      "children": []
+                    },
+                    {
+                      "id": 690,
+                      "kind": "link",
+                      "role": "link",
+                      "label": "Glossary",
+                      "elementIds": [
+                        690
+                      ],
+                      "children": []
+                    },
+                    {
+                      "id": 692,
+                      "kind": "link",
+                      "role": "link",
+                      "label": "Visited Facilities",
+                      "elementIds": [
+                        692
+                      ],
+                      "children": []
+                    },
+                    {
+                      "id": 694,
+                      "kind": "link",
+                      "role": "link",
+                      "label": "Visited Facilities Map",
+                      "elementIds": [
+                        694
+                      ],
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 696,
+              "kind": "link",
+              "role": "link",
+              "label": "Contact Us",
+              "elementIds": [
+                696
+              ],
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

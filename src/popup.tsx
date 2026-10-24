@@ -1,22 +1,45 @@
 import { useState } from 'react';
 import { createRoot } from 'react-dom/client';
+import type { ToggleNavigator } from './messages.js';
 
 const Popup = () => {
-  const [count, setCount] = useState(0);
+  const [error, setError] = useState('');
+
+  const openNavigator = async () => {
+    const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
+    if (tab?.id === undefined) return;
+    const message: ToggleNavigator = { type: 'toggle-navigator' };
+    try {
+      await chrome.tabs.sendMessage(tab.id, message);
+      window.close();
+    } catch {
+      // no content script: not an https page, or it was open before install
+      setError('Can’t open here. Try an https page, or reload this one.');
+    }
+  };
 
   return (
-    <div className="flex flex-col items-center justify-center h-full p-6 text-center">
-      <h1 className="text-2xl font-bold text-indigo-600 mb-2">Hello World!</h1>
-      <p className="text-gray-600 mb-6 text-sm">
-        React + Tailwind + Parcel + pnpm
+    <div className="flex flex-col gap-4 h-full p-6">
+      <h1 className="text-xl font-bold text-gray-900">Page navigator</h1>
+      <p className="text-gray-600 text-sm">
+        Moves through the page the way a screen reader would, using Jev to work
+        out headings, groups and labels the page doesn’t mark up.
       </p>
 
       <button
-        onClick={() => setCount(count + 1)}
-        className="px-4 py-2 bg-indigo-500 hover:bg-indigo-600 text-white font-medium rounded-lg shadow transition-colors"
+        onClick={openNavigator}
+        className="px-4 py-2 bg-indigo-600 hover:bg-indigo-700 text-white font-medium rounded-lg shadow transition-colors"
       >
-        Clicks: {count}
+        Open navigator
       </button>
+      {error && <p className="text-red-600 text-sm">{error}</p>}
+
+      <p className="text-gray-500 text-xs">
+        Shortcut: <kbd className="px-1 rounded bg-gray-100">Alt</kbd>+
+        <kbd className="px-1 rounded bg-gray-100">Shift</kbd>+
+        <kbd className="px-1 rounded bg-gray-100">N</kbd> on any page. Speech
+        starts after your first key press in the navigator.
+      </p>
     </div>
   );
 };
