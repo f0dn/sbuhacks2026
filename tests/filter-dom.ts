@@ -22,7 +22,7 @@ import {
   type ParsedNode,
   type FilterVerdict,
 } from "../src/vdom/types.js";
-import "dotenv/config";
+import { collapse } from "../src/vdom/collapse.js";
 
 const args = process.argv.slice(2);
 const maxCallsIdx = args.indexOf("--max-calls");
@@ -49,8 +49,8 @@ const DROP_TAGS = new Set([
 ]);
 const KEEP_WITHOUT_TEXT = new Set(["IMG", "INPUT", "BUTTON", "svg"]);
 
-const prefilter = (root: ParsedNode): FilteredNode | null => {
-  const kept = filterTree(
+const prefilter = (root: ParsedNode) =>
+  filterTree(
     root,
     (el, parent) =>
       !DROP_TAGS.has(el.tag) &&
@@ -58,8 +58,6 @@ const prefilter = (root: ParsedNode): FilteredNode | null => {
       parent?.tag !== "svg" &&
       (KEEP_WITHOUT_TEXT.has(el.tag) || someNode(el, (n) => n.text !== "")),
   );
-  return kept && mapTree(kept, () => ({ status: "unvisited" as const }));
-};
 
 // ---------------------------------------------------------------------------
 // 3. Jev state for one node
@@ -149,7 +147,8 @@ const line = (n: FilteredNode) => {
   const stats = v
     ? ` ${v.region}(${fmt(v.regionConfidence)}) content=${fmt(v.hasContent)} deco=${fmt(v.isDecorative)} imp=${fmt(v.importance)}`
     : "";
-  return `${n.status.toUpperCase()} ${describe(n)}${stats}`;
+  const merged = n.merged.length ? ` (+${n.merged.length} wrappers)` : "";
+  return `${n.status.toUpperCase()} ${describe(n)}${merged}${stats}`;
 };
 
 const countStatus = (root: FilteredNode) => {
@@ -163,12 +162,17 @@ const countStatus = (root: FilteredNode) => {
 const start = Date.now();
 const real: ParsedNode = JSON.parse(readFileSync(INPUT, "utf8"));
 const body = findTag(real, "BODY") ?? real;
-const root = prefilter(body);
-if (!root) throw new Error("nothing left after prefilter");
+const prefiltered = prefilter(body);
+if (!prefiltered) throw new Error("nothing left after prefilter");
+const collapsed = collapse(prefiltered);
+const root: FilteredNode = mapTree(collapsed, (n) => ({
+  merged: n.merged,
+  status: "unvisited" as const,
+}));
 parents = parentsOf(root);
 
 console.log(
-  `nodes in: ${countNodes(real)}, after prefilter: ${countNodes(root)}`,
+  `nodes in: ${countNodes(real)}, after prefilter: ${countNodes(prefiltered)}, after collapse: ${countNodes(root)}`,
 );
 
 calls = await walkTreeAsync(root, visit, {

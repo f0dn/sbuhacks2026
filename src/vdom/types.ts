@@ -26,6 +26,22 @@ export type DomNode<Data = {}> = {
 /** stage 1: straight out of src/vdom/parse.ts */
 export type ParsedNode = DomNode;
 
+/** a wrapper element that the collapse pass folded into this node */
+export type MergedElement = {
+  id: number;
+  tag: string;
+  aria: Record<string, string>;
+  text: string;
+};
+
+/** chains of single-child wrapper divs, folded into the outermost one */
+export type CollapseData = {
+  /** wrappers folded into this node, outermost first; empty if none */
+  merged: MergedElement[];
+};
+
+export type CollapsedNode = DomNode<CollapseData>;
+
 /** stage 2: Jev's answers from the top-down filter pass */
 export type FilterVerdict = {
   region: string;
@@ -41,7 +57,7 @@ export type FilterData = {
   jev?: FilterVerdict;
 };
 
-export type FilteredNode = DomNode<FilterData>;
+export type FilteredNode = DomNode<CollapseData & FilterData>;
 
 /**
  * stage 3 (planned): the semantics Jev inferred for an element, which stage 4
@@ -85,7 +101,9 @@ export type Semantics = {
   decorative?: boolean;
 };
 
-export type EnrichedNode = DomNode<FilterData & { semantics?: Semantics }>;
+export type EnrichedNode = DomNode<
+  CollapseData & FilterData & { semantics?: Semantics }
+>;
 
 // ---------------------------------------------------------------------------
 // helpers that work on any pass
