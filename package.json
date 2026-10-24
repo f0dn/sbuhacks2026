@@ -10,6 +10,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "@parcel/config-webextension": "^2.16.4",
     "@typesafe-ai/sdk": "^0.7.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.4"
   }
 }
