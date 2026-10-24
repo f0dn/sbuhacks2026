@@ -6,6 +6,7 @@
     "build": "parcel build src/manifest.json"
   },
   "dependencies": {
+    "dotenv": "^18.0.9",
     "react": "^19.3.0",
     "react-dom": "^19.3.0"
   },
@@ -18,6 +19,7 @@
     "autoprefixer": "^10.6.1",
     "parcel": "^2.16.4",
     "tailwindcss": "^4.3.3",
+    "tsx": "^4.23.15",
     "typescript": "^7.0.2"
   }
 }
