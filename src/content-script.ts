@@ -2,10 +2,12 @@
 // page we are trying to scrape. it has access to the DOM and can read the HTML
 // of the page.
 
+import { parse } from "./vdom/parse.js";
+
 const scrapeAndSendElements = async () => {
   // TODO: walk HTML tree and turn the elements into JSON data.
 
-  return { type: "elements", data: [{ penis: true }] };
+  return parse(document.documentElement);
 };
 
 const run = async () => {
