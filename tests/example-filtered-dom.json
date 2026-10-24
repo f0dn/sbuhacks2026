@@ -294,9 +294,9 @@
                                       "jev": {
                                         "region": "navigation",
                                         "regionConfidence": 0.99,
-                                        "hasContent": 0.59,
-                                        "isDecorative": 0.13,
-                                        "importance": 1.34,
+                                        "hasContent": 0.55,
+                                        "isDecorative": 0.14,
+                                        "importance": 1.35,
                                         "interesting": true
                                       }
                                     }
@@ -306,6 +306,7 @@
                                     "regionConfidence": 1,
                                     "hasContent": 0.65,
                                     "isDecorative": 0.1,
+                                    "importance": 1.34,
                                     "importance": 1.34,
                                     "interesting": true
                                   }
@@ -521,6 +522,9 @@
                                             "hasContent": 0.63,
                                             "isDecorative": 0.13,
                                             "importance": 1.16,
+                                            "hasContent": 0.63,
+                                            "isDecorative": 0.13,
+                                            "importance": 1.16,
                                             "interesting": true
                                           }
                                         },
@@ -636,6 +640,7 @@
                                         "region": "navigation",
                                         "regionConfidence": 0.99,
                                         "hasContent": 0.69,
+                                        "hasContent": 0.69,
                                         "isDecorative": 0.1,
                                         "importance": 1.46,
                                         "interesting": true
@@ -645,7 +650,7 @@
                                   "jev": {
                                     "region": "navigation",
                                     "regionConfidence": 0.99,
-                                    "hasContent": 0.68,
+                                    "hasContent": 0.67,
                                     "isDecorative": 0.08,
                                     "importance": 1.46,
                                     "interesting": true
@@ -1534,6 +1539,7 @@
                                             "hasContent": 0.63,
                                             "isDecorative": 0.21,
                                             "importance": 1.28,
+                                            "importance": 1.28,
                                             "interesting": true
                                           }
                                         }
@@ -2145,8 +2151,10 @@
                                       "children": [],
                                       "jev": {
                                         "region": "main_content",
-                                        "regionConfidence": 0.83,
+                                        "regionConfidence": 0.84,
                                         "hasContent": 0.73,
+                                        "isDecorative": 0.15,
+                                        "importance": 1.81,
                                         "isDecorative": 0.15,
                                         "importance": 1.81,
                                         "interesting": true
@@ -2190,8 +2198,8 @@
                                   ],
                                   "jev": {
                                     "region": "main_content",
-                                    "regionConfidence": 0.83,
-                                    "hasContent": 0.62,
+                                    "regionConfidence": 0.87,
+                                    "hasContent": 0.61,
                                     "isDecorative": 0.21,
                                     "importance": 0.74,
                                     "interesting": true
@@ -2512,6 +2520,7 @@
                                     "hasContent": 0.53,
                                     "isDecorative": 0.21,
                                     "importance": 1.46,
+                                    "importance": 1.46,
                                     "interesting": true
                                   }
                                 },
@@ -2569,6 +2578,7 @@
                                       ],
                                       "jev": {
                                         "region": "main_content",
+                                        "regionConfidence": 0.98,
                                         "regionConfidence": 0.98,
                                         "hasContent": 0.54,
                                         "isDecorative": 0.21,
@@ -3299,6 +3309,7 @@
                                             "region": "main_content",
                                             "regionConfidence": 1,
                                             "hasContent": 0.78,
+                                            "hasContent": 0.78,
                                             "isDecorative": 0.1,
                                             "importance": 1.71,
                                             "interesting": true
@@ -3521,7 +3532,7 @@
                                         "regionConfidence": 0.82,
                                         "hasContent": 0.68,
                                         "isDecorative": 0.14,
-                                        "importance": 0.93,
+                                        "importance": 0.97,
                                         "interesting": true
                                       }
                                     }
@@ -3644,7 +3655,25 @@
                                                   "tag": "LABEL",
                                                   "aria": {},
                                                   "text": "First Name",
-                                                  "children": [],
+                                                  "children": [
+                                                    {
+                                                      "merged": [],
+                                                      "status": "kept",
+                                                      "id": 517,
+                                                      "tag": "SPAN",
+                                                      "aria": {},
+                                                      "text": "*",
+                                                      "children": [],
+                                                      "jev": {
+                                                        "region": "form",
+                                                        "regionConfidence": 0.91,
+                                                        "hasContent": 0.21,
+                                                        "isDecorative": 0.3,
+                                                        "importance": 1.07,
+                                                        "interesting": false
+                                                      }
+                                                    }
+                                                  ],
                                                   "jev": {
                                                     "region": "form",
                                                     "regionConfidence": 0.99,
@@ -3929,7 +3958,7 @@
                                                   "jev": {
                                                     "region": "form",
                                                     "regionConfidence": 0.99,
-                                                    "hasContent": 0.21,
+                                                    "hasContent": 0.22,
                                                     "isDecorative": 0.08,
                                                     "importance": 1.79,
                                                     "interesting": false
@@ -4932,7 +4961,7 @@
         "regionConfidence": 0.41,
         "hasContent": 0.42,
         "isDecorative": 0.1,
-        "importance": 0.72,
+        "importance": 0.76,
         "interesting": false
       }
     },
@@ -5056,7 +5085,7 @@
                       "jev": {
                         "region": "navigation",
                         "regionConfidence": 1,
-                        "hasContent": 0.69,
+                        "hasContent": 0.7,
                         "isDecorative": 0.1,
                         "importance": 1.21,
                         "interesting": true
@@ -5451,7 +5480,7 @@
                                   "jev": {
                                     "region": "navigation",
                                     "regionConfidence": 1,
-                                    "hasContent": 0.63,
+                                    "hasContent": 0.61,
                                     "isDecorative": 0.12,
                                     "importance": 0.94,
                                     "interesting": true

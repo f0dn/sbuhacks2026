@@ -4,7 +4,7 @@
 // then builds the navigator outline (src/vdom/nav.ts) and prints it. writes
 // each stage's output, so render-dom.ts can show any of them.
 //
-// usage: pnpm tsx tests/pipeline.ts [input.json] [--max-calls N]
+// usage: pnpm tsx tests/pipeline.spec.ts [input.json] [--max-calls N]
 // --max-calls is the Jev budget for each Jev pass
 
 import { TypeSafeClient } from "@typesafe-ai/sdk";
