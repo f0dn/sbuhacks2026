@@ -134,6 +134,21 @@ export const walkTree = <D>(
 };
 
 /**
+ * visit every node bottom-up (postorder DFS): a node is visited after all its
+ * children, and gets their results in order. returns the root's result.
+ */
+export const walkTreePost = <D, R = void>(
+  node: DomNode<D>,
+  visit: (n: DomNode<D>, childResults: R[], depth: number) => R,
+  depth = 0,
+): R =>
+  visit(
+    node,
+    node.children.map((c) => walkTreePost(c, visit, depth + 1)),
+    depth,
+  );
+
+/**
  * visit nodes top-down (breadth first), up to `concurrency` at a time. a
  * node's children are only visited if `visit` resolves to true. no new visits
  * start once `limit` is reached. returns how many nodes were visited.
