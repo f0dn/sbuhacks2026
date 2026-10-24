@@ -1,8 +1,8 @@
-// takes the filtered DOM (from tests/filter-dom.ts) and runs only the grouping
+// takes the filtered DOM (from tests/filter-dom.spec.ts) and runs only the grouping
 // pass (src/vdom/group.ts), so grouping can be tuned without re-running the
 // filter's Jev calls.
 //
-// usage: pnpm tsx tests/group-dom.ts [input.json] [--max-calls N]
+// usage: pnpm tsx tests/group-dom.spec.ts [input.json] [--max-calls N]
 
 import { TypeSafeClient } from "@typesafe-ai/sdk";
 import "dotenv/config";

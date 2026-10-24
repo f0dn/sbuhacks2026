@@ -1,7 +1,7 @@
 // feeds a real parsed DOM (from src/vdom/parse.ts) through prefilter, collapse
 // and the Jev filter pass, and prints every node's verdict.
 //
-// usage: pnpm tsx tests/filter-dom.ts [input.json] [--max-calls N]
+// usage: pnpm tsx tests/filter-dom.spec.ts [input.json] [--max-calls N]
 
 import { TypeSafeClient } from "@typesafe-ai/sdk";
 import "dotenv/config";
