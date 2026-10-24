@@ -2,7 +2,7 @@
   "name": "sbuhacks",
   "version": "1.0.0",
   "scripts": {
-    "watch": "parcel watch src/manifest.json --host localhost",
+    "dev": "parcel watch src/manifest.json --host localhost",
     "build": "parcel build src/manifest.json"
   },
   "dependencies": {
