@@ -5,5 +5,14 @@
   "action": {
     "default_popup": "popup.html"
   },
-  "permissions": []
+  "permissions": [],
+  "background": {
+    "service_worker": "background.ts"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["content-script.ts"]
+    }
+  ]
 }
