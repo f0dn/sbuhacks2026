@@ -62,16 +62,29 @@ decorative or not) and give them to the screen reader.**
 The pipeline runs in four stages. Stages 1–2 are partly built; stages 3–4 are
 planned.
 
-### Stage 1: Read the DOM into a `RealElement` tree (built)
+### The shared tree: `src/vdom/types.ts`
+
+Every stage works on the same tree type, `DomNode<Data>`:
+`{ id, tag, aria, text, children }` plus whatever the earlier passes attached
+through `Data`. `aria` maps attribute names (`aria-*` and `role`) to values,
+and `text` is the element's own text, not its descendants'. Each pass adds
+its data by intersection, e.g. `FilteredNode = DomNode<FilterData>` and
+`EnrichedNode = DomNode<FilterData & { semantics?: Semantics }>`.
+
+Nodes have no parent pointer and no live-element reference, so the tree can
+go through `JSON.stringify` and `chrome.runtime.sendMessage`. Use `id` to get
+back to the live element (see Stage 1) and `parentsOf(root)` when a pass
+needs ancestors. Shared helpers (`mapTree`, `countNodes`, `findTag`,
+`parentsOf`) live in the same file. Add new per-pass data there; don't define
+a new tree type.
+
+### Stage 1: Read the DOM into a `ParsedNode` tree (built)
 
 `src/content-script.ts` runs on every `https://*/*` page and calls
-`parse(document.documentElement)` in `src/vdom/parse.ts`. That function walks
-the DOM and builds a plain tree of `{ tag, ariaAttributes, text, children }`,
-which it sends to the service worker with `chrome.runtime.sendMessage`.
-
-The fuller shape we're aiming for is the `RealElement` interface in
-`tests/classify-dom.ts`. It adds a reference to the live element, a parent
-link, and `ariaLabel` and `ariaRole` fields.
+`parse(document.documentElement, elements)` in `src/vdom/parse.ts`. That
+function walks the DOM, builds a `ParsedNode` tree, and records every element
+in `elements` (a `Map<id, Element>` the content script keeps for Stage 4).
+The tree goes to the service worker with `chrome.runtime.sendMessage`.
 
 ### Stage 2: Classify elements with Jev (prototyped in `tests/hello.ts`)
 
@@ -92,10 +105,10 @@ Ask several narrow questions in one call; don't write one broad question.
 Use `.probabilities` and `.confidence` to decide whether to act on an answer.
 If Jev isn't confident, leave the page as the author wrote it.
 
-### Stage 3: Build the `VirtualElement` tree (planned)
+### Stage 3: Build the `EnrichedNode` tree (planned)
 
-Combine the Jev answers into a `VirtualElement` tree. It is still a stub in
-`tests/classify-dom.ts`, but its doc comment describes the target: a tree of
+Combine the Jev answers into `Semantics` on an `EnrichedNode` tree. The doc
+comment on `Semantics` in `src/vdom/types.ts` describes the target: a tree of
 proper semantics (`<h1>`, `<label for>`, `<button type="submit">`, main
 content) that can answer questions like "what is the label for this input?".
 
@@ -121,7 +134,8 @@ Rules for this stage:
 | `src/manifest.json`     | Extension manifest; also the Parcel entry point |
 | `src/content-script.ts` | Runs in the page, reads the DOM, sends the tree |
 | `src/background.ts`     | Service worker; this is where Jev is called     |
-| `src/vdom/parse.ts`     | Turns the DOM into a `RealElement` tree         |
+| `src/vdom/types.ts`     | The `DomNode` tree type shared by every stage   |
+| `src/vdom/parse.ts`     | Turns the DOM into a `ParsedNode` tree          |
 | `src/popup.tsx`         | Popup UI (React + Tailwind)                     |
 | `tests/*.ts`            | Scripts that try out Jev, run with `tsx`        |
 | `tests/wastedata.html`  | Sample page with poor semantics                 |
@@ -134,9 +148,9 @@ Rules for this stage:
 
 ## Known gaps
 
-- `parse.ts` collects the _values_ of `aria-*` attributes but not their
-  names, and `text` is `textContent`, which includes the text of every
-  descendant. Both need fixing before the tree is useful as Jev state.
+- `tests/example-real-dom.json` was converted from the old parse format, so
+  its `aria` objects are empty and its `text` was recovered approximately.
+  Re-capture it from Chrome for exact data.
 - `background.ts` only logs the incoming message. No Jev calls are wired
   into the extension yet.
 - The API key must not be bundled into a shipped extension. That's fine for

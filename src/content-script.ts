@@ -4,10 +4,13 @@
 
 import { parse } from "./vdom/parse.js";
 
+/** node id -> live element, for when we write ARIA back onto the page */
+const elements = new Map<number, Element>();
+
 const scrapeAndSendElements = async () => {
   // TODO: walk HTML tree and turn the elements into JSON data.
 
-  return parse(document.documentElement);
+  return parse(document.documentElement, elements);
 };
 
 const run = async () => {

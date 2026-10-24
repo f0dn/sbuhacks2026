@@ -1,0 +1,3688 @@
+{
+  "id": 0,
+  "tag": "HTML",
+  "aria": {},
+  "text": "",
+  "children": [
+    {
+      "id": 1,
+      "tag": "HEAD",
+      "aria": {},
+      "text": "",
+      "children": [
+        {
+          "id": 2,
+          "tag": "META",
+          "aria": {},
+          "text": "",
+          "children": []
+        },
+        {
+          "id": 3,
+          "tag": "META",
+          "aria": {},
+          "text": "",
+          "children": []
+        },
+        {
+          "id": 4,
+          "tag": "TITLE",
+          "aria": {},
+          "text": "Web Extension",
+          "children": []
+        },
+        {
+          "id": 5,
+          "tag": "LINK",
+          "aria": {},
+          "text": "",
+          "children": []
+        },
+        {
+          "id": 6,
+          "tag": "LINK",
+          "aria": {},
+          "text": "",
+          "children": []
+        },
+        {
+          "id": 7,
+          "tag": "LINK",
+          "aria": {},
+          "text": "",
+          "children": []
+        },
+        {
+          "id": 8,
+          "tag": "SCRIPT",
+          "aria": {},
+          "text": "",
+          "children": []
+        },
+        {
+          "id": 9,
+          "tag": "SCRIPT",
+          "aria": {},
+          "text": "let rootEl=document.querySelector(\"html\");function updateMode(e){e?rootEl.classList.add(\"dark\"):rootEl.classList.remove(\"dark\")}let query=matchMedia&&matchMedia(\"(prefers-color-scheme: dark)\"),isSystemDarkMode=query&&query.matches;query&&query.addListener(e=>{delete sessionStorage.isDarkMode,updateMode(e.matches)});let isDarkMode=JSON.parse(sessionStorage.getItem(\"isDarkMode\"));null==isDarkMode&&(isDarkMode=isSystemDarkMode),updateMode(isDarkMode);",
+          "children": []
+        },
+        {
+          "id": 10,
+          "tag": "LINK",
+          "aria": {},
+          "text": "",
+          "children": []
+        },
+        {
+          "id": 11,
+          "tag": "SCRIPT",
+          "aria": {},
+          "text": "",
+          "children": []
+        },
+        {
+          "id": 12,
+          "tag": "SCRIPT",
+          "aria": {},
+          "text": "",
+          "children": []
+        },
+        {
+          "id": 13,
+          "tag": "META",
+          "aria": {},
+          "text": "",
+          "children": []
+        },
+        {
+          "id": 14,
+          "tag": "META",
+          "aria": {},
+          "text": "",
+          "children": []
+        },
+        {
+          "id": 15,
+          "tag": "META",
+          "aria": {},
+          "text": "",
+          "children": []
+        },
+        {
+          "id": 16,
+          "tag": "META",
+          "aria": {},
+          "text": "",
+          "children": []
+        },
+        {
+          "id": 17,
+          "tag": "META",
+          "aria": {},
+          "text": "",
+          "children": []
+        },
+        {
+          "id": 18,
+          "tag": "META",
+          "aria": {},
+          "text": "",
+          "children": []
+        },
+        {
+          "id": 19,
+          "tag": "META",
+          "aria": {},
+          "text": "",
+          "children": []
+        },
+        {
+          "id": 20,
+          "tag": "META",
+          "aria": {},
+          "text": "",
+          "children": []
+        },
+        {
+          "id": 21,
+          "tag": "META",
+          "aria": {},
+          "text": "",
+          "children": []
+        },
+        {
+          "id": 22,
+          "tag": "META",
+          "aria": {},
+          "text": "",
+          "children": []
+        },
+        {
+          "id": 23,
+          "tag": "SCRIPT",
+          "aria": {},
+          "text": "",
+          "children": []
+        },
+        {
+          "id": 24,
+          "tag": "SCRIPT",
+          "aria": {},
+          "text": "function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag(\"js\",new Date),gtag(\"config\",\"UA-110647385-1\");",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "tag": "BODY",
+      "aria": {},
+      "text": "",
+      "children": [
+        {
+          "id": 26,
+          "tag": "HEADER",
+          "aria": {},
+          "text": "",
+          "children": [
+            {
+              "id": 27,
+              "tag": "DIV",
+              "aria": {},
+              "text": "",
+              "children": [
+                {
+                  "id": 28,
+                  "tag": "BUTTON",
+                  "aria": {},
+                  "text": "",
+                  "children": [
+                    {
+                      "id": 29,
+                      "tag": "svg",
+                      "aria": {},
+                      "text": "",
+                      "children": [
+                        {
+                          "id": 30,
+                          "tag": "path",
+                          "aria": {},
+                          "text": "",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 31,
+                  "tag": "A",
+                  "aria": {},
+                  "text": "",
+                  "children": [
+                    {
+                      "id": 32,
+                      "tag": "IMG",
+                      "aria": {},
+                      "text": "",
+                      "children": []
+                    },
+                    {
+                      "id": 33,
+                      "tag": "IMG",
+                      "aria": {},
+                      "text": "",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 34,
+              "tag": "NAV",
+              "aria": {},
+              "text": "",
+              "children": [
+                {
+                  "id": 35,
+                  "tag": "A",
+                  "aria": {},
+                  "text": "Docs",
+                  "children": []
+                },
+                {
+                  "id": 36,
+                  "tag": "A",
+                  "aria": {},
+                  "text": "Blog",
+                  "children": []
+                },
+                {
+                  "id": 37,
+                  "tag": "A",
+                  "aria": {},
+                  "text": "REPL",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": 38,
+              "tag": "DIV",
+              "aria": {},
+              "text": "",
+              "children": [
+                {
+                  "id": 39,
+                  "tag": "svg",
+                  "aria": {},
+                  "text": "",
+                  "children": [
+                    {
+                      "id": 40,
+                      "tag": "path",
+                      "aria": {},
+                      "text": "",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": 41,
+                  "tag": "SPAN",
+                  "aria": {},
+                  "text": "",
+                  "children": [
+                    {
+                      "id": 42,
+                      "tag": "INPUT",
+                      "aria": {},
+                      "text": "",
+                      "children": []
+                    },
+                    {
+                      "id": 43,
+                      "tag": "PRE",
+                      "aria": {},
+                      "text": "",
+                      "children": []
+                    },
+                    {
+                      "id": 44,
+                      "tag": "SPAN",
+                      "aria": {},
+                      "text": "",
+                      "children": [
+                        {
+                          "id": 45,
+                          "tag": "DIV",
+                          "aria": {},
+                          "text": "",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 46,
+              "tag": "DIV",
+              "aria": {},
+              "text": "",
+              "children": [
+                {
+                  "id": 47,
+                  "tag": "A",
+                  "aria": {},
+                  "text": "",
+                  "children": [
+                    {
+                      "id": 48,
+                      "tag": "svg",
+                      "aria": {},
+                      "text": "",
+                      "children": [
+                        {
+                          "id": 49,
+                          "tag": "title",
+                          "aria": {},
+                          "text": "GitHub",
+                          "children": []
+                        },
+                        {
+                          "id": 50,
+                          "tag": "path",
+                          "aria": {},
+                          "text": "",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 51,
+                  "tag": "BUTTON",
+                  "aria": {},
+                  "text": "",
+                  "children": [
+                    {
+                      "id": 52,
+                      "tag": "svg",
+                      "aria": {},
+                      "text": "",
+                      "children": [
+                        {
+                          "id": 53,
+                          "tag": "mask",
+                          "aria": {},
+                          "text": "",
+                          "children": [
+                            {
+                              "id": 54,
+                              "tag": "rect",
+                              "aria": {},
+                              "text": "",
+                              "children": []
+                            },
+                            {
+                              "id": 55,
+                              "tag": "circle",
+                              "aria": {},
+                              "text": "",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 56,
+                          "tag": "circle",
+                          "aria": {},
+                          "text": "",
+                          "children": []
+                        },
+                        {
+                          "id": 57,
+                          "tag": "circle",
+                          "aria": {},
+                          "text": "",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 58,
+          "tag": "NAV",
+          "aria": {},
+          "text": "",
+          "children": [
+            {
+              "id": 59,
+              "tag": "UL",
+              "aria": {},
+              "text": "",
+              "children": [
+                {
+                  "id": 60,
+                  "tag": "LI",
+                  "aria": {},
+                  "text": "",
+                  "children": [
+                    {
+                      "id": 61,
+                      "tag": "H3",
+                      "aria": {},
+                      "text": "Getting Started",
+                      "children": []
+                    },
+                    {
+                      "id": 62,
+                      "tag": "UL",
+                      "aria": {},
+                      "text": "",
+                      "children": [
+                        {
+                          "id": 63,
+                          "tag": "LI",
+                          "aria": {},
+                          "text": "",
+                          "children": [
+                            {
+                              "id": 64,
+                              "tag": "A",
+                              "aria": {},
+                              "text": "🌐 Web app",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 65,
+                          "tag": "LI",
+                          "aria": {},
+                          "text": "",
+                          "children": [
+                            {
+                              "id": 66,
+                              "tag": "A",
+                              "aria": {},
+                              "text": "📔 Library",
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 67,
+                  "tag": "LI",
+                  "aria": {},
+                  "text": "",
+                  "children": [
+                    {
+                      "id": 68,
+                      "tag": "H3",
+                      "aria": {},
+                      "text": "Migration",
+                      "children": []
+                    },
+                    {
+                      "id": 69,
+                      "tag": "UL",
+                      "aria": {},
+                      "text": "",
+                      "children": [
+                        {
+                          "id": 70,
+                          "tag": "LI",
+                          "aria": {},
+                          "text": "",
+                          "children": [
+                            {
+                              "id": 71,
+                              "tag": "A",
+                              "aria": {},
+                              "text": "Create React App",
+                              "children": [
+                                {
+                                  "id": 72,
+                                  "tag": "IMG",
+                                  "aria": {},
+                                  "text": "",
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 73,
+                          "tag": "LI",
+                          "aria": {},
+                          "text": "",
+                          "children": [
+                            {
+                              "id": 74,
+                              "tag": "A",
+                              "aria": {},
+                              "text": "📦 Parcel 1",
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 75,
+                  "tag": "LI",
+                  "aria": {},
+                  "text": "",
+                  "children": [
+                    {
+                      "id": 76,
+                      "tag": "H3",
+                      "aria": {},
+                      "text": "Features",
+                      "children": []
+                    },
+                    {
+                      "id": 77,
+                      "tag": "UL",
+                      "aria": {},
+                      "text": "",
+                      "children": [
+                        {
+                          "id": 78,
+                          "tag": "LI",
+                          "aria": {},
+                          "text": "",
+                          "children": [
+                            {
+                              "id": 79,
+                              "tag": "A",
+                              "aria": {},
+                              "text": "🧑‍💻 Development",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 80,
+                          "tag": "LI",
+                          "aria": {},
+                          "text": "",
+                          "children": [
+                            {
+                              "id": 81,
+                              "tag": "A",
+                              "aria": {},
+                              "text": "✂️ Code Splitting",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 82,
+                          "tag": "LI",
+                          "aria": {},
+                          "text": "",
+                          "children": [
+                            {
+                              "id": 83,
+                              "tag": "A",
+                              "aria": {},
+                              "text": "📔 Dependency resolution",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 84,
+                          "tag": "LI",
+                          "aria": {},
+                          "text": "",
+                          "children": [
+                            {
+                              "id": 85,
+                              "tag": "A",
+                              "aria": {},
+                              "text": "🪆 Bundle inlining",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 86,
+                          "tag": "LI",
+                          "aria": {},
+                          "text": "",
+                          "children": [
+                            {
+                              "id": 87,
+                              "tag": "A",
+                              "aria": {},
+                              "text": "🌷 Macros",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 88,
+                          "tag": "LI",
+                          "aria": {},
+                          "text": "",
+                          "children": [
+                            {
+                              "id": 89,
+                              "tag": "A",
+                              "aria": {},
+                              "text": "🎯 Targets",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 90,
+                          "tag": "LI",
+                          "aria": {},
+                          "text": "",
+                          "children": [
+                            {
+                              "id": 91,
+                              "tag": "A",
+                              "aria": {},
+                              "text": "🚀 Production",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 92,
+                          "tag": "LI",
+                          "aria": {},
+                          "text": "",
+                          "children": [
+                            {
+                              "id": 93,
+                              "tag": "A",
+                              "aria": {},
+                              "text": "🌳 Scope hoisting",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 94,
+                          "tag": "LI",
+                          "aria": {},
+                          "text": "",
+                          "children": [
+                            {
+                              "id": 95,
+                              "tag": "A",
+                              "aria": {},
+                              "text": "🐢 Node Emulation",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 96,
+                          "tag": "LI",
+                          "aria": {},
+                          "text": "",
+                          "children": [
+                            {
+                              "id": 97,
+                              "tag": "A",
+                              "aria": {},
+                              "text": "⌨️ CLI",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 98,
+                          "tag": "LI",
+                          "aria": {},
+                          "text": "",
+                          "children": [
+                            {
+                              "id": 99,
+                              "tag": "A",
+                              "aria": {},
+                              "text": "📚 Parcel API",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 100,
+                          "tag": "LI",
+                          "aria": {},
+                          "text": "",
+                          "children": [
+                            {
+                              "id": 101,
+                              "tag": "A",
+                              "aria": {},
+                              "text": "📈 Profiling and tracing",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 102,
+                          "tag": "LI",
+                          "aria": {},
+                          "text": "",
+                          "children": [
+                            {
+                              "id": 103,
+                              "tag": "A",
+                              "aria": {},
+                              "text": "🔌 Plugins",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 104,
+                          "tag": "LI",
+                          "aria": {},
+                          "text": "",
+                          "children": [
+                            {
+                              "id": 105,
+                              "tag": "A",
+                              "aria": {},
+                              "text": "🔍 Plugin Search",
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 106,
+                  "tag": "LI",
+                  "aria": {},
+                  "text": "",
+                  "children": [
+                    {
+                      "id": 107,
+                      "tag": "H3",
+                      "aria": {},
+                      "text": "Recipes",
+                      "children": []
+                    },
+                    {
+                      "id": 108,
+                      "tag": "UL",
+                      "aria": {},
+                      "text": "",
+                      "children": [
+                        {
+                          "id": 109,
+                          "tag": "LI",
+                          "aria": {},
+                          "text": "",
+                          "children": [
+                            {
+                              "id": 110,
+                              "tag": "A",
+                              "aria": {},
+                              "text": "🛠️ Debugging",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 111,
+                          "tag": "LI",
+                          "aria": {},
+                          "text": "",
+                          "children": [
+                            {
+                              "id": 112,
+                              "tag": "A",
+                              "aria": {},
+                              "text": "Image",
+                              "children": [
+                                {
+                                  "id": 113,
+                                  "tag": "IMG",
+                                  "aria": {},
+                                  "text": "",
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 114,
+                          "tag": "LI",
+                          "aria": {},
+                          "text": "",
+                          "children": [
+                            {
+                              "id": 115,
+                              "tag": "A",
+                              "aria": {},
+                              "text": "React",
+                              "children": [
+                                {
+                                  "id": 116,
+                                  "tag": "IMG",
+                                  "aria": {},
+                                  "text": "",
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 117,
+                          "tag": "LI",
+                          "aria": {},
+                          "text": "",
+                          "children": [
+                            {
+                              "id": 118,
+                              "tag": "A",
+                              "aria": {},
+                              "text": "React Server Components",
+                              "children": [
+                                {
+                                  "id": 119,
+                                  "tag": "IMG",
+                                  "aria": {},
+                                  "text": "",
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 120,
+                          "tag": "LI",
+                          "aria": {},
+                          "text": "",
+                          "children": [
+                            {
+                              "id": 121,
+                              "tag": "A",
+                              "aria": {},
+                              "text": "Web Extension",
+                              "children": [
+                                {
+                                  "id": 122,
+                                  "tag": "IMG",
+                                  "aria": {},
+                                  "text": "",
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 123,
+                  "tag": "LI",
+                  "aria": {},
+                  "text": "",
+                  "children": [
+                    {
+                      "id": 124,
+                      "tag": "H3",
+                      "aria": {},
+                      "text": "Languages",
+                      "children": []
+                    },
+                    {
+                      "id": 125,
+                      "tag": "UL",
+                      "aria": {},
+                      "text": "",
+                      "children": [
+                        {
+                          "id": 126,
+                          "tag": "LI",
+                          "aria": {},
+                          "text": "",
+                          "children": [
+                            {
+                              "id": 127,
+                              "tag": "A",
+                              "aria": {},
+                              "text": "JavaScript",
+                              "children": [
+                                {
+                                  "id": 128,
+                                  "tag": "IMG",
+                                  "aria": {},
+                                  "text": "",
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 129,
+                          "tag": "LI",
+                          "aria": {},
+                          "text": "",
+                          "children": [
+                            {
+                              "id": 130,
+                              "tag": "A",
+                              "aria": {},
+                              "text": "HTML",
+                              "children": [
+                                {
+                                  "id": 131,
+                                  "tag": "IMG",
+                                  "aria": {},
+                                  "text": "",
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 132,
+                          "tag": "LI",
+                          "aria": {},
+                          "text": "",
+                          "children": [
+                            {
+                              "id": 133,
+                              "tag": "A",
+                              "aria": {},
+                              "text": "CSS",
+                              "children": [
+                                {
+                                  "id": 134,
+                                  "tag": "IMG",
+                                  "aria": {},
+                                  "text": "",
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 135,
+                          "tag": "LI",
+                          "aria": {},
+                          "text": "",
+                          "children": [
+                            {
+                              "id": 136,
+                              "tag": "A",
+                              "aria": {},
+                              "text": "SVG",
+                              "children": [
+                                {
+                                  "id": 137,
+                                  "tag": "IMG",
+                                  "aria": {},
+                                  "text": "",
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 138,
+                          "tag": "LI",
+                          "aria": {},
+                          "text": "",
+                          "children": [
+                            {
+                              "id": 139,
+                              "tag": "A",
+                              "aria": {},
+                              "text": "TypeScript",
+                              "children": [
+                                {
+                                  "id": 140,
+                                  "tag": "IMG",
+                                  "aria": {},
+                                  "text": "",
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 141,
+                          "tag": "LI",
+                          "aria": {},
+                          "text": "",
+                          "children": [
+                            {
+                              "id": 142,
+                              "tag": "A",
+                              "aria": {},
+                              "text": "MDX",
+                              "children": [
+                                {
+                                  "id": 143,
+                                  "tag": "IMG",
+                                  "aria": {},
+                                  "text": "",
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 144,
+                          "tag": "LI",
+                          "aria": {},
+                          "text": "",
+                          "children": [
+                            {
+                              "id": 145,
+                              "tag": "A",
+                              "aria": {},
+                              "text": "Sass",
+                              "children": [
+                                {
+                                  "id": 146,
+                                  "tag": "IMG",
+                                  "aria": {},
+                                  "text": "",
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 147,
+                          "tag": "LI",
+                          "aria": {},
+                          "text": "",
+                          "children": [
+                            {
+                              "id": 148,
+                              "tag": "A",
+                              "aria": {},
+                              "text": "Stylus",
+                              "children": [
+                                {
+                                  "id": 149,
+                                  "tag": "IMG",
+                                  "aria": {},
+                                  "text": "",
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 150,
+                          "tag": "LI",
+                          "aria": {},
+                          "text": "",
+                          "children": [
+                            {
+                              "id": 151,
+                              "tag": "A",
+                              "aria": {},
+                              "text": "Less",
+                              "children": [
+                                {
+                                  "id": 152,
+                                  "tag": "IMG",
+                                  "aria": {},
+                                  "text": "",
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 153,
+                          "tag": "LI",
+                          "aria": {},
+                          "text": "",
+                          "children": [
+                            {
+                              "id": 154,
+                              "tag": "A",
+                              "aria": {},
+                              "text": "SugarSS",
+                              "children": [
+                                {
+                                  "id": 155,
+                                  "tag": "IMG",
+                                  "aria": {},
+                                  "text": "",
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 156,
+                          "tag": "LI",
+                          "aria": {},
+                          "text": "",
+                          "children": [
+                            {
+                              "id": 157,
+                              "tag": "A",
+                              "aria": {},
+                              "text": "Vue",
+                              "children": [
+                                {
+                                  "id": 158,
+                                  "tag": "IMG",
+                                  "aria": {},
+                                  "text": "",
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 159,
+                          "tag": "LI",
+                          "aria": {},
+                          "text": "",
+                          "children": [
+                            {
+                              "id": 160,
+                              "tag": "A",
+                              "aria": {},
+                              "text": "Elm",
+                              "children": [
+                                {
+                                  "id": 161,
+                                  "tag": "IMG",
+                                  "aria": {},
+                                  "text": "",
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 162,
+                          "tag": "LI",
+                          "aria": {},
+                          "text": "",
+                          "children": [
+                            {
+                              "id": 163,
+                              "tag": "A",
+                              "aria": {},
+                              "text": "JSON",
+                              "children": [
+                                {
+                                  "id": 164,
+                                  "tag": "IMG",
+                                  "aria": {},
+                                  "text": "",
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 165,
+                          "tag": "LI",
+                          "aria": {},
+                          "text": "",
+                          "children": [
+                            {
+                              "id": 166,
+                              "tag": "A",
+                              "aria": {},
+                              "text": "TOML",
+                              "children": [
+                                {
+                                  "id": 167,
+                                  "tag": "IMG",
+                                  "aria": {},
+                                  "text": "",
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 168,
+                          "tag": "LI",
+                          "aria": {},
+                          "text": "",
+                          "children": [
+                            {
+                              "id": 169,
+                              "tag": "A",
+                              "aria": {},
+                              "text": "GraphQL",
+                              "children": [
+                                {
+                                  "id": 170,
+                                  "tag": "IMG",
+                                  "aria": {},
+                                  "text": "",
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 171,
+                          "tag": "LI",
+                          "aria": {},
+                          "text": "",
+                          "children": [
+                            {
+                              "id": 172,
+                              "tag": "A",
+                              "aria": {},
+                              "text": "YAML",
+                              "children": [
+                                {
+                                  "id": 173,
+                                  "tag": "IMG",
+                                  "aria": {},
+                                  "text": "",
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 174,
+                          "tag": "LI",
+                          "aria": {},
+                          "text": "",
+                          "children": [
+                            {
+                              "id": 175,
+                              "tag": "A",
+                              "aria": {},
+                              "text": "GLSL",
+                              "children": [
+                                {
+                                  "id": 176,
+                                  "tag": "IMG",
+                                  "aria": {},
+                                  "text": "",
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 177,
+                          "tag": "LI",
+                          "aria": {},
+                          "text": "",
+                          "children": [
+                            {
+                              "id": 178,
+                              "tag": "A",
+                              "aria": {},
+                              "text": "Pug",
+                              "children": [
+                                {
+                                  "id": 179,
+                                  "tag": "IMG",
+                                  "aria": {},
+                                  "text": "",
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 180,
+                          "tag": "LI",
+                          "aria": {},
+                          "text": "",
+                          "children": [
+                            {
+                              "id": 181,
+                              "tag": "A",
+                              "aria": {},
+                              "text": "CoffeeScript",
+                              "children": [
+                                {
+                                  "id": 182,
+                                  "tag": "IMG",
+                                  "aria": {},
+                                  "text": "",
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": 183,
+                          "tag": "LI",
+                          "aria": {},
+                          "text": "",
+                          "children": [
+                            {
+                              "id": 184,
+                              "tag": "A",
+                              "aria": {},
+                              "text": "XML",
+                              "children": [
+                                {
+                                  "id": 185,
+                                  "tag": "IMG",
+                                  "aria": {},
+                                  "text": "",
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 186,
+                  "tag": "LI",
+                  "aria": {},
+                  "text": "",
+                  "children": [
+                    {
+                      "id": 187,
+                      "tag": "H3",
+                      "aria": {},
+                      "text": "Plugin System",
+                      "children": []
+                    },
+                    {
+                      "id": 188,
+                      "tag": "UL",
+                      "aria": {},
+                      "text": "",
+                      "children": [
+                        {
+                          "id": 189,
+                          "tag": "LI",
+                          "aria": {},
+                          "text": "",
+                          "children": [
+                            {
+                              "id": 190,
+                              "tag": "A",
+                              "aria": {},
+                              "text": "Overview",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 191,
+                          "tag": "LI",
+                          "aria": {},
+                          "text": "",
+                          "children": [
+                            {
+                              "id": 192,
+                              "tag": "A",
+                              "aria": {},
+                              "text": "Authoring Plugins",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 193,
+                          "tag": "LI",
+                          "aria": {},
+                          "text": "",
+                          "children": [
+                            {
+                              "id": 194,
+                              "tag": "A",
+                              "aria": {},
+                              "text": "Transformer",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 195,
+                          "tag": "LI",
+                          "aria": {},
+                          "text": "",
+                          "children": [
+                            {
+                              "id": 196,
+                              "tag": "A",
+                              "aria": {},
+                              "text": "Resolver",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 197,
+                          "tag": "LI",
+                          "aria": {},
+                          "text": "",
+                          "children": [
+                            {
+                              "id": 198,
+                              "tag": "A",
+                              "aria": {},
+                              "text": "Bundler",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 199,
+                          "tag": "LI",
+                          "aria": {},
+                          "text": "",
+                          "children": [
+                            {
+                              "id": 200,
+                              "tag": "A",
+                              "aria": {},
+                              "text": "Namer",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 201,
+                          "tag": "LI",
+                          "aria": {},
+                          "text": "",
+                          "children": [
+                            {
+                              "id": 202,
+                              "tag": "A",
+                              "aria": {},
+                              "text": "Runtime",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 203,
+                          "tag": "LI",
+                          "aria": {},
+                          "text": "",
+                          "children": [
+                            {
+                              "id": 204,
+                              "tag": "A",
+                              "aria": {},
+                              "text": "Packager",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 205,
+                          "tag": "LI",
+                          "aria": {},
+                          "text": "",
+                          "children": [
+                            {
+                              "id": 206,
+                              "tag": "A",
+                              "aria": {},
+                              "text": "Optimizer",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 207,
+                          "tag": "LI",
+                          "aria": {},
+                          "text": "",
+                          "children": [
+                            {
+                              "id": 208,
+                              "tag": "A",
+                              "aria": {},
+                              "text": "Compressor",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 209,
+                          "tag": "LI",
+                          "aria": {},
+                          "text": "",
+                          "children": [
+                            {
+                              "id": 210,
+                              "tag": "A",
+                              "aria": {},
+                              "text": "Reporter",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 211,
+                          "tag": "LI",
+                          "aria": {},
+                          "text": "",
+                          "children": [
+                            {
+                              "id": 212,
+                              "tag": "A",
+                              "aria": {},
+                              "text": "Validator",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 213,
+                          "tag": "LI",
+                          "aria": {},
+                          "text": "",
+                          "children": [
+                            {
+                              "id": 214,
+                              "tag": "A",
+                              "aria": {},
+                              "text": "Configuration",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 215,
+                          "tag": "LI",
+                          "aria": {},
+                          "text": "",
+                          "children": [
+                            {
+                              "id": 216,
+                              "tag": "A",
+                              "aria": {},
+                              "text": "Diagnostics and Logging",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 217,
+                          "tag": "LI",
+                          "aria": {},
+                          "text": "",
+                          "children": [
+                            {
+                              "id": 218,
+                              "tag": "A",
+                              "aria": {},
+                              "text": "Source Maps",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 219,
+                          "tag": "LI",
+                          "aria": {},
+                          "text": "",
+                          "children": [
+                            {
+                              "id": 220,
+                              "tag": "A",
+                              "aria": {},
+                              "text": "API",
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 221,
+                  "tag": "LI",
+                  "aria": {},
+                  "text": "",
+                  "children": [
+                    {
+                      "id": 222,
+                      "tag": "H3",
+                      "aria": {},
+                      "text": "External Links",
+                      "children": []
+                    },
+                    {
+                      "id": 223,
+                      "tag": "UL",
+                      "aria": {},
+                      "text": "",
+                      "children": [
+                        {
+                          "id": 224,
+                          "tag": "LI",
+                          "aria": {},
+                          "text": "",
+                          "children": [
+                            {
+                              "id": 225,
+                              "tag": "A",
+                              "aria": {},
+                              "text": "Parcel v1",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 226,
+                          "tag": "LI",
+                          "aria": {},
+                          "text": "",
+                          "children": [
+                            {
+                              "id": 227,
+                              "tag": "A",
+                              "aria": {},
+                              "text": "Swag store",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 228,
+                          "tag": "LI",
+                          "aria": {},
+                          "text": "",
+                          "children": [
+                            {
+                              "id": 229,
+                              "tag": "A",
+                              "aria": {},
+                              "text": "GitHub",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 230,
+                          "tag": "LI",
+                          "aria": {},
+                          "text": "",
+                          "children": [
+                            {
+                              "id": 231,
+                              "tag": "A",
+                              "aria": {},
+                              "text": "npm",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 232,
+                          "tag": "LI",
+                          "aria": {},
+                          "text": "",
+                          "children": [
+                            {
+                              "id": 233,
+                              "tag": "A",
+                              "aria": {},
+                              "text": "Twitter",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 234,
+                          "tag": "LI",
+                          "aria": {},
+                          "text": "",
+                          "children": [
+                            {
+                              "id": 235,
+                              "tag": "A",
+                              "aria": {},
+                              "text": "Discord",
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 236,
+          "tag": "SCRIPT",
+          "aria": {},
+          "text": "let e=\"nav-scrollTop\",o=document.querySelector(\".docs-navigation\"),s=sessionStorage.getItem(e);null!=s&&(o.scrollTop=Number(s)),window.addEventListener(\"pagehide\",()=>{sessionStorage.setItem(e,o.scrollTop)});",
+          "children": []
+        },
+        {
+          "id": 237,
+          "tag": "MAIN",
+          "aria": {},
+          "text": "",
+          "children": [
+            {
+              "id": 238,
+              "tag": "ARTICLE",
+              "aria": {},
+              "text": "",
+              "children": [
+                {
+                  "id": 239,
+                  "tag": "HEADER",
+                  "aria": {},
+                  "text": "",
+                  "children": [
+                    {
+                      "id": 240,
+                      "tag": "H1",
+                      "aria": {},
+                      "text": "Web Extension",
+                      "children": []
+                    },
+                    {
+                      "id": 241,
+                      "tag": "P",
+                      "aria": {},
+                      "text": "",
+                      "children": [
+                        {
+                          "id": 242,
+                          "tag": "SPAN",
+                          "aria": {},
+                          "text": "",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 243,
+                  "tag": "P",
+                  "aria": {},
+                  "text": "are a set of APIs for building browser extensions that work across many browsers. Parcel supports building Web Extensions using .",
+                  "children": [
+                    {
+                      "id": 244,
+                      "tag": "A",
+                      "aria": {},
+                      "text": "Web Extensions",
+                      "children": []
+                    },
+                    {
+                      "id": 245,
+                      "tag": "CODE",
+                      "aria": {},
+                      "text": "@parcel/config-webextension",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": 246,
+                  "tag": "H2",
+                  "aria": {},
+                  "text": "Getting started",
+                  "children": []
+                },
+                {
+                  "id": 247,
+                  "tag": "A",
+                  "aria": {},
+                  "text": "#",
+                  "children": []
+                },
+                {
+                  "id": 248,
+                  "tag": "P",
+                  "aria": {},
+                  "text": "First, install into your project:",
+                  "children": [
+                    {
+                      "id": 249,
+                      "tag": "CODE",
+                      "aria": {},
+                      "text": "@parcel/config-webextension",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": 250,
+                  "tag": "PRE",
+                  "aria": {},
+                  "text": "",
+                  "children": [
+                    {
+                      "id": 251,
+                      "tag": "CODE",
+                      "aria": {},
+                      "text": "@parcel/config-webextension",
+                      "children": [
+                        {
+                          "id": 252,
+                          "tag": "SPAN",
+                          "aria": {},
+                          "text": "yarn",
+                          "children": []
+                        },
+                        {
+                          "id": 253,
+                          "tag": "SPAN",
+                          "aria": {},
+                          "text": "add",
+                          "children": []
+                        },
+                        {
+                          "id": 254,
+                          "tag": "SPAN",
+                          "aria": {},
+                          "text": "--dev",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 255,
+                  "tag": "P",
+                  "aria": {},
+                  "text": "Next, you'll need a file, which will be the entry point of your extension. See for details on how to set it up. Both Manifest V2 and V3 are supported. You can use , , and any other languages supported by Parcel within your web extension code.",
+                  "children": [
+                    {
+                      "id": 256,
+                      "tag": "A",
+                      "aria": {},
+                      "text": "manifest.json",
+                      "children": []
+                    },
+                    {
+                      "id": 257,
+                      "tag": "A",
+                      "aria": {},
+                      "text": "this guide",
+                      "children": []
+                    },
+                    {
+                      "id": 258,
+                      "tag": "A",
+                      "aria": {},
+                      "text": "TypeScript",
+                      "children": []
+                    },
+                    {
+                      "id": 259,
+                      "tag": "A",
+                      "aria": {},
+                      "text": "Vue",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": 260,
+                  "tag": "FIGURE",
+                  "aria": {},
+                  "text": "",
+                  "children": [
+                    {
+                      "id": 261,
+                      "tag": "DIV",
+                      "aria": {},
+                      "text": "",
+                      "children": [
+                        {
+                          "id": 262,
+                          "tag": "DIV",
+                          "aria": {},
+                          "text": "",
+                          "children": [
+                            {
+                              "id": 263,
+                              "tag": "EM",
+                              "aria": {},
+                              "text": "manifest.json:",
+                              "children": []
+                            },
+                            {
+                              "id": 264,
+                              "tag": "PRE",
+                              "aria": {},
+                              "text": "",
+                              "children": [
+                                {
+                                  "id": 265,
+                                  "tag": "CODE",
+                                  "aria": {},
+                                  "text": "",
+                                  "children": [
+                                    {
+                                      "id": 266,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": "{",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 267,
+                                      "tag": "BR",
+                                      "aria": {},
+                                      "text": "",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 268,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": "\"manifest_version\"",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 269,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": ":",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 270,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": "3",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 271,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": ",",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 272,
+                                      "tag": "BR",
+                                      "aria": {},
+                                      "text": "",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 273,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": "\"name\"",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 274,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": ":",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 275,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": "\"Sample Web Extension\"",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 276,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": ",",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 277,
+                                      "tag": "BR",
+                                      "aria": {},
+                                      "text": "",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 278,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": "\"version\"",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 279,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": ":",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 280,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": "\"0.0.1\"",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 281,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": ",",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 282,
+                                      "tag": "BR",
+                                      "aria": {},
+                                      "text": "",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 283,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": "\"background\"",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 284,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": ":",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 285,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": "{",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 286,
+                                      "tag": "BR",
+                                      "aria": {},
+                                      "text": "",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 287,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": "\"service_worker\"",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 288,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": ":",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 289,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": "\"background.ts\"",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 290,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": ",",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 291,
+                                      "tag": "BR",
+                                      "aria": {},
+                                      "text": "",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 292,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": "\"type\"",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 293,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": ":",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 294,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": "\"module\"",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 295,
+                                      "tag": "BR",
+                                      "aria": {},
+                                      "text": "",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 296,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": "}",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 297,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": ",",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 298,
+                                      "tag": "BR",
+                                      "aria": {},
+                                      "text": "",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 299,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": "\"content_scripts\"",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 300,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": ":",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 301,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": "[",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 302,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": "{",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 303,
+                                      "tag": "BR",
+                                      "aria": {},
+                                      "text": "",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 304,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": "\"matches\"",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 305,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": ":",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 306,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": "[",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 307,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": "\"*://github.com/parcel-bundler/*\"",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 308,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": "]",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 309,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": ",",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 310,
+                                      "tag": "BR",
+                                      "aria": {},
+                                      "text": "",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 311,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": "\"js\"",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 312,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": ":",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 313,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": "[",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 314,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": "\"parcel-content-script.ts\"",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 315,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": "]",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 316,
+                                      "tag": "BR",
+                                      "aria": {},
+                                      "text": "",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 317,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": "}",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 318,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": "]",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 319,
+                                      "tag": "BR",
+                                      "aria": {},
+                                      "text": "",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 320,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": "}",
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 321,
+                  "tag": "P",
+                  "aria": {},
+                  "text": "To build your extension, run Parcel using your as an entry, and as the config:",
+                  "children": [
+                    {
+                      "id": 322,
+                      "tag": "CODE",
+                      "aria": {},
+                      "text": "manifest.json",
+                      "children": []
+                    },
+                    {
+                      "id": 323,
+                      "tag": "CODE",
+                      "aria": {},
+                      "text": "@parcel/config-webextension",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": 324,
+                  "tag": "PRE",
+                  "aria": {},
+                  "text": "",
+                  "children": [
+                    {
+                      "id": 325,
+                      "tag": "CODE",
+                      "aria": {},
+                      "text": "parcel build manifest.json @parcel/config-webextension",
+                      "children": [
+                        {
+                          "id": 326,
+                          "tag": "SPAN",
+                          "aria": {},
+                          "text": "--config",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 327,
+                  "tag": "P",
+                  "aria": {},
+                  "text": "You can also create a file in your project extending . This way you don't need to pass the option to the Parcel CLI every time.",
+                  "children": [
+                    {
+                      "id": 328,
+                      "tag": "CODE",
+                      "aria": {},
+                      "text": ".parcelrc",
+                      "children": []
+                    },
+                    {
+                      "id": 329,
+                      "tag": "CODE",
+                      "aria": {},
+                      "text": "@parcel/config-webextension",
+                      "children": []
+                    },
+                    {
+                      "id": 330,
+                      "tag": "CODE",
+                      "aria": {},
+                      "text": "--config",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": 331,
+                  "tag": "FIGURE",
+                  "aria": {},
+                  "text": "",
+                  "children": [
+                    {
+                      "id": 332,
+                      "tag": "DIV",
+                      "aria": {},
+                      "text": "",
+                      "children": [
+                        {
+                          "id": 333,
+                          "tag": "DIV",
+                          "aria": {},
+                          "text": "",
+                          "children": [
+                            {
+                              "id": 334,
+                              "tag": "EM",
+                              "aria": {},
+                              "text": ".parcelrc:",
+                              "children": []
+                            },
+                            {
+                              "id": 335,
+                              "tag": "PRE",
+                              "aria": {},
+                              "text": "",
+                              "children": [
+                                {
+                                  "id": 336,
+                                  "tag": "CODE",
+                                  "aria": {},
+                                  "text": "",
+                                  "children": [
+                                    {
+                                      "id": 337,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": "{",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 338,
+                                      "tag": "BR",
+                                      "aria": {},
+                                      "text": "",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 339,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": "\"extends\"",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 340,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": ":",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 341,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": "\"@parcel/config-webextension\"",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 342,
+                                      "tag": "BR",
+                                      "aria": {},
+                                      "text": "",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 343,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": "}",
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 344,
+                  "tag": "H2",
+                  "aria": {},
+                  "text": "HMR",
+                  "children": []
+                },
+                {
+                  "id": 345,
+                  "tag": "A",
+                  "aria": {},
+                  "text": "#",
+                  "children": []
+                },
+                {
+                  "id": 346,
+                  "tag": "P",
+                  "aria": {},
+                  "text": "Due to in MV3, HMR is not supported, but updating your code will cause the extension to reload. For MV2, HMR is fully supported by default. Reloading pages with content scripts will reload the extension in both versions.",
+                  "children": [
+                    {
+                      "id": 347,
+                      "tag": "A",
+                      "aria": {},
+                      "text": "restrictions on Content Security Policy",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": 348,
+                  "tag": "P",
+                  "aria": {},
+                  "text": "For the best developer experience, use for development builds (this is sometimes necessary for content script reloading). You can copy the following configuration:",
+                  "children": [
+                    {
+                      "id": 349,
+                      "tag": "CODE",
+                      "aria": {},
+                      "text": "--host localhost",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": 350,
+                  "tag": "FIGURE",
+                  "aria": {},
+                  "text": "",
+                  "children": [
+                    {
+                      "id": 351,
+                      "tag": "DIV",
+                      "aria": {},
+                      "text": "",
+                      "children": [
+                        {
+                          "id": 352,
+                          "tag": "DIV",
+                          "aria": {},
+                          "text": "",
+                          "children": [
+                            {
+                              "id": 353,
+                              "tag": "EM",
+                              "aria": {},
+                              "text": "package.json:",
+                              "children": []
+                            },
+                            {
+                              "id": 354,
+                              "tag": "PRE",
+                              "aria": {},
+                              "text": "",
+                              "children": [
+                                {
+                                  "id": 355,
+                                  "tag": "CODE",
+                                  "aria": {},
+                                  "text": "",
+                                  "children": [
+                                    {
+                                      "id": 356,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": "{",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 357,
+                                      "tag": "BR",
+                                      "aria": {},
+                                      "text": "",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 358,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": "\"scripts\"",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 359,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": ":",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 360,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": "{",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 361,
+                                      "tag": "BR",
+                                      "aria": {},
+                                      "text": "",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 362,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": "\"start\"",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 363,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": ":",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 364,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": "\"parcel watch src/manifest.json --host localhost --config @parcel/config-webextension\"",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 365,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": ",",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 366,
+                                      "tag": "BR",
+                                      "aria": {},
+                                      "text": "",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 367,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": "\"build\"",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 368,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": ":",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 369,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": "\"parcel build src/manifest.json --config @parcel/config-webextension\"",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 370,
+                                      "tag": "BR",
+                                      "aria": {},
+                                      "text": "",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 371,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": "}",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 372,
+                                      "tag": "BR",
+                                      "aria": {},
+                                      "text": "",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 373,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": "}",
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 374,
+                  "tag": "P",
+                  "aria": {},
+                  "text": "Running or will start the development server. Source maps and HMR will work for background scripts, the popup page, and the options page. For MV2, HMR will usually also work on content scripts.",
+                  "children": [
+                    {
+                      "id": 375,
+                      "tag": "CODE",
+                      "aria": {},
+                      "text": "yarn start",
+                      "children": []
+                    },
+                    {
+                      "id": 376,
+                      "tag": "CODE",
+                      "aria": {},
+                      "text": "npm start",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": 377,
+                  "tag": "P",
+                  "aria": {},
+                  "text": "To add the extension to your browser, load Parcel's output folder unpacked. For example, in Chrome, in the page and select .",
+                  "children": [
+                    {
+                      "id": 378,
+                      "tag": "A",
+                      "aria": {},
+                      "text": "click \"Load Unpacked\"",
+                      "children": []
+                    },
+                    {
+                      "id": 379,
+                      "tag": "CODE",
+                      "aria": {},
+                      "text": "chrome://extensions",
+                      "children": []
+                    },
+                    {
+                      "id": 380,
+                      "tag": "CODE",
+                      "aria": {},
+                      "text": "path/to/project/dist",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": 381,
+                  "tag": "P",
+                  "aria": {},
+                  "text": "Running or will give you the final web extension package, ready to be published. After zipping the output directory, you should be able to upload your file to your platform of choice, such as the Chrome Web Store.",
+                  "children": [
+                    {
+                      "id": 382,
+                      "tag": "CODE",
+                      "aria": {},
+                      "text": "yarn build",
+                      "children": []
+                    },
+                    {
+                      "id": 383,
+                      "tag": "CODE",
+                      "aria": {},
+                      "text": "npm run build",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": 384,
+                  "tag": "H2",
+                  "aria": {},
+                  "text": "Special Considerations",
+                  "children": []
+                },
+                {
+                  "id": 385,
+                  "tag": "A",
+                  "aria": {},
+                  "text": "#",
+                  "children": []
+                },
+                {
+                  "id": 386,
+                  "tag": "H3",
+                  "aria": {},
+                  "text": "Unexpected messages",
+                  "children": []
+                },
+                {
+                  "id": 387,
+                  "tag": "A",
+                  "aria": {},
+                  "text": "#",
+                  "children": []
+                },
+                {
+                  "id": 388,
+                  "tag": "P",
+                  "aria": {},
+                  "text": "In development mode, your background scripts will receive a message event with the content whenever a content script page is reloaded. Parcel will use this automatically to refresh the extension when necessary. Therefore, you'll want to ensure any messages your background scripts receive do not have the property before handling them.",
+                  "children": [
+                    {
+                      "id": 389,
+                      "tag": "CODE",
+                      "aria": {},
+                      "text": "{ __parcel_hmr_reload__: true }",
+                      "children": []
+                    },
+                    {
+                      "id": 390,
+                      "tag": "CODE",
+                      "aria": {},
+                      "text": "__parcel_hmr_reload__",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": 391,
+                  "tag": "H3",
+                  "aria": {},
+                  "text": "Styling",
+                  "children": []
+                },
+                {
+                  "id": 392,
+                  "tag": "A",
+                  "aria": {},
+                  "text": "#",
+                  "children": []
+                },
+                {
+                  "id": 393,
+                  "tag": "P",
+                  "aria": {},
+                  "text": "Any styles imported in a content script will be injected into the property of that content script and will thus apply to the entire page. Usually this is what you want, but if not you can always use to prevent the styles from applying to the original site.",
+                  "children": [
+                    {
+                      "id": 394,
+                      "tag": "CODE",
+                      "aria": {},
+                      "text": "css",
+                      "children": []
+                    },
+                    {
+                      "id": 395,
+                      "tag": "A",
+                      "aria": {},
+                      "text": "CSS modules",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": 396,
+                  "tag": "P",
+                  "aria": {},
+                  "text": "Additionally, content script CSS resolves links to the site they are injected into, so you won't be able to reference local assets. You should to resolve this issue.",
+                  "children": [
+                    {
+                      "id": 397,
+                      "tag": "A",
+                      "aria": {},
+                      "text": "inline your bundles",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": 398,
+                  "tag": "FIGURE",
+                  "aria": {},
+                  "text": "",
+                  "children": [
+                    {
+                      "id": 399,
+                      "tag": "DIV",
+                      "aria": {},
+                      "text": "",
+                      "children": [
+                        {
+                          "id": 400,
+                          "tag": "DIV",
+                          "aria": {},
+                          "text": "",
+                          "children": [
+                            {
+                              "id": 401,
+                              "tag": "EM",
+                              "aria": {},
+                              "text": "content-script.css:",
+                              "children": []
+                            },
+                            {
+                              "id": 402,
+                              "tag": "PRE",
+                              "aria": {},
+                              "text": "",
+                              "children": [
+                                {
+                                  "id": 403,
+                                  "tag": "CODE",
+                                  "aria": {},
+                                  "text": "",
+                                  "children": [
+                                    {
+                                      "id": 404,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": ".my-class",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 405,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": "{",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 406,
+                                      "tag": "BR",
+                                      "aria": {},
+                                      "text": "",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 407,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": "/* Equivalent to: https://injected-site.com/custom-bg.png */",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 408,
+                                      "tag": "BR",
+                                      "aria": {},
+                                      "text": "",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 409,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": "/* This is probably not what you want! */",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 410,
+                                      "tag": "BR",
+                                      "aria": {},
+                                      "text": "",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 411,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": "background-image",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 412,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": ":",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 413,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": "./custom-bg.png",
+                                      "children": [
+                                        {
+                                          "id": 414,
+                                          "tag": "SPAN",
+                                          "aria": {},
+                                          "text": "url",
+                                          "children": []
+                                        },
+                                        {
+                                          "id": 415,
+                                          "tag": "SPAN",
+                                          "aria": {},
+                                          "text": "(",
+                                          "children": []
+                                        },
+                                        {
+                                          "id": 416,
+                                          "tag": "SPAN",
+                                          "aria": {},
+                                          "text": ")",
+                                          "children": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 417,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": ";",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 418,
+                                      "tag": "BR",
+                                      "aria": {},
+                                      "text": "",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 419,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": "}",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 420,
+                                      "tag": "BR",
+                                      "aria": {},
+                                      "text": "",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 421,
+                                      "tag": "BR",
+                                      "aria": {},
+                                      "text": "",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 422,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": ".my-other-class",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 423,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": "{",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 424,
+                                      "tag": "BR",
+                                      "aria": {},
+                                      "text": "",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 425,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": "/* This will use the local file custom-bg.png */",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 426,
+                                      "tag": "BR",
+                                      "aria": {},
+                                      "text": "",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 427,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": "background-image",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 428,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": ":",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 429,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": "data-url:./custom-bg.png",
+                                      "children": [
+                                        {
+                                          "id": 430,
+                                          "tag": "SPAN",
+                                          "aria": {},
+                                          "text": "url",
+                                          "children": []
+                                        },
+                                        {
+                                          "id": 431,
+                                          "tag": "SPAN",
+                                          "aria": {},
+                                          "text": "(",
+                                          "children": []
+                                        },
+                                        {
+                                          "id": 432,
+                                          "tag": "SPAN",
+                                          "aria": {},
+                                          "text": ")",
+                                          "children": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 433,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": ";",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 434,
+                                      "tag": "BR",
+                                      "aria": {},
+                                      "text": "",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 435,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": "}",
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 436,
+                  "tag": "P",
+                  "aria": {},
+                  "text": "Lastly, hot reload may not work when adding or removing CSS linked from inside an in content scripts, while synchronous has no such issues. This is a known limitation and will be fixed in a future version.",
+                  "children": [
+                    {
+                      "id": 437,
+                      "tag": "CODE",
+                      "aria": {},
+                      "text": "import()",
+                      "children": []
+                    },
+                    {
+                      "id": 438,
+                      "tag": "CODE",
+                      "aria": {},
+                      "text": "import",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": 439,
+                  "tag": "H3",
+                  "aria": {},
+                  "text": "",
+                  "children": [
+                    {
+                      "id": 440,
+                      "tag": "CODE",
+                      "aria": {},
+                      "text": "web_accessible_resources",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": 441,
+                  "tag": "A",
+                  "aria": {},
+                  "text": "#",
+                  "children": []
+                },
+                {
+                  "id": 442,
+                  "tag": "P",
+                  "aria": {},
+                  "text": "Any resources you use in a content script will automatically be added into , so you don't usually need to specify anything in at all. For example, the following content script will work without issues:",
+                  "children": [
+                    {
+                      "id": 443,
+                      "tag": "CODE",
+                      "aria": {},
+                      "text": "web_accessible_resources",
+                      "children": []
+                    },
+                    {
+                      "id": 444,
+                      "tag": "CODE",
+                      "aria": {},
+                      "text": "web_accessible_resources",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": 445,
+                  "tag": "FIGURE",
+                  "aria": {},
+                  "text": "",
+                  "children": [
+                    {
+                      "id": 446,
+                      "tag": "DIV",
+                      "aria": {},
+                      "text": "",
+                      "children": [
+                        {
+                          "id": 447,
+                          "tag": "DIV",
+                          "aria": {},
+                          "text": "",
+                          "children": [
+                            {
+                              "id": 448,
+                              "tag": "EM",
+                              "aria": {},
+                              "text": "content-script.js:",
+                              "children": []
+                            },
+                            {
+                              "id": 449,
+                              "tag": "PRE",
+                              "aria": {},
+                              "text": "",
+                              "children": [
+                                {
+                                  "id": 450,
+                                  "tag": "CODE",
+                                  "aria": {},
+                                  "text": "myImage injectedImage document injectedImage src myImage document body injectedImage",
+                                  "children": [
+                                    {
+                                      "id": 451,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": "import",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 452,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": "from",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 453,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": "'url:./image.png'",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 454,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": ";",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 455,
+                                      "tag": "BR",
+                                      "aria": {},
+                                      "text": "",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 456,
+                                      "tag": "BR",
+                                      "aria": {},
+                                      "text": "",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 457,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": "const",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 458,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": "=",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 459,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": ".",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 460,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": "createElement",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 461,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": "(",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 462,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": "'img'",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 463,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": ")",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 464,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": ";",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 465,
+                                      "tag": "BR",
+                                      "aria": {},
+                                      "text": "",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 466,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": ".",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 467,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": "=",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 468,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": ";",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 469,
+                                      "tag": "BR",
+                                      "aria": {},
+                                      "text": "",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 470,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": ".",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 471,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": ".",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 472,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": "appendChild",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 473,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": "(",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 474,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": ")",
+                                      "children": []
+                                    },
+                                    {
+                                      "id": 475,
+                                      "tag": "SPAN",
+                                      "aria": {},
+                                      "text": ";",
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 476,
+                  "tag": "P",
+                  "aria": {},
+                  "text": "However, if you actually want resources from your extension to be accessible from other extensions or websites, you can specify file paths or globs within . Note that Parcel treats entries in like Unix globs (as in, will retrieve every PNG in the examples folder, and will do it recursively). This is different from the globbing in Chrome, which is always recursive.",
+                  "children": [
+                    {
+                      "id": 477,
+                      "tag": "CODE",
+                      "aria": {},
+                      "text": "web_accessible_resources",
+                      "children": []
+                    },
+                    {
+                      "id": 478,
+                      "tag": "CODE",
+                      "aria": {},
+                      "text": "web_accessible_resources",
+                      "children": []
+                    },
+                    {
+                      "id": 479,
+                      "tag": "CODE",
+                      "aria": {},
+                      "text": "examples/*.png",
+                      "children": []
+                    },
+                    {
+                      "id": 480,
+                      "tag": "CODE",
+                      "aria": {},
+                      "text": "examples/**.png",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": 481,
+                  "tag": "FOOTER",
+                  "aria": {},
+                  "text": "",
+                  "children": [
+                    {
+                      "id": 482,
+                      "tag": "A",
+                      "aria": {},
+                      "text": "Edit this page on GitHub",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 483,
+              "tag": "ASIDE",
+              "aria": {},
+              "text": "",
+              "children": [
+                {
+                  "id": 484,
+                  "tag": "H3",
+                  "aria": {},
+                  "text": "On this page",
+                  "children": []
+                },
+                {
+                  "id": 485,
+                  "tag": "NAV",
+                  "aria": {},
+                  "text": "",
+                  "children": [
+                    {
+                      "id": 486,
+                      "tag": "OL",
+                      "aria": {},
+                      "text": "",
+                      "children": [
+                        {
+                          "id": 487,
+                          "tag": "LI",
+                          "aria": {},
+                          "text": "",
+                          "children": [
+                            {
+                              "id": 488,
+                              "tag": "A",
+                              "aria": {},
+                              "text": "Getting started",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 489,
+                          "tag": "LI",
+                          "aria": {},
+                          "text": "",
+                          "children": [
+                            {
+                              "id": 490,
+                              "tag": "A",
+                              "aria": {},
+                              "text": "HMR",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": 491,
+                          "tag": "LI",
+                          "aria": {},
+                          "text": "",
+                          "children": [
+                            {
+                              "id": 492,
+                              "tag": "A",
+                              "aria": {},
+                              "text": "Special Considerations",
+                              "children": []
+                            },
+                            {
+                              "id": 493,
+                              "tag": "OL",
+                              "aria": {},
+                              "text": "",
+                              "children": [
+                                {
+                                  "id": 494,
+                                  "tag": "LI",
+                                  "aria": {},
+                                  "text": "",
+                                  "children": [
+                                    {
+                                      "id": 495,
+                                      "tag": "A",
+                                      "aria": {},
+                                      "text": "Unexpected messages",
+                                      "children": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 496,
+                                  "tag": "LI",
+                                  "aria": {},
+                                  "text": "",
+                                  "children": [
+                                    {
+                                      "id": 497,
+                                      "tag": "A",
+                                      "aria": {},
+                                      "text": "Styling",
+                                      "children": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 498,
+                                  "tag": "LI",
+                                  "aria": {},
+                                  "text": "",
+                                  "children": [
+                                    {
+                                      "id": 499,
+                                      "tag": "A",
+                                      "aria": {},
+                                      "text": "web_accessible_resources",
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
