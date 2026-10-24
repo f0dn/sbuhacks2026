@@ -10,7 +10,7 @@ export const parse = (root: Element): RealElement => {
     tag: root.tagName,
     ariaAttributes: root
       .getAttributeNames()
-      .filter((attr) => attr.startsWith("aria"))
+      .filter((attr) => attr.startsWith('aria'))
       .map((attr) => root.getAttribute(attr))
       .filter((attr) => attr !== null),
     text: root.textContent,

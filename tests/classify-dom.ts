@@ -52,4 +52,4 @@ interface RealElement {
  * With this virtual tree, we can then navigate the DOM in a more meaninful
  * way, answering questions like "what is the label for this input?".
  */
-interface VirtualElement {}
+interface VirtualElement { }

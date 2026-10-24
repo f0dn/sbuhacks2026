@@ -1,6 +1,6 @@
 allowBuilds:
   '@parcel/watcher': true
   '@swc/core': false
-  esbuild: set this to true or false
+  esbuild: true
   lmdb: false
   msgpackr-extract: false

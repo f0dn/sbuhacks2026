@@ -21,6 +21,7 @@
     "@typesafe-ai/sdk": "^0.7.0",
     "autoprefixer": "^10.6.1",
     "parcel": "^2.16.4",
+    "prettier": "^3.9.10",
     "tailwindcss": "^4.3.3",
     "tsx": "^4.23.15",
     "typescript": "^7.0.2"
